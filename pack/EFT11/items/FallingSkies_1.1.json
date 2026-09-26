@@ -1,0 +1,1121 @@
+{
+    "689b4d39987b304021088e8d":  {
+                                     "template":  {
+                                                      "_id":  "689b4d39987b304021088e8d",
+                                                      "_name":  "item_info_note_quest_crew_transcript",
+                                                      "_parent":  "5448ecbe4bdc2d60728b4568",
+                                                      "_type":  "Item",
+                                                      "_props":  {
+                                                                     "AnimationVariantsNumber":  0,
+                                                                     "BackgroundColor":  "blue",
+                                                                     "CanRequireOnRagfair":  false,
+                                                                     "CanSellOnRagfair":  false,
+                                                                     "ConflictingItems":  [
+
+                                                                                          ],
+                                                                     "Description":  "item_info_note_quest_crew_transcript",
+                                                                     "DiscardLimit":  -1,
+                                                                     "DiscardingBlock":  false,
+                                                                     "ExamineExperience":  10,
+                                                                     "ExamineTime":  1,
+                                                                     "ExaminedByDefault":  true,
+                                                                     "ExtraSizeDown":  0,
+                                                                     "ExtraSizeForceAdd":  false,
+                                                                     "ExtraSizeLeft":  0,
+                                                                     "ExtraSizeRight":  0,
+                                                                     "ExtraSizeUp":  0,
+                                                                     "Height":  1,
+                                                                     "HideEntrails":  false,
+                                                                     "InsuranceDisabled":  false,
+                                                                     "IsAlwaysAvailableForInsurance":  false,
+                                                                     "IsLockedafterEquip":  false,
+                                                                     "IsNotDeletableFromQuestStashAfterQuestComplete":  false,
+                                                                     "IsSecretExitRequirement":  false,
+                                                                     "IsSpecialSlotOnly":  false,
+                                                                     "IsUnbuyable":  false,
+                                                                     "IsUndiscardable":  false,
+                                                                     "IsUngivable":  false,
+                                                                     "IsUnremovable":  false,
+                                                                     "IsUnsaleable":  false,
+                                                                     "ItemSound":  "item_paper",
+                                                                     "LeftHandItem":  false,
+                                                                     "LootExperience":  100,
+                                                                     "MergesWithChildren":  false,
+                                                                     "Name":  "item_info_note_quest_crew_transcript",
+                                                                     "NotShownInSlot":  false,
+                                                                     "Prefab":  {
+                                                                                    "path":  "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard.bundle",
+                                                                                    "rcid":  ""
+                                                                                },
+                                                                     "QuestItem":  true,
+                                                                     "QuestStashMaxCount":  1,
+                                                                     "RagFairCommissionModifier":  1,
+                                                                     "RagfairLevelToTrade":  0,
+                                                                     "RarityPvE":  "Not_exist",
+                                                                     "RepairCost":  0,
+                                                                     "RepairSpeed":  0,
+                                                                     "ShortName":  "item_info_note_quest_crew_transcript",
+                                                                     "StackMaxSize":  1,
+                                                                     "StackObjectsCount":  1,
+                                                                     "Unlootable":  false,
+                                                                     "UnlootableFromSide":  [
+
+                                                                                            ],
+                                                                     "UnlootableFromSlot":  "SecuredContainer",
+                                                                     "UsePrefab":  {
+                                                                                       "path":  "",
+                                                                                       "rcid":  ""
+                                                                                   },
+                                                                     "Weight":  0.095,
+                                                                     "Width":  1,
+                                                                     "AllowBear":  true,
+                                                                     "AllowSavage":  false,
+                                                                     "AllowUsec":  true,
+                                                                     "Personal":  false,
+                                                                     "RequiredLevel":  0,
+                                                                     "NoteTemplatePrefab":  "note_quest_crew_transcript_template",
+                                                                     "NotificationDuration":  0.2
+                                                                 },
+                                                      "_proto":  "57347d3d245977448f7b7f61"
+                                                  },
+                                     "handbook":  {
+                                                      "parentId":  "5b47574386f77428ca22b33f",
+                                                      "price":  10483
+                                                  },
+                                     "locales":  {
+                                                     "ch":  {
+                                                                "Name":  "机组对话记录",
+                                                                "ShortName":  "打印件",
+                                                                "Description":  "打印出来的文字版飞行员坠机前最后通话录音记录。"
+                                                            },
+                                                     "cz":  {
+                                                                "Name":  "Přepis komunikace posádky letadla",
+                                                                "ShortName":  "Přepis",
+                                                                "Description":  "Výtisk přepisu komunikace pilotů sestřeleného letadla."
+                                                            },
+                                                     "en":  {
+                                                                "Name":  "Plane crew transcript",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "A printout of the transcript from the pilots of the downed aircraft."
+                                                            },
+                                                     "es-mx":  {
+                                                                   "Name":  "Transcripción de la tripulación del avión",
+                                                                   "ShortName":  "Transcripción",
+                                                                   "Description":  "Una copia impresa de la transcripción de las comunicaciones de los pilotos del avión derribado."
+                                                               },
+                                                     "es":  {
+                                                                "Name":  "Transcripción de la tripulación del avión",
+                                                                "ShortName":  "Transcripción",
+                                                                "Description":  "Una copia impresa de la transcripción de las comunicaciones de los pilotos del avión derribado."
+                                                            },
+                                                     "fr":  {
+                                                                "Name":  "Transcription de l\u0027équipage de l\u0027avion",
+                                                                "ShortName":  "Transcription",
+                                                                "Description":  "Une transcription imprimée des échanges radio des pilotes de l’avion abattu."
+                                                            },
+                                                     "ge":  {
+                                                                "Name":  "Plane crew transcript",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "A printout of the transcript from the pilots of the downed aircraft."
+                                                            },
+                                                     "hu":  {
+                                                                "Name":  "Plane crew transcript",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "A printout of the transcript from the pilots of the downed aircraft."
+                                                            },
+                                                     "in":  {
+                                                                "Name":  "Transkrip kru pesawat",
+                                                                "ShortName":  "Salinan",
+                                                                "Description":  "Cetakan transkrip dari pilot pesawat yang jatuh."
+                                                            },
+                                                     "it":  {
+                                                                "Name":  "Trascrizione dell\u0027equipaggio dell\u0027aereo",
+                                                                "ShortName":  "Trascrizione",
+                                                                "Description":  "Una stampa della trascrizione dei piloti dell\u0027aereo abbattuto."
+                                                            },
+                                                     "jp":  {
+                                                                "Name":  "飛行機乗務員の記録",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "墜落した航空機のパイロットによる記録を印刷したもの。"
+                                                            },
+                                                     "kr":  {
+                                                                "Name":  "Plane crew transcript",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "A printout of the transcript from the pilots of the downed aircraft."
+                                                            },
+                                                     "pl":  {
+                                                                "Name":  "Plane crew transcript",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "A printout of the transcript from the pilots of the downed aircraft."
+                                                            },
+                                                     "po":  {
+                                                                "Name":  "Transcrição da tripulação do avião",
+                                                                "ShortName":  "Transcrição",
+                                                                "Description":  "Uma impressão da transcrição dos pilotos da aeronave abatida."
+                                                            },
+                                                     "ro":  {
+                                                                "Name":  "Plane crew transcript",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "A printout of the transcript from the pilots of the downed aircraft."
+                                                            },
+                                                     "ru":  {
+                                                                "Name":  "Стенограмма переговоров экипажа",
+                                                                "ShortName":  "Перег.экип.",
+                                                                "Description":  "Распечатка стенограммы пилотов сбитого самолёта."
+                                                            },
+                                                     "sk":  {
+                                                                "Name":  "Plane crew transcript",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "A printout of the transcript from the pilots of the downed aircraft."
+                                                            },
+                                                     "th":  {
+                                                                "Name":  "บันทึกการสนทนาของลูกเรือบนเครื่องบิน",
+                                                                "ShortName":  "บทบันทึก",
+                                                                "Description":  "สำเนาบันทึกคำพูดของนักบินของเครื่องบินที่ถูกยิงตก"
+                                                            },
+                                                     "tu":  {
+                                                                "Name":  "Plane crew transcript",
+                                                                "ShortName":  "Transcript",
+                                                                "Description":  "A printout of the transcript from the pilots of the downed aircraft."
+                                                            },
+                                                     "vi":  {
+                                                                "Name":  "Bản ghi chép của phi hành đoàn máy bay",
+                                                                "ShortName":  "Bản sao",
+                                                                "Description":  "Bản in biên bản ghi chép từ các phi công của chiếc máy bay bị bắn rơi."
+                                                            }
+                                                 }
+                                 },
+    "67bde548cf0cc29475092192":  {
+                                     "template":  {
+                                                      "_id":  "67bde548cf0cc29475092192",
+                                                      "_name":  "q_skyf41_flash_protected",
+                                                      "_parent":  "5448ecbe4bdc2d60728b4568",
+                                                      "_type":  "Item",
+                                                      "_props":  {
+                                                                     "AnimationVariantsNumber":  0,
+                                                                     "BackgroundColor":  "yellow",
+                                                                     "CanRequireOnRagfair":  false,
+                                                                     "CanSellOnRagfair":  false,
+                                                                     "ConflictingItems":  [
+
+                                                                                          ],
+                                                                     "Description":  "q_skyf41_flash_protected",
+                                                                     "DiscardLimit":  -1,
+                                                                     "DiscardingBlock":  false,
+                                                                     "ExamineExperience":  10,
+                                                                     "ExamineTime":  1,
+                                                                     "ExaminedByDefault":  false,
+                                                                     "ExtraSizeDown":  0,
+                                                                     "ExtraSizeForceAdd":  false,
+                                                                     "ExtraSizeLeft":  0,
+                                                                     "ExtraSizeRight":  0,
+                                                                     "ExtraSizeUp":  0,
+                                                                     "Height":  1,
+                                                                     "HideEntrails":  false,
+                                                                     "InsuranceDisabled":  false,
+                                                                     "IsAlwaysAvailableForInsurance":  false,
+                                                                     "IsLockedafterEquip":  false,
+                                                                     "IsNotDeletableFromQuestStashAfterQuestComplete":  false,
+                                                                     "IsSecretExitRequirement":  false,
+                                                                     "IsSpecialSlotOnly":  false,
+                                                                     "IsUnbuyable":  false,
+                                                                     "IsUndiscardable":  false,
+                                                                     "IsUngivable":  false,
+                                                                     "IsUnremovable":  false,
+                                                                     "IsUnsaleable":  false,
+                                                                     "ItemSound":  "generic",
+                                                                     "LeftHandItem":  false,
+                                                                     "LootExperience":  30,
+                                                                     "MergesWithChildren":  false,
+                                                                     "Name":  "q_skyf41_flash_protected",
+                                                                     "NotShownInSlot":  false,
+                                                                     "Prefab":  {
+                                                                                    "path":  "assets/content/items/infosubject/item_flash_card_ironkey.bundle",
+                                                                                    "rcid":  ""
+                                                                                },
+                                                                     "QuestItem":  true,
+                                                                     "QuestStashMaxCount":  0,
+                                                                     "RagFairCommissionModifier":  1,
+                                                                     "RagfairLevelToTrade":  0,
+                                                                     "RarityPvE":  "Not_exist",
+                                                                     "RepairCost":  0,
+                                                                     "RepairSpeed":  0,
+                                                                     "ShortName":  "q_skyf41_flash_protected",
+                                                                     "StackMaxSize":  1,
+                                                                     "StackObjectsCount":  1,
+                                                                     "Unlootable":  false,
+                                                                     "UnlootableFromSide":  [
+
+                                                                                            ],
+                                                                     "UnlootableFromSlot":  "FirstPrimaryWeapon",
+                                                                     "UsePrefab":  {
+                                                                                       "path":  "",
+                                                                                       "rcid":  ""
+                                                                                   },
+                                                                     "Weight":  0.1,
+                                                                     "Width":  1
+                                                                 },
+                                                      "_proto":  "56742c324bdc2d150f8b456d"
+                                                  },
+                                     "handbook":  null,
+                                     "locales":  {
+                                                     "ch":  {
+                                                                "Name":  "Elektronik 的加密 U 盘",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "Elektronik 用来记录坠毁飞机机组谈话的 U 盘，具有相当高的情报价值。"
+                                                            },
+                                                     "cz":  {
+                                                                "Name":  "Elektronikův flash disk",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "Flash disk, který Elektronik použil k zaznamenání rozhovorů posádky havarovaného letadla. Velmi cenná informace."
+                                                            },
+                                                     "en":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "es-mx":  {
+                                                                   "Name":  "Memoria USB de Elektronik",
+                                                                   "ShortName":  "Elektronik",
+                                                                   "Description":  "Una memoria USB que Elektronik utilizó para grabar las conversaciones de la tripulación del avión estrellado. Una información de gran valor."
+                                                               },
+                                                     "es":  {
+                                                                "Name":  "Memoria USB de Elektronik",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "Una memoria USB que Elektronik uso para grabar las conversaciones de la tripulación del avión estrellado. Una información de gran valor."
+                                                            },
+                                                     "fr":  {
+                                                                "Name":  "Clé USB d\u0027Elektronik",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "Une clé USB utilisée par Elektronik pour enregistrer les conversations de l’équipage de l’avion écrasé. Un renseignement extrêmement précieux."
+                                                            },
+                                                     "ge":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "hu":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "in":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "it":  {
+                                                                "Name":  "Chiavetta USB di Elektronik",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "Una chiavetta USB Elektronik utilizzata per registrare le conversazioni dell\u0027equipaggio dell\u0027aereo precipitato. Un\u0027informazione molto preziosa."
+                                                            },
+                                                     "jp":  {
+                                                                "Name":  "Elektronik のフラッシュドライブ",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "Elektronik が、墜落した飛行機の乗組員の会話を書き込むのに使用したフラッシュドライブ。非常に貴重な情報だ。"
+                                                            },
+                                                     "kr":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "pl":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "po":  {
+                                                                "Name":  "Pen drive de Elektronik",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "Um pen drive que Elektronik usou para gravar as conversas da tripulação do avião acidentado. Uma informação muito valiosa."
+                                                            },
+                                                     "ro":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "ru":  {
+                                                                "Name":  "Защищённая флешка Электроника",
+                                                                "ShortName":  "Флешка Эл.",
+                                                                "Description":  "Флешка, на которую Электроник успел записать разговор с чёрного ящика упавшего самолёта. Крайне полезная вещь."
+                                                            },
+                                                     "sk":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "th":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "tu":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            },
+                                                     "vi":  {
+                                                                "Name":  "Elektronik\u0027s flash drive",
+                                                                "ShortName":  "Elektronik",
+                                                                "Description":  "A flash drive Elektronik used to write the crashed plane crew\u0027s conversations. A very valuable piece of intel."
+                                                            }
+                                                 }
+                                 },
+    "67bde22566ca1d79a202462f":  {
+                                     "template":  {
+                                                      "_id":  "67bde22566ca1d79a202462f",
+                                                      "_name":  "q_skyf2_blackbox",
+                                                      "_parent":  "5448ecbe4bdc2d60728b4568",
+                                                      "_type":  "Item",
+                                                      "_props":  {
+                                                                     "AnimationVariantsNumber":  0,
+                                                                     "BackgroundColor":  "yellow",
+                                                                     "CanRequireOnRagfair":  false,
+                                                                     "CanSellOnRagfair":  false,
+                                                                     "ConflictingItems":  [
+
+                                                                                          ],
+                                                                     "Description":  "q_skyf2_blackbox",
+                                                                     "DiscardLimit":  -1,
+                                                                     "DiscardingBlock":  false,
+                                                                     "ExamineExperience":  45,
+                                                                     "ExamineTime":  1,
+                                                                     "ExaminedByDefault":  false,
+                                                                     "ExtraSizeDown":  0,
+                                                                     "ExtraSizeForceAdd":  false,
+                                                                     "ExtraSizeLeft":  0,
+                                                                     "ExtraSizeRight":  0,
+                                                                     "ExtraSizeUp":  0,
+                                                                     "Height":  2,
+                                                                     "HideEntrails":  false,
+                                                                     "InsuranceDisabled":  false,
+                                                                     "IsAlwaysAvailableForInsurance":  false,
+                                                                     "IsLockedafterEquip":  false,
+                                                                     "IsNotDeletableFromQuestStashAfterQuestComplete":  false,
+                                                                     "IsSecretExitRequirement":  false,
+                                                                     "IsSpecialSlotOnly":  false,
+                                                                     "IsUnbuyable":  false,
+                                                                     "IsUndiscardable":  false,
+                                                                     "IsUngivable":  false,
+                                                                     "IsUnremovable":  false,
+                                                                     "IsUnsaleable":  false,
+                                                                     "ItemSound":  "container_metal",
+                                                                     "LeftHandItem":  false,
+                                                                     "LootExperience":  150,
+                                                                     "MergesWithChildren":  false,
+                                                                     "Name":  "q_skyf2_blackbox",
+                                                                     "NotShownInSlot":  false,
+                                                                     "Prefab":  {
+                                                                                    "path":  "assets/content/items/infosubject/item_info_quest_flight_recorder/item_info_quest_flight_recorder.bundle",
+                                                                                    "rcid":  ""
+                                                                                },
+                                                                     "QuestItem":  true,
+                                                                     "QuestStashMaxCount":  0,
+                                                                     "RagFairCommissionModifier":  1,
+                                                                     "RagfairLevelToTrade":  0,
+                                                                     "RarityPvE":  "Not_exist",
+                                                                     "RepairCost":  0,
+                                                                     "RepairSpeed":  0,
+                                                                     "ShortName":  "q_skyf2_blackbox",
+                                                                     "StackMaxSize":  1,
+                                                                     "StackObjectsCount":  1,
+                                                                     "Unlootable":  false,
+                                                                     "UnlootableFromSide":  [
+
+                                                                                            ],
+                                                                     "UnlootableFromSlot":  "FirstPrimaryWeapon",
+                                                                     "UsePrefab":  {
+                                                                                       "path":  "",
+                                                                                       "rcid":  ""
+                                                                                   },
+                                                                     "Weight":  4.7,
+                                                                     "Width":  3
+                                                                 },
+                                                      "_proto":  "573477e124597737dd42e191"
+                                                  },
+                                     "handbook":  null,
+                                     "locales":  {
+                                                     "ch":  {
+                                                                "Name":  "坠毁飞机的飞行记录仪",
+                                                                "ShortName":  "飞行记录仪",
+                                                                "Description":  "从坠毁在 Priozersk 自然保护区内的飞机上回收的飞行记录仪，对于了解坠毁前机上发生的情况至关重要。"
+                                                            },
+                                                     "cz":  {
+                                                                "Name":  "Černá skříňka ztroskotaného letadla",
+                                                                "ShortName":  "Černá skříňka",
+                                                                "Description":  "Černá skříňka nalezená v letadle, které havarovalo v přírodní rezervaci Priozersk. Toto zařízení je klíčové pro zjištění, co se s letadlem stalo."
+                                                            },
+                                                     "en":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "es-mx":  {
+                                                                   "Name":  "Grabadora de vuelo del avión estrellado",
+                                                                   "ShortName":  "Grabadora de vuelo",
+                                                                   "Description":  "Una grabadora de vuelo encontrada en el avión que se estrelló en la reserva natural de Priozersk. Este dispositivo es crucial para averiguar qué fue lo que sucedió con el avión."
+                                                               },
+                                                     "es":  {
+                                                                "Name":  "Grabadora de vuelo del avión estrellado",
+                                                                "ShortName":  "Grabadora de vuelo",
+                                                                "Description":  "Una grabadora de vuelo encontrada en el avión estrellado en la reserva natural de Priozersk. Este dispositivo es crucial para descubrir lo ocurrido con el avión."
+                                                            },
+                                                     "fr":  {
+                                                                "Name":  "Enregistreur de vol de l\u0027avion écrasé",
+                                                                "ShortName":  "Enregistreur",
+                                                                "Description":  "Un enregistreur de vol trouvé dans l’avion qui s’est écrasé dans la réserve naturelle de Priozersk. Cet appareil est crucial pour comprendre ce qui est réellement arrivé à l’appareil."
+                                                            },
+                                                     "ge":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "hu":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "in":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "it":  {
+                                                                "Name":  "Registratore di volo dell\u0027aereo precipitato",
+                                                                "ShortName":  "Registratore di volo",
+                                                                "Description":  "Un registratore di volo trovato sull\u0027aereo precipitato nella riserva naturale di Priozersk. Questo dispositivo è fondamentale per capire cosa è successo all\u0027aereo."
+                                                            },
+                                                     "jp":  {
+                                                                "Name":  "墜落した飛行機のフライトレコーダー",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "プリオゼルスク自然保護区で墜落した航空機から発見されたフライトレコーダー。この装置は航空機の事故原因解明に非常に重要だ。"
+                                                            },
+                                                     "kr":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "pl":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "po":  {
+                                                                "Name":  "Caixa-preta do avião acidentado",
+                                                                "ShortName":  "Caixa Preta",
+                                                                "Description":  "Uma caixa-preta encontrada no avião que caiu na reserva natural de Priozersk. Este dispositivo é crucial para descobrir o que aconteceu com o avião."
+                                                            },
+                                                     "ro":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "ru":  {
+                                                                "Name":  "Чёрный ящик самолёта",
+                                                                "ShortName":  "Ч. ящик",
+                                                                "Description":  "Чёрный ящик из упавшего в лесу самолёта. Только он может помочь разобраться, что произошло."
+                                                            },
+                                                     "sk":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "th":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "tu":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            },
+                                                     "vi":  {
+                                                                "Name":  "Crashed plane\u0027s flight recorder",
+                                                                "ShortName":  "Flight recorder",
+                                                                "Description":  "A flight recorder found at the plane that crashed in the Priozersk nature reserve. This device is crucial to figuring out what happened to the plane."
+                                                            }
+                                                 }
+                                 },
+    "67bde1dc5678472f2a0e6167":  {
+                                     "template":  {
+                                                      "_id":  "67bde1dc5678472f2a0e6167",
+                                                      "_name":  "q_skyf1_flash",
+                                                      "_parent":  "5448ecbe4bdc2d60728b4568",
+                                                      "_type":  "Item",
+                                                      "_props":  {
+                                                                     "AnimationVariantsNumber":  0,
+                                                                     "BackgroundColor":  "yellow",
+                                                                     "CanRequireOnRagfair":  false,
+                                                                     "CanSellOnRagfair":  false,
+                                                                     "ConflictingItems":  [
+
+                                                                                          ],
+                                                                     "Description":  "q_skyf1_flash",
+                                                                     "DiscardLimit":  -1,
+                                                                     "DiscardingBlock":  false,
+                                                                     "ExamineExperience":  10,
+                                                                     "ExamineTime":  1,
+                                                                     "ExaminedByDefault":  false,
+                                                                     "ExtraSizeDown":  0,
+                                                                     "ExtraSizeForceAdd":  false,
+                                                                     "ExtraSizeLeft":  0,
+                                                                     "ExtraSizeRight":  0,
+                                                                     "ExtraSizeUp":  0,
+                                                                     "Height":  1,
+                                                                     "HideEntrails":  false,
+                                                                     "InsuranceDisabled":  false,
+                                                                     "IsAlwaysAvailableForInsurance":  false,
+                                                                     "IsLockedafterEquip":  false,
+                                                                     "IsNotDeletableFromQuestStashAfterQuestComplete":  false,
+                                                                     "IsSecretExitRequirement":  false,
+                                                                     "IsSpecialSlotOnly":  false,
+                                                                     "IsUnbuyable":  false,
+                                                                     "IsUndiscardable":  false,
+                                                                     "IsUngivable":  false,
+                                                                     "IsUnremovable":  false,
+                                                                     "IsUnsaleable":  false,
+                                                                     "ItemSound":  "generic",
+                                                                     "LeftHandItem":  false,
+                                                                     "LootExperience":  30,
+                                                                     "MergesWithChildren":  false,
+                                                                     "Name":  "q_skyf1_flash",
+                                                                     "NotShownInSlot":  false,
+                                                                     "Prefab":  {
+                                                                                    "path":  "assets/content/items/infosubject/item_flash_card_slider.bundle",
+                                                                                    "rcid":  ""
+                                                                                },
+                                                                     "QuestItem":  true,
+                                                                     "QuestStashMaxCount":  0,
+                                                                     "RagFairCommissionModifier":  1,
+                                                                     "RagfairLevelToTrade":  0,
+                                                                     "RarityPvE":  "Not_exist",
+                                                                     "RepairCost":  0,
+                                                                     "RepairSpeed":  0,
+                                                                     "ShortName":  "q_skyf1_flash",
+                                                                     "StackMaxSize":  1,
+                                                                     "StackObjectsCount":  1,
+                                                                     "Unlootable":  false,
+                                                                     "UnlootableFromSide":  [
+
+                                                                                            ],
+                                                                     "UnlootableFromSlot":  "FirstPrimaryWeapon",
+                                                                     "UsePrefab":  {
+                                                                                       "path":  "",
+                                                                                       "rcid":  ""
+                                                                                   },
+                                                                     "Weight":  0.1,
+                                                                     "Width":  1
+                                                                 },
+                                                      "_proto":  "56742c324bdc2d150f8b456d"
+                                                  },
+                                     "handbook":  null,
+                                     "locales":  {
+                                                     "ch":  {
+                                                                "Name":  "G 型越野车上的 U 盘",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "从某位 TerraGroup 高管抛弃的高级越野车上找到的 U 盘。里面肯定有什么重要的东西，至于具体内容是啥就不太清楚了。"
+                                                            },
+                                                     "cz":  {
+                                                                "Name":  "Flash disk G-Wagon",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "Flash disk nalezený v opuštěném SUV vysokého manažera společnosti TerraGroup. Obsahuje něco důležitého, ale není jasné, co přesně."
+                                                            },
+                                                     "en":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "es-mx":  {
+                                                                   "Name":  "Memoria USB del G-Wagon",
+                                                                   "ShortName":  "GW",
+                                                                   "Description":  "Una memoria USB encontrada en la camioneta SUV abandonada del personal de alto rango de TerraGroup. Contiene algo importante, aunque no está claro qué es exactamente."
+                                                               },
+                                                     "es":  {
+                                                                "Name":  "Memoria USB del G-Wagon",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "Una memoria USB encontrada en el SUV todoterreno abandonado del personal de alto rango de TerraGroup. Contiene algo importante, aunque no está claro qué es exactamente."
+                                                            },
+                                                     "fr":  {
+                                                                "Name":  "Clé USB du Classe G",
+                                                                "ShortName":  "Classe G",
+                                                                "Description":  "Une clé USB trouvée dans le SUV abandonné d’un membre haut placé du personnel de TerraGroup. Elle contient quelque chose d’important, même si la nature exacte de ces données reste inconnue."
+                                                            },
+                                                     "ge":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "hu":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "in":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "it":  {
+                                                                "Name":  "Chiavetta USB G-Wagon",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "Una chiavetta USB trovata nel SUV abbandonato di un membro di alto rango dello staff di TerraGroup. Contiene qualcosa di importante, anche se non è chiaro cosa esattamente."
+                                                            },
+                                                     "jp":  {
+                                                                "Name":  "G-Wagon のフラッシュドライブ",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "TerraGroup の高位職員が放棄した SUV 車内で見つけたフラッシュドライブ。重要な何かが保存されているが、それが何かは分からない。"
+                                                            },
+                                                     "kr":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "pl":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "po":  {
+                                                                "Name":  "Pen drive do G-Wagon",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "Um pen drive encontrado no SUV abandonado de um alto funcionário da TerraGroup. Contém algo importante, embora não esteja claro o que exatamente."
+                                                            },
+                                                     "ro":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "ru":  {
+                                                                "Name":  "Флешка из внедорожника Gelandewagen ",
+                                                                "ShortName":  "Флешка GW",
+                                                                "Description":  "Флешка, найденная во внедорожнике представителей TerraGroup. Содержит что-то важное, но пока непонятно что."
+                                                            },
+                                                     "sk":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "th":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "tu":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            },
+                                                     "vi":  {
+                                                                "Name":  "G-Wagon flash drive",
+                                                                "ShortName":  "GW",
+                                                                "Description":  "A flash drive found at the abandoned high-ranking TerraGroup staff\u0027s SUV. Contains something important, though it\u0027s unclear what exactly."
+                                                            }
+                                                 }
+                                 },
+    "67bde59edb4b617a6c0d69f8":  {
+                                     "template":  {
+                                                      "_id":  "67bde59edb4b617a6c0d69f8",
+                                                      "_name":  "q_skyf5_armoredcase",
+                                                      "_parent":  "5671435f4bdc2d96058b4569",
+                                                      "_type":  "Item",
+                                                      "_props":  {
+                                                                     "Grids":  [
+                                                                                   {
+                                                                                       "_name":  "main",
+                                                                                       "_id":  "67bde59edb4b617a6c0d69fa",
+                                                                                       "_parent":  "67bde59edb4b617a6c0d69f8",
+                                                                                       "_props":  {
+                                                                                                      "filters":  [
+                                                                                                                      {
+                                                                                                                          "ExcludedFilter":  [
+
+                                                                                                                                             ],
+                                                                                                                          "Filter":  [
+                                                                                                                                         "543be5dd4bdc2deb348b4569"
+                                                                                                                                     ]
+                                                                                                                      }
+                                                                                                                  ],
+                                                                                                      "cellsH":  4,
+                                                                                                      "cellsV":  4,
+                                                                                                      "minCount":  0,
+                                                                                                      "maxCount":  0,
+                                                                                                      "maxWeight":  0,
+                                                                                                      "isSortingTable":  false
+                                                                                                  },
+                                                                                       "_proto":  "55d329c24bdc2d892f8b4567"
+                                                                                   }
+                                                                               ],
+                                                                     "Slots":  [
+
+                                                                               ],
+                                                                     "AnimationVariantsNumber":  0,
+                                                                     "BackgroundColor":  "yellow",
+                                                                     "CanRequireOnRagfair":  false,
+                                                                     "CanSellOnRagfair":  false,
+                                                                     "ConflictingItems":  [
+
+                                                                                          ],
+                                                                     "Description":  "q_skyf5_armoredcase",
+                                                                     "DiscardLimit":  -1,
+                                                                     "DiscardingBlock":  false,
+                                                                     "ExamineExperience":  50,
+                                                                     "ExamineTime":  1,
+                                                                     "ExaminedByDefault":  false,
+                                                                     "ExtraSizeDown":  0,
+                                                                     "ExtraSizeForceAdd":  false,
+                                                                     "ExtraSizeLeft":  0,
+                                                                     "ExtraSizeRight":  0,
+                                                                     "ExtraSizeUp":  0,
+                                                                     "Height":  4,
+                                                                     "HideEntrails":  true,
+                                                                     "InsuranceDisabled":  false,
+                                                                     "IsAlwaysAvailableForInsurance":  false,
+                                                                     "IsLockedafterEquip":  false,
+                                                                     "IsNotDeletableFromQuestStashAfterQuestComplete":  false,
+                                                                     "IsSecretExitRequirement":  false,
+                                                                     "IsSpecialSlotOnly":  false,
+                                                                     "IsUnbuyable":  false,
+                                                                     "IsUndiscardable":  false,
+                                                                     "IsUngivable":  false,
+                                                                     "IsUnremovable":  false,
+                                                                     "IsUnsaleable":  false,
+                                                                     "ItemSound":  "container_case",
+                                                                     "LeftHandItem":  false,
+                                                                     "LootExperience":  100,
+                                                                     "MergesWithChildren":  false,
+                                                                     "Name":  "q_skyf5_armoredcase",
+                                                                     "NotShownInSlot":  false,
+                                                                     "Prefab":  {
+                                                                                    "path":  "assets/content/items/infosubject/item_info_quest_briefcase/item_info_quest_briefcase.bundle",
+                                                                                    "rcid":  ""
+                                                                                },
+                                                                     "QuestItem":  true,
+                                                                     "QuestStashMaxCount":  1,
+                                                                     "RagFairCommissionModifier":  1,
+                                                                     "RagfairLevelToTrade":  0,
+                                                                     "RarityPvE":  "Not_exist",
+                                                                     "RepairCost":  0,
+                                                                     "RepairSpeed":  0,
+                                                                     "ShortName":  "q_skyf5_armoredcase",
+                                                                     "StackMaxSize":  1,
+                                                                     "StackObjectsCount":  1,
+                                                                     "Unlootable":  false,
+                                                                     "UnlootableFromSide":  [
+
+                                                                                            ],
+                                                                     "UnlootableFromSlot":  "FirstPrimaryWeapon",
+                                                                     "UsePrefab":  {
+                                                                                       "path":  "",
+                                                                                       "rcid":  ""
+                                                                                   },
+                                                                     "Weight":  7,
+                                                                     "Width":  4,
+                                                                     "CanPutIntoDuringTheRaid":  true,
+                                                                     "CantRemoveFromSlotsDuringRaid":  [
+
+                                                                                                       ],
+                                                                     "ForbidMissingVitalParts":  false,
+                                                                     "ForbidNonEmptyContainers":  false,
+                                                                     "KeyIds":  [
+
+                                                                                ],
+                                                                     "TagColor":  0,
+                                                                     "TagName":  ""
+                                                                 },
+                                                      "_proto":  "567143bf4bdc2d1a0f8b4567"
+                                                  },
+                                     "handbook":  {
+                                                      "parentId":  "5b619f1a86f77450a702a6f3",
+                                                      "price":  0
+                                                  },
+                                     "locales":  {
+                                                     "ch":  {
+                                                                "Name":  "加固手提箱",
+                                                                "ShortName":  "加固手提箱",
+                                                                "Description":  "一个神秘的公文包，显然里面装着逃出塔科夫的某种“门票”。"
+                                                            },
+                                                     "cz":  {
+                                                                "Name":  "Obrněný kufřík",
+                                                                "ShortName":  "Obrněný kufřík",
+                                                                "Description":  "Záhadný kufr, zřejmě obsahující jistou \"Jízdenku\" z Tarkova."
+                                                            },
+                                                     "en":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "es-mx":  {
+                                                                   "Name":  "Maletín blindado",
+                                                                   "ShortName":  "Maletín blindado",
+                                                                   "Description":  "Un misterioso maletín que, al parecer, contiene cierto \"Boleto\" para salir de Tarkov."
+                                                               },
+                                                     "es":  {
+                                                                "Name":  "Maletín blindado",
+                                                                "ShortName":  "Maletín blindado",
+                                                                "Description":  "Un misterioso maletín que, al parecer, contiene cierto \"Billete\" para salir de Tarkov."
+                                                            },
+                                                     "fr":  {
+                                                                "Name":  "Mallette blindée",
+                                                                "ShortName":  "Mallette blindée",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "ge":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "hu":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "in":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "it":  {
+                                                                "Name":  "Valigetta blindata",
+                                                                "ShortName":  "Valigetta blindata",
+                                                                "Description":  "Una misteriosa valigetta, che apparentemente contiene un certo \"Biglietto\" per uscire da Tarkov."
+                                                            },
+                                                     "jp":  {
+                                                                "Name":  "頑丈なケース",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "謎のブリーフケース。どうやらタルコフを脱出するための「チケット」が入っているらしい。"
+                                                            },
+                                                     "kr":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "pl":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "po":  {
+                                                                "Name":  "Maleta blindada",
+                                                                "ShortName":  "Maleta blindada",
+                                                                "Description":  "Uma maleta misteriosa, aparentemente contendo um certo \"Bilhete\" para sair de Tarkov."
+                                                            },
+                                                     "ro":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "ru":  {
+                                                                "Name":  "Бронированный кейс",
+                                                                "ShortName":  "Бр. кейс",
+                                                                "Description":  "Загадочный кейс. Внутри, по слухам, находится какой-то билет из Таркова."
+                                                            },
+                                                     "sk":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "th":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "tu":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            },
+                                                     "vi":  {
+                                                                "Name":  "Armored case",
+                                                                "ShortName":  "Armored case",
+                                                                "Description":  "A mysterious briefcase, apparently containing a certain \"Ticket\" out of Tarkov."
+                                                            }
+                                                 }
+                                 },
+    "689b4ed2987b304021088e8f":  {
+                                     "template":  {
+                                                      "_id":  "689b4ed2987b304021088e8f",
+                                                      "_name":  "item_info_note_default_user",
+                                                      "_parent":  "5448ecbe4bdc2d60728b4568",
+                                                      "_type":  "Item",
+                                                      "_props":  {
+                                                                     "AnimationVariantsNumber":  0,
+                                                                     "BackgroundColor":  "default",
+                                                                     "CanRequireOnRagfair":  false,
+                                                                     "CanSellOnRagfair":  false,
+                                                                     "ConflictingItems":  [
+
+                                                                                          ],
+                                                                     "Description":  "item_info_note_default_user",
+                                                                     "DiscardLimit":  -1,
+                                                                     "DiscardingBlock":  false,
+                                                                     "ExamineExperience":  10,
+                                                                     "ExamineTime":  1,
+                                                                     "ExaminedByDefault":  true,
+                                                                     "ExtraSizeDown":  0,
+                                                                     "ExtraSizeForceAdd":  false,
+                                                                     "ExtraSizeLeft":  0,
+                                                                     "ExtraSizeRight":  0,
+                                                                     "ExtraSizeUp":  0,
+                                                                     "Height":  1,
+                                                                     "HideEntrails":  false,
+                                                                     "InsuranceDisabled":  false,
+                                                                     "IsAlwaysAvailableForInsurance":  false,
+                                                                     "IsLockedafterEquip":  false,
+                                                                     "IsNotDeletableFromQuestStashAfterQuestComplete":  false,
+                                                                     "IsSecretExitRequirement":  false,
+                                                                     "IsSpecialSlotOnly":  false,
+                                                                     "IsUnbuyable":  false,
+                                                                     "IsUndiscardable":  false,
+                                                                     "IsUngivable":  false,
+                                                                     "IsUnremovable":  false,
+                                                                     "IsUnsaleable":  false,
+                                                                     "ItemSound":  "item_paper",
+                                                                     "LeftHandItem":  false,
+                                                                     "LootExperience":  100,
+                                                                     "MergesWithChildren":  false,
+                                                                     "Name":  "item_info_note_default_user",
+                                                                     "NotShownInSlot":  false,
+                                                                     "Prefab":  {
+                                                                                    "path":  "assets/content/items/infosubject/item_info_note/item_info_note_default_user.bundle",
+                                                                                    "rcid":  ""
+                                                                                },
+                                                                     "QuestItem":  true,
+                                                                     "QuestStashMaxCount":  0,
+                                                                     "RagFairCommissionModifier":  1,
+                                                                     "RagfairLevelToTrade":  0,
+                                                                     "RarityPvE":  "Not_exist",
+                                                                     "RepairCost":  0,
+                                                                     "RepairSpeed":  0,
+                                                                     "ShortName":  "item_info_note_default_user",
+                                                                     "StackMaxSize":  1,
+                                                                     "StackObjectsCount":  1,
+                                                                     "Unlootable":  false,
+                                                                     "UnlootableFromSide":  [
+
+                                                                                            ],
+                                                                     "UnlootableFromSlot":  "SecuredContainer",
+                                                                     "UsePrefab":  {
+                                                                                       "path":  "",
+                                                                                       "rcid":  ""
+                                                                                   },
+                                                                     "Weight":  0.002,
+                                                                     "Width":  1,
+                                                                     "AllowBear":  true,
+                                                                     "AllowSavage":  false,
+                                                                     "AllowUsec":  true,
+                                                                     "Personal":  true,
+                                                                     "RequiredLevel":  0,
+                                                                     "NoteTemplatePrefab":  "note_default_user_template",
+                                                                     "NotificationDuration":  0.2
+                                                                 },
+                                                      "_proto":  "57347d3d245977448f7b7f61"
+                                                  },
+                                     "handbook":  {
+                                                      "parentId":  "5b47574386f77428ca22b33f",
+                                                      "price":  10483
+                                                  },
+                                     "locales":  {
+                                                     "ch":  {
+                                                                "Name":  "来自 Kerman 先生的笔记",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "来自未知发信人的警告信。"
+                                                            },
+                                                     "cz":  {
+                                                                "Name":  "Zpráva od pana Kermana",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "Zpráva s varováním od neznámého odesílatele."
+                                                            },
+                                                     "en":  {
+                                                                "Name":  "Note from Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "A note with a warning from an unknown sender."
+                                                            },
+                                                     "es-mx":  {
+                                                                   "Name":  "Nota de Mr. Kerman",
+                                                                   "ShortName":  "Mr.Kerman",
+                                                                   "Description":  "Una nota con una advertencia de un remitente desconocido."
+                                                               },
+                                                     "es":  {
+                                                                "Name":  "Nota de Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "Una nota con una advertencia de un remitente desconocido."
+                                                            },
+                                                     "fr":  {
+                                                                "Name":  "Note de M. Kerman",
+                                                                "ShortName":  "M. Kerman",
+                                                                "Description":  "Une note avec un avertissement provenant d\u0027un expéditeur inconnu."
+                                                            },
+                                                     "ge":  {
+                                                                "Name":  "Note from Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "A note with a warning from an unknown sender."
+                                                            },
+                                                     "hu":  {
+                                                                "Name":  "Note from Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "A note with a warning from an unknown sender."
+                                                            },
+                                                     "in":  {
+                                                                "Name":  "Catatan dari Tuan Kerman",
+                                                                "ShortName":  "Tuan Kerman",
+                                                                "Description":  "Sebuah catatan dengan peringatan dari pengirim yang tidak dikenal."
+                                                            },
+                                                     "it":  {
+                                                                "Name":  "Nota di Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "Una nota con un avvertimento da parte di un mittente sconosciuto."
+                                                            },
+                                                     "jp":  {
+                                                                "Name":  "Mr.Kerman からのメモ",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "不明な送り主からの警告が書かれたメモ。"
+                                                            },
+                                                     "kr":  {
+                                                                "Name":  "Note from Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "A note with a warning from an unknown sender."
+                                                            },
+                                                     "pl":  {
+                                                                "Name":  "Note from Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "A note with a warning from an unknown sender."
+                                                            },
+                                                     "po":  {
+                                                                "Name":  "Nota do Sr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "Uma nota com um aviso de um remetente desconhecido."
+                                                            },
+                                                     "ro":  {
+                                                                "Name":  "Note from Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "A note with a warning from an unknown sender."
+                                                            },
+                                                     "ru":  {
+                                                                "Name":  "Записка от Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "Записка от неизвестного отправителя с предупреждением."
+                                                            },
+                                                     "sk":  {
+                                                                "Name":  "Note from Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "A note with a warning from an unknown sender."
+                                                            },
+                                                     "th":  {
+                                                                "Name":  "หมายเหตุจากนายเคอร์แมน",
+                                                                "ShortName":  "นายเคอร์แมน",
+                                                                "Description":  "ข้อความเตือนจากผู้ส่งที่ไม่รู้จัก"
+                                                            },
+                                                     "tu":  {
+                                                                "Name":  "Note from Mr. Kerman",
+                                                                "ShortName":  "Mr.Kerman",
+                                                                "Description":  "A note with a warning from an unknown sender."
+                                                            },
+                                                     "vi":  {
+                                                                "Name":  "Ghi chú từ ông Kerman",
+                                                                "ShortName":  "Ông Kerman",
+                                                                "Description":  "Một ghi chú cảnh báo từ người gửi không xác định."
+                                                            }
+                                                 }
+                                 }
+}

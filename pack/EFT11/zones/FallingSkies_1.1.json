@@ -1,0 +1,50 @@
+[
+    {
+        "id": "Ticket_gelik",
+        "type": "visit",
+        "locations": [
+            "Shoreline"
+        ],
+        "position": {
+            "x": 336.425,
+            "y": -58.899,
+            "z": 317.906
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0.00087,
+            "z": 0,
+            "w": 1
+        },
+        "size": {
+            "x": 5.834,
+            "y": 2.551,
+            "z": 5.187
+        },
+        "source": "1.1 客户端 D:\\SPT5.0 level29（Shoreline 场景，quest_zones/Personal/ticket_quests_shoreline_zone）——陨落星辰「找到正确的 G 型越野车」"
+    },
+    {
+        "id": "Ticket_fish_house",
+        "type": "placeitem",
+        "locations": [
+            "Shoreline"
+        ],
+        "position": {
+            "x": 248.703,
+            "y": -63.306,
+            "z": 438.205
+        },
+        "rotation": {
+            "x": 0,
+            "y": -0.07843,
+            "z": 0,
+            "w": 0.99692
+        },
+        "size": {
+            "x": 4.228,
+            "y": 3.738,
+            "z": 4.795
+        },
+        "source": "1.1 客户端 D:\\SPT5.0 level29（Shoreline 场景，同上）——陨落星辰「将飞行记录仪留在指定交货位置」（钓鱼小岛屋子角落）"
+    }
+]

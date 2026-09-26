@@ -1,0 +1,276 @@
+[
+    {
+        "id":  "Tour_10_office_visit",
+        "type":  "visit",
+        "locations":  [
+                          "laboratory"
+                      ],
+        "position":  {
+                         "x":  -170.3091,
+                         "y":  6.0166,
+                         "z":  -343.0794
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0,
+                         "z":  0,
+                         "w":  1
+                     },
+        "size":  {
+                     "x":  19.1,
+                     "y":  3.94,
+                     "z":  13.52
+                 },
+        "source":  "1.1 客户端 D:\\SPT5.0 level516（Laboratory_DesignMain.unity）"
+    },
+    {
+        "id":  "Tour_10_laboratory_visit",
+        "type":  "visit",
+        "locations":  [
+                          "laboratory"
+                      ],
+        "position":  {
+                         "x":  -181.5991,
+                         "y":  5.4087,
+                         "z":  -338.6594
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0,
+                         "z":  0,
+                         "w":  1
+                     },
+        "size":  {
+                     "x":  215.59,
+                     "y":  53.52,
+                     "z":  270.97
+                 },
+        "source":  "1.1 客户端 D:\\SPT5.0 level516（Laboratory_DesignMain.unity）"
+    },
+    {
+        "id":  "Tour_10_boiler_visit",
+        "type":  "visit",
+        "locations":  [
+                          "laboratory"
+                      ],
+        "position":  {
+                         "x":  -131.5291,
+                         "y":  -3.4013,
+                         "z":  -263.0994
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0,
+                         "z":  0,
+                         "w":  1
+                     },
+        "size":  {
+                     "x":  10,
+                     "y":  4,
+                     "z":  10
+                 },
+        "source":  "1.1 客户端 D:\\SPT5.0 level516（Laboratory_DesignMain.unity）"
+    },
+    {
+        "id":  "Tour_10_server_visit",
+        "type":  "visit",
+        "locations":  [
+                          "laboratory"
+                      ],
+        "position":  {
+                         "x":  -127.1796,
+                         "y":  4.6087,
+                         "z":  -305.2194
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0,
+                         "z":  0,
+                         "w":  1
+                     },
+        "size":  {
+                     "x":  25,
+                     "y":  7,
+                     "z":  50
+                 },
+        "source":  "1.1 客户端 D:\\SPT5.0 level516（Laboratory_DesignMain.unity）"
+    },
+    {
+        "id":  "Tour_10_transition_from_streets",
+        "type":  "visit",
+        "locations":  [
+                          "TarkovStreets"
+                      ],
+        "position":  {
+                         "x":  209.5174,
+                         "y":  -7.382,
+                         "z":  82.4014
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0.0112,
+                         "z":  0,
+                         "w":  0.9999
+                     },
+        "size":  {
+                     "x":  5.0667,
+                     "y":  2,
+                     "z":  4.0853
+                 },
+        "source":  "1.1 客户端 D:\\SPT5.0 level395（Streets 场景）"
+    },
+    {
+        "id":  "Tour_10_transition_from_factory",
+        "type":  "visit",
+        "locations":  [
+                          "factory4_day",
+                          "factory4_night"
+                      ],
+        "position":  {
+                         "x":  -27.0078,
+                         "y":  -3.085,
+                         "z":  -42.753
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0,
+                         "z":  0,
+                         "w":  1
+                     },
+        "size":  {
+                     "x":  6.0121,
+                     "y":  2,
+                     "z":  3.5224
+                 },
+        "source":  "1.1 客户端 D:\\SPT5.0 level535（Factory_Rework 场景）"
+    },
+    {
+        "id":  "Tour_7_terminal_visit",
+        "type":  "visit",
+        "locations":  [
+                          "Shoreline"
+                      ],
+        "position":  {
+                         "x":  -917.1622,
+                         "y":  -54.88,
+                         "z":  382.6112
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  -0.6056,
+                         "z":  0,
+                         "w":  0.7958
+                     },
+        "size":  {
+                     "x":  247.2398,
+                     "y":  15,
+                     "z":  85.6769
+                 },
+        "source":  "1.1 客户端 D:\\SPT5.0 level29（Shoreline 场景），2026-09-18 ZoneExtract 提取；0.16 海岸线没有 1.1 的港口终点站，坐标待 SORA 实机核对/替换"
+    },
+    {
+        "id":  "Tour_7_domofon_visit",
+        "type":  "visit",
+        "locations":  [
+                          "Shoreline"
+                      ],
+        "position":  {
+                         "x":  -913.474,
+                         "y":  -56.695,
+                         "z":  261.907
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  -0.2142,
+                         "z":  0,
+                         "w":  0.9768
+                     },
+        "size":  {
+                     "x":  4,
+                     "y":  5,
+                     "z":  4
+                 },
+        "source":  "1.1 客户端 D:\\SPT5.0 level29（Shoreline 场景），2026-09-18 ZoneExtract 提取；1.1 里这条和「找到入口」都是可选目标，走进去就算"
+    },
+    {
+        "id":  "first_domofon_interaction",
+        "type":  "visit",
+        "locations":  [
+                          "Shoreline"
+                      ],
+        "position":  {
+                         "x":  -913.093,
+                         "y":  -56.95,
+                         "z":  262.469
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0,
+                         "z":  0,
+                         "w":  1
+                     },
+        "size":  {
+                     "x":  1,
+                     "y":  1,
+                     "z":  1
+                 },
+        "subtitles":  {
+                          "source":  "1.1 subtitleTracks：Speaker_access_failed 音池 4 条 intercom_get_out_01～04（sharedassets29.assets 563/565/495/491），各配字幕轨；音频 ZoneExtract 拆出转 OGG 嵌在插件里。SORA 09-18 正式版录像：瞄着对讲机出「使用」，按下才出",
+                          "interact":  {
+                                           "prompt":  "使用",
+                                           "dist":  2.2,
+                                           "radius":  0.5,
+                                           "at":  {
+                                                      "x":  -913.093,
+                                                      "y":  -56.95,
+                                                      "z":  262.469
+                                                  },
+                                           "completeOnUse":  true
+                                       },
+                          "pool":  [
+                                       {
+                                           "audio":  "intercom_get_out_01.ogg",
+                                           "lines":  [
+                                                         {
+                                                             "key":  "6904c1d6d5c446c88f27a5db",
+                                                             "start":  0,
+                                                             "end":  6
+                                                         }
+                                                     ]
+                                       },
+                                       {
+                                           "audio":  "intercom_get_out_02.ogg",
+                                           "lines":  [
+                                                         {
+                                                             "key":  "6904c1e11cd4319b55e6449b",
+                                                             "start":  0,
+                                                             "end":  7
+                                                         }
+                                                     ]
+                                       },
+                                       {
+                                           "audio":  "intercom_get_out_03.ogg",
+                                           "lines":  [
+                                                         {
+                                                             "key":  "6904c1ed8f4963daa45111c5",
+                                                             "start":  0,
+                                                             "end":  6
+                                                         }
+                                                     ]
+                                       },
+                                       {
+                                           "audio":  "intercom_get_out_04.ogg",
+                                           "lines":  [
+                                                         {
+                                                             "key":  "6904c1fa951e6b9766144e5c",
+                                                             "start":  0,
+                                                             "end":  6
+                                                         }
+                                                     ]
+                                       }
+                                   ],
+                          "volume":  0.8
+                      },
+        "source":  "1.1 任务 68c6a4ec 的必做条件「使用对讲机联系港口守军」是 LocationTrigger first_domofon_interaction（0.16 没这个类，搬运时换成同名到达条件）；只在按下对讲机「使用」时手动触发，不挂碰撞。位置 = INTERACTIVE_Intercom_Port 抬高 1.5m"
+    }
+]

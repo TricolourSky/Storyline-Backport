@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- ZoneExtract：从 1.1 客户端的 level 文件里按名字把任务区域（ExperienceTrigger / PlaceItemTrigger 挂的 GameObject）的世界坐标、朝向、BoxCollider 尺寸提出来，
+       直接打成 db\zones 的格式（只读，不写回）。2026-09-18 为塔科夫之旅海岸线 Tour_7_* 两个区域重写（09-15 那版住在会话临时目录里，已丢）。
+       依赖 .work\native_bundle\tpk\uabea-v8 里 UABEA 自带的 AssetsTools.NET + classdata.tpk，不用联网装包。 -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Uabea>E:\项目\VisitAPI\.work\native_bundle\tpk\uabea-v8</Uabea>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AssetsTools.NET"><HintPath>$(Uabea)\AssetsTools.NET.dll</HintPath></Reference>
+    <!-- uitree 读 MonoBehaviour 字段用（0.16 是 Mono 版、文件里没有类型树，要拿 Managed 里的 DLL 现生成模板） -->
+    <Reference Include="AssetsTools.NET.MonoCecil"><HintPath>$(Uabea)\AssetsTools.NET.MonoCecil.dll</HintPath></Reference>
+    <Reference Include="Mono.Cecil"><HintPath>$(Uabea)\Mono.Cecil.dll</HintPath></Reference>
+    <Reference Include="Mono.Cecil.Rocks"><HintPath>$(Uabea)\Mono.Cecil.Rocks.dll</HintPath></Reference>
+    <!-- sprite 命令：把图集里的一张 Sprite 解码裁成 PNG -->
+    <Reference Include="AssetsTools.NET.Texture"><HintPath>$(Uabea)\AssetsTools.NET.Texture.dll</HintPath></Reference>
+    <Reference Include="AssetRipper.TextureDecoder"><HintPath>$(Uabea)\AssetRipper.TextureDecoder.dll</HintPath></Reference>  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fmod5Sharp" Version="3.1.0" />
+  </ItemGroup>
+</Project>

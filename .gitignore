@@ -1,0 +1,7 @@
+bin/
+obj/
+.vs/
+.packages/
+*.user
+*.bundle
+tools/NativeShaderPatch/AssetsTools.NET.dll

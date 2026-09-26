@@ -1,0 +1,28 @@
+{
+  "manifest": [
+    {
+      "key": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_quest_flight_recorder/item_info_quest_flight_recorder.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_quest_briefcase/item_info_quest_briefcase.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    }
+  ]
+}

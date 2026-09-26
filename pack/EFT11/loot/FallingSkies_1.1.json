@@ -1,0 +1,216 @@
+{
+    "shoreline":  [
+                      {
+                          "locationId":  "(407,13397, -53,342697, -37,722992)",
+                          "probability":  1,
+                          "template":  {
+                                           "Id":  "item_info_note_quest_crew_transcript [61c11e68-36e9-4549-a0c7-2e37600cb6a3]",
+                                           "IsContainer":  false,
+                                           "useGravity":  false,
+                                           "randomRotation":  false,
+                                           "Position":  {
+                                                            "x":  407.13397,
+                                                            "y":  -53.342697,
+                                                            "z":  -37.722992
+                                                        },
+                                           "Rotation":  {
+                                                            "x":  1.6665002,
+                                                            "y":  211.37122,
+                                                            "z":  176.89014
+                                                        },
+                                           "IsAlwaysSpawn":  false,
+                                           "IsGroupPosition":  false,
+                                           "GroupPositions":  [
+
+                                                              ],
+                                           "Root":  "6aa42042e53d7781740decef",
+                                           "Items":  [
+                                                         {
+                                                             "_id":  "6aa42042e53d7781740decef",
+                                                             "_tpl":  "689b4d39987b304021088e8d",
+                                                             "upd":  {
+                                                                         "StackObjectsCount":  1
+                                                                     }
+                                                         }
+                                                     ]
+                                       }
+                      },
+                      {
+                          "locationId":  "(336,641, -59,253796, 317,1171)",
+                          "probability":  1,
+                          "template":  {
+                                           "Id":  "IronKey [5708348e-8dbb-4f04-bad9-4efe1329c2dc]",
+                                           "IsContainer":  false,
+                                           "useGravity":  false,
+                                           "randomRotation":  false,
+                                           "Position":  {
+                                                            "x":  336.641,
+                                                            "y":  -59.253796,
+                                                            "z":  317.1171
+                                                        },
+                                           "Rotation":  {
+                                                            "x":  275.57935,
+                                                            "y":  179.99997,
+                                                            "z":  229.67838
+                                                        },
+                                           "IsAlwaysSpawn":  false,
+                                           "IsGroupPosition":  false,
+                                           "GroupPositions":  [
+
+                                                              ],
+                                           "Root":  "6aa42042e53d7781740ded6f",
+                                           "Items":  [
+                                                         {
+                                                             "_id":  "6aa42042e53d7781740ded6f",
+                                                             "_tpl":  "67bde1dc5678472f2a0e6167",
+                                                             "upd":  {
+                                                                         "StackObjectsCount":  1
+                                                                     }
+                                                         }
+                                                     ]
+                                       }
+                      },
+                      {
+                          "locationId":  "(409,05518, -52,593697, -39,7157)",
+                          "probability":  1,
+                          "template":  {
+                                           "Id":  "flash_protected [c1378957-a28d-4483-a59c-3a81713de91c]",
+                                           "IsContainer":  false,
+                                           "useGravity":  false,
+                                           "randomRotation":  false,
+                                           "Position":  {
+                                                            "x":  409.05518,
+                                                            "y":  -52.593697,
+                                                            "z":  -39.7157
+                                                        },
+                                           "Rotation":  {
+                                                            "x":  270.8994,
+                                                            "y":  6.0247064,
+                                                            "z":  180.00008
+                                                        },
+                                           "IsAlwaysSpawn":  false,
+                                           "IsGroupPosition":  false,
+                                           "GroupPositions":  [
+
+                                                              ],
+                                           "Root":  "6aa42042e53d7781740def09",
+                                           "Items":  [
+                                                         {
+                                                             "_id":  "6aa42042e53d7781740def09",
+                                                             "_tpl":  "67bde548cf0cc29475092192",
+                                                             "upd":  {
+                                                                         "StackObjectsCount":  1
+                                                                     }
+                                                         }
+                                                     ]
+                                       }
+                      }
+                  ],
+    "woods":  [
+                  {
+                      "locationId":  "(-254,771, 10,369, -32,96701)",
+                      "probability":  1,
+                      "template":  {
+                                       "Id":  "Ticket_black_box [05203c2f-8565-46e7-bfcc-27a2682833c8]",
+                                       "IsContainer":  false,
+                                       "useGravity":  false,
+                                       "randomRotation":  false,
+                                       "Position":  {
+                                                        "x":  -254.771,
+                                                        "y":  10.369,
+                                                        "z":  -32.96701
+                                                    },
+                                       "Rotation":  {
+                                                        "x":  272.53073,
+                                                        "y":  180,
+                                                        "z":  180
+                                                    },
+                                       "IsAlwaysSpawn":  false,
+                                       "IsGroupPosition":  false,
+                                       "GroupPositions":  [
+
+                                                          ],
+                                       "Root":  "6aa4509c3eba24a668120960",
+                                       "Items":  [
+                                                     {
+                                                         "_id":  "6aa4509c3eba24a668120960",
+                                                         "_tpl":  "67bde22566ca1d79a202462f",
+                                                         "upd":  {
+                                                                     "StackObjectsCount":  1
+                                                                 }
+                                                     }
+                                                 ]
+                                   }
+                  },
+                  {
+                      "locationId":  "(-248,90295, 12,005, -23,860992)",
+                      "probability":  1,
+                      "template":  {
+                                       "Id":  "Ticket_armored_case [392a8f5e-8c43-4728-b973-fb520851fbb3]",
+                                       "IsContainer":  false,
+                                       "useGravity":  false,
+                                       "randomRotation":  false,
+                                       "Position":  {
+                                                        "x":  -248.90295,
+                                                        "y":  12.005,
+                                                        "z":  -23.860992
+                                                    },
+                                       "Rotation":  {
+                                                        "x":  347.60635,
+                                                        "y":  180,
+                                                        "z":  180
+                                                    },
+                                       "IsAlwaysSpawn":  false,
+                                       "IsGroupPosition":  false,
+                                       "GroupPositions":  [
+
+                                                          ],
+                                       "Root":  "6aa4509c3eba24a6681209b8",
+                                       "Items":  [
+                                                     {
+                                                         "_id":  "6aa4509c3eba24a6681209b8",
+                                                         "_tpl":  "67bde59edb4b617a6c0d69f8",
+                                                         "upd":  {
+                                                                     "StackObjectsCount":  1
+                                                                 }
+                                                     }
+                                                 ]
+                                   }
+                  },
+                  {
+                      "locationId":  "(-247,89246, 12,0086, -23,612396)",
+                      "probability":  1,
+                      "template":  {
+                                       "Id":  "item_info_note_default_user [63e9b6b2-eb22-4408-80a3-93fcaef77f21]",
+                                       "IsContainer":  false,
+                                       "useGravity":  false,
+                                       "randomRotation":  false,
+                                       "Position":  {
+                                                        "x":  -247.89246,
+                                                        "y":  12.0086,
+                                                        "z":  -23.612396
+                                                    },
+                                       "Rotation":  {
+                                                        "x":  295.73395,
+                                                        "y":  352.36905,
+                                                        "z":  304.97015
+                                                    },
+                                       "IsAlwaysSpawn":  true,
+                                       "IsGroupPosition":  false,
+                                       "GroupPositions":  [
+
+                                                          ],
+                                       "Root":  "6aa4509d3eba24a668120a79",
+                                       "Items":  [
+                                                     {
+                                                         "_id":  "6aa4509d3eba24a668120a79",
+                                                         "_tpl":  "689b4ed2987b304021088e8f",
+                                                         "upd":  {
+                                                                     "StackObjectsCount":  1
+                                                                 }
+                                                     }
+                                                 ]
+                                   }
+                  }
+              ]
+}
