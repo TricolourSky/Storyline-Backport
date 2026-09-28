@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- VoiceRip：从 1.1 客户端的 traderlipsyncscriptableobject.bundle（2.26 GB，全部商人的口型 + 语音）里把指定商人的语音抠成 .ogg/.wav。
+       09-24 为「回复」按钮接 Kerman 对话写的。依赖同 ZoneExtract：uabea-v8 自带的 AssetsTools.NET + classdata.tpk，FSB5 解码用 Fmod5Sharp。 -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Uabea>E:\项目\VisitAPI\.work\native_bundle\tpk\uabea-v8</Uabea>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AssetsTools.NET"><HintPath>$(Uabea)\AssetsTools.NET.dll</HintPath></Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fmod5Sharp" Version="3.1.0" />
+    <PackageReference Include="NAudio" Version="3.1.0" />
+    <PackageReference Include="NAudio.Lame" Version="2.1.0" />
+    <PackageReference Include="NVorbis" Version="0.10.5" />
+    <PackageReference Include="OggVorbisEncoder" Version="1.2.2" />
+  </ItemGroup>
+</Project>

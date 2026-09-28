@@ -1,0 +1,508 @@
+{
+  "elements": [
+    {
+      "Id": "68e4d83afcf1e7cbdc80622d",
+      "IsStart": false,
+      "MainVariable": "68e4d83afcf1e7cbdc80622d",
+      "Trader": "5c0647fdd443bc2504c2d371",
+      "SubTraders": [],
+      "Lines": [
+        {
+          "Id": "68e4d95d5253dbe96fcf550a",
+          "DialogSide": "Player",
+          "IconType": "DialogBubble",
+          "ConfirmationKey": null,
+          "AnimationData": {
+            "animations": [],
+            "secondaryAnimations": [],
+            "lipSyncs": [],
+            "subtitles": [
+              {
+                "id": "68e4d9618e30b2ad6665ead6",
+                "start": 0.0,
+                "end": 1.0
+              }
+            ],
+            "media": {
+              "image": null,
+              "music": null,
+              "sound": null
+            }
+          },
+          "Actions": [
+            {
+              "variableId": "68ffd2c918e0a1aac6ca2132",
+              "value": 2,
+              "saveScope": "Profile",
+              "type": "SetVariable",
+              "id": "68ffeafc9d095df32843623b"
+            },
+            {
+              "variableId": "68e4d83afcf1e7cbdc80622d",
+              "value": 4,
+              "saveScope": "Dialogue",
+              "type": "SetVariable",
+              "id": "7e208c6afcc42539e97f2b5a"
+            }
+          ],
+          "Trigger": {
+            "type": "MainLogicalGroup",
+            "Conditions": [
+              {
+                "type": "LogicalSubGroup",
+                "Conditions": [
+                  {
+                    "variableId": "68e4d83afcf1e7cbdc80622d",
+                    "value": 0,
+                    "operator": "==",
+                    "type": "VariableValue"
+                  },
+                  {
+                    "QuestId": "68e3a3d2ff05916c250a898b",
+                    "Status": [
+                      "Started"
+                    ],
+                    "type": "QuestStatus"
+                  },
+                  {
+                    "QuestId": "68e3a3d2ff05916c250a898b",
+                    "ConditionId": "68e4e97ed2c83e861e65119c",
+                    "Status": true,
+                    "type": "QuestConditionStatus"
+                  },
+                  {
+                    "variableId": "68ffd2c918e0a1aac6ca2132",
+                    "value": 1,
+                    "operator": "==",
+                    "type": "VariableValue"
+                  }
+                ]
+              }
+            ]
+          },
+          "TraderId": null
+        },
+        {
+          "Id": "68e4d846b67534e5016bc5ed",
+          "DialogSide": "Player",
+          "IconType": "DialogBubble",
+          "ConfirmationKey": null,
+          "AnimationData": {
+            "animations": [],
+            "secondaryAnimations": [],
+            "lipSyncs": [],
+            "subtitles": [
+              {
+                "id": "68e4d853e5c1368850160f55",
+                "start": 0.0,
+                "end": 5.0
+              }
+            ],
+            "media": {
+              "image": null,
+              "music": null,
+              "sound": null
+            }
+          },
+          "Actions": [
+            {
+              "variableId": "68e4d83afcf1e7cbdc80622d",
+              "value": 1,
+              "saveScope": "Dialogue",
+              "type": "SetVariable",
+              "id": "84227c0db15e26f165617e6b"
+            }
+          ],
+          "Trigger": {
+            "type": "MainLogicalGroup",
+            "Conditions": [
+              {
+                "type": "LogicalSubGroup",
+                "Conditions": [
+                  {
+                    "variableId": "68e4d83afcf1e7cbdc80622d",
+                    "value": 0,
+                    "operator": "==",
+                    "type": "VariableValue"
+                  },
+                  {
+                    "QuestId": "68e3a3d2ff05916c250a898b",
+                    "Status": [
+                      1
+                    ],
+                    "type": "QuestStatus"
+                  }
+                ]
+              }
+            ]
+          },
+          "TraderId": null
+        },
+        {
+          "Id": "68e4d860373a2807da53e001",
+          "DialogSide": "Npc",
+          "IconType": "DialogBubble",
+          "ConfirmationKey": null,
+          "AnimationData": {
+            "animations": [
+              {
+                "animationId": "Yes_42",
+                "start": 0.0,
+                "end": 5.7143,
+                "speed": 0.77
+              }
+            ],
+            "secondaryAnimations": [
+              {
+                "animationId": "Hand_010",
+                "start": 2.86,
+                "end": 6.36,
+                "speed": 1.0
+              }
+            ],
+            "lipSyncs": [
+              {
+                "lipSyncId": "L_da_u_nego_est_nescolko_kluchei",
+                "start": 0.0,
+                "end": 5.43,
+                "volume": 1.0
+              }
+            ],
+            "subtitles": [
+              {
+                "id": "68e4d868cde2bed204f4422f",
+                "start": 0.0,
+                "end": 5.43
+              }
+            ],
+            "media": {
+              "image": null,
+              "music": null,
+              "sound": null
+            }
+          },
+          "Actions": [
+            {
+              "variableId": "68e4d83afcf1e7cbdc80622d",
+              "value": 2,
+              "saveScope": "Dialogue",
+              "type": "SetVariable",
+              "id": "873bea5270afa881b1b9c519"
+            }
+          ],
+          "Trigger": {
+            "type": "MainLogicalGroup",
+            "Conditions": [
+              {
+                "type": "LogicalSubGroup",
+                "Conditions": [
+                  {
+                    "variableId": "68e4d83afcf1e7cbdc80622d",
+                    "value": 1,
+                    "operator": "==",
+                    "type": "VariableValue"
+                  }
+                ]
+              }
+            ]
+          },
+          "TraderId": "5c0647fdd443bc2504c2d371"
+        },
+        {
+          "Id": "68e4d8850ff93fa35194e28a",
+          "DialogSide": "Player",
+          "IconType": "QuitIcon",
+          "ConfirmationKey": null,
+          "AnimationData": {
+            "animations": [],
+            "secondaryAnimations": [],
+            "lipSyncs": [],
+            "subtitles": [
+              {
+                "id": "68e4d8919bc51801b5c83137",
+                "start": 0.0,
+                "end": 1.0
+              }
+            ],
+            "media": {
+              "image": null,
+              "music": null,
+              "sound": null
+            }
+          },
+          "Actions": [
+            {
+              "type": "AcceptQuest",
+              "questId": "68e3a3d2ff05916c250a898b",
+              "needNotification": true,
+              "id": "68ffd36c0bdc91be22271254"
+            },
+            {
+              "variableId": "68ffd2c918e0a1aac6ca2132",
+              "value": 1,
+              "saveScope": "Profile",
+              "type": "SetVariable",
+              "id": "68fff06d646995301c8446c6"
+            },
+            {
+              "type": "QuitAction",
+              "needNotification": false,
+              "id": "68e4d8a0d051cc3df2aa8e31"
+            },
+            {
+              "variableId": "68e4d83afcf1e7cbdc80622d",
+              "value": 3,
+              "saveScope": "Dialogue",
+              "type": "SetVariable",
+              "id": "f59caf2454ddf6eb771e2141"
+            }
+          ],
+          "Trigger": {
+            "type": "MainLogicalGroup",
+            "Conditions": [
+              {
+                "type": "LogicalSubGroup",
+                "Conditions": [
+                  {
+                    "variableId": "68e4d83afcf1e7cbdc80622d",
+                    "value": 2,
+                    "operator": "==",
+                    "type": "VariableValue"
+                  }
+                ]
+              }
+            ]
+          },
+          "TraderId": null
+        },
+        {
+          "Id": "68e4d97c205a530def361a86",
+          "DialogSide": "Npc",
+          "IconType": "DialogBubble",
+          "ConfirmationKey": null,
+          "AnimationData": {
+            "animations": [
+              {
+                "animationId": "Item_From_Player",
+                "start": 0.0,
+                "end": 10.4,
+                "speed": 1.0
+              }
+            ],
+            "secondaryAnimations": [
+              {
+                "animationId": "Item_To_Player",
+                "start": 8.19,
+                "end": 15.89,
+                "speed": 1.0
+              }
+            ],
+            "lipSyncs": [
+              {
+                "lipSyncId": "L_parshivo_vuhodit_no_delo",
+                "start": 2.63,
+                "end": 12.7473,
+                "volume": 1.0
+              }
+            ],
+            "subtitles": [
+              {
+                "id": "68e4d97ee4d5dfa8a9714428",
+                "start": 2.63,
+                "end": 12.750001
+              }
+            ],
+            "media": {
+              "image": null,
+              "music": null,
+              "sound": null
+            }
+          },
+          "Actions": [
+            {
+              "dialogId": "68cc0914aa2dd1fe171e75a1",
+              "splitterNodeId": "68cc0914a27fccfce783a155",
+              "type": "SwitchDialog",
+              "needNotification": false,
+              "id": "69000fb4fc54acb9d9bd545c"
+            },
+            {
+              "variableId": "68e4d83afcf1e7cbdc80622d",
+              "value": 5,
+              "saveScope": "Dialogue",
+              "type": "SetVariable",
+              "id": "2a262c73f6bf7c22adb361c8"
+            }
+          ],
+          "Trigger": {
+            "type": "MainLogicalGroup",
+            "Conditions": [
+              {
+                "type": "LogicalSubGroup",
+                "Conditions": [
+                  {
+                    "variableId": "68e4d83afcf1e7cbdc80622d",
+                    "value": 4,
+                    "operator": "==",
+                    "type": "VariableValue"
+                  }
+                ]
+              }
+            ]
+          },
+          "TraderId": "5c0647fdd443bc2504c2d371"
+        }
+      ],
+      "StartPoints": {
+        "68e4d841c06b1bfcac86e3e4": 0,
+        "68e4d86095e6d0946f67f36f": 1,
+        "68e4d88523be85841903ad75": 2,
+        "68e4d8938a348eb2ea21c0c9": 3,
+        "68e4d97c467bcce9c3f37c0f": 4,
+        "69000fa98916286fb6c15827": 5
+      },
+      "localization": {
+        "ch": {
+          "68e4d853e5c1368850160f55": "“迷宫”的事情有进展了吗？你和你朋友联系过了没？",
+          "68e4d868cde2bed204f4422f": "没错，他那里的确还有钥匙，他也很乐意分给你几把，但前提是你得查出那些 BEAR 到底怎么了。",
+          "68e4d8919bc51801b5c83137": "好，等我查到什么，我会回来找你的。",
+          "68e4d9618e30b2ad6665ead6": "我找到了那支 BEAR 小队。设施里的 TerraGroup 科学家死前在录音里坦白了一切。你朋友肯定不会听我一张嘴就相信下面发生的情况，所以你直接把这盘带子转交给他吧。",
+          "68e4d97ee4d5dfa8a9714428": "真是个烂摊子……不过你倒是干成了。我朋友送了点东西给你，算是谢礼。给。"
+        },
+        "cz": {
+          "68e4d853e5c1368850160f55": "Tak co nového s Labyrintem? Kontaktoval jsi toho svýho kámoše?",
+          "68e4d868cde2bed204f4422f": "Jo. Má nějaký klíče a je ochotnej se podělit, když zjistíš, co se stalo s těma BEARama.",
+          "68e4d8919bc51801b5c83137": "Dobře. Vrátím se, až budu něco vědět.",
+          "68e4d9618e30b2ad6665ead6": "Našel jsem tvý BEARY. Jeden z lidí od TerraGroup nahrál svý přiznání před smrtí. Tvůj kámoš nebude věřit jen mým slovům, takže bude nejlepší, když mu dáš tuhle nahrávku.",
+          "68e4d97ee4d5dfa8a9714428": "To je bordel… No, odvedl jsi práci. Můj kámoš ti něco poslal jako poděkování. Tady."
+        },
+        "en": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        },
+        "fr": {
+          "68e4d853e5c1368850160f55": "Alors, des nouvelles du Labyrinthe ? Avez-vous contacté votre ami ?",
+          "68e4d868cde2bed204f4422f": "Oui. Il a quelques clés et est prêt à les partager si vous découvrez ce qui est arrivé aux BEAR.",
+          "68e4d8919bc51801b5c83137": "Très bien. Je reviendrai une fois que j’en saurai plus.",
+          "68e4d9618e30b2ad6665ead6": "J’ai retrouvé vos BEAR. L’un des types de TerraGroup a enregistré ses aveux avant de mourir. Votre ami ne croira pas seulement mes paroles, alors le mieux est que vous lui donniez cette bande.",
+          "68e4d97ee4d5dfa8a9714428": "Quel bordel… Bon, tu as fait le travail. Mon ami t’a envoyé quelque chose en guise de remerciement. Tiens."
+        },
+        "ge": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        },
+        "hu": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        },
+        "it": {
+          "68e4d853e5c1368850160f55": "Allora, quali sono le novità sul Labirinto? Hai contattato il tuo amico?",
+          "68e4d868cde2bed204f4422f": "Sì. Ha delle chiavi ed è disposto a condividerle se scopri cosa è successo ai BEAR.",
+          "68e4d8919bc51801b5c83137": "Va bene. Tornerò non appena avrò notizie.",
+          "68e4d9618e30b2ad6665ead6": "Ho trovato i tuoi BEAR. Uno dei membri del TerraGroup ha registrato la sua confessione prima di morire. Il tuo amico non crederà alle mie sole parole, quindi è meglio che gli dai questo nastro.",
+          "68e4d97ee4d5dfa8a9714428": "Che casino... Beh, hai fatto il tuo dovere. Il mio amico ti ha mandato qualcosa come ringraziamento. Tieni."
+        },
+        "jp": {
+          "68e4d853e5c1368850160f55": "それで、The Labyrinth の情報はあるか？友人とは連絡がついたか？",
+          "68e4d868cde2bed204f4422f": "ああ、彼は鍵をいくつか持っていた、もし BEAR 達に何が起こったのかが分かったらいくつか分けてくれるみたいだ。",
+          "68e4d8919bc51801b5c83137": "分かった。なにか分かったらまた戻る。",
+          "68e4d9618e30b2ad6665ead6": "あんたの BEAR 達を見つけた。TerraGroup の一人が死ぬ前に告解を録音したみたいだ。あんたの友達は俺の言葉だけでは信じないだろうし、このテープを渡したほうがいいな。",
+          "68e4d97ee4d5dfa8a9714428": "なんてひどいんだ...ああ、お前さんはよくやってくれたよ。私の友人がお礼になにか送ってくれたよ。これだ。"
+        },
+        "kr": {
+          "68e4d853e5c1368850160f55": "그래서, 미궁에 관한 건 어떻게 되었지? 자네의 친구하고는 연락이 닿았나?",
+          "68e4d868cde2bed204f4422f": "그래. 그 이가 열쇠를 좀 가지고 있다고 했네. 자네가 그 BEAR 분대의 행방에 관해 알아본다고 하면 좀 나눠주겠다고 하더군.",
+          "68e4d8919bc51801b5c83137": "알았다. 뭐라도 알아낸 후에 돌아오지.",
+          "68e4d9618e30b2ad6665ead6": "그 BEAR 분대의 행방을 알아냈다. 테라그룹 직원 중 한 명이 죽기 직전에 자백을 녹음해 뒀더군. 당신 친구는 내 말만 들어서는 믿지 않을 테니, 이 테이프를 그에게 전해주는 게 좋을 것 같다.",
+          "68e4d97ee4d5dfa8a9714428": "완전 난장판이군… 뭐, 자네는 자네의 역할을 다해 주었네. 내 친구가 자네에게 감사의 표시로 무언가를 보냈더군. 여기 있네."
+        },
+        "pl": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        },
+        "po": {
+          "68e4d853e5c1368850160f55": "E as novidades sobre o Labirinto? Entrou em contato com seu amigo?",
+          "68e4d868cde2bed204f4422f": "Sim. Ele tem algumas chaves e está disposto a compartilhar se você descobrir o que aconteceu com os BEARs.",
+          "68e4d8919bc51801b5c83137": "Certo. Voltarei quando souber alguma coisa.",
+          "68e4d9618e30b2ad6665ead6": "Encontrei os seus BEARs. Um dos funcionários da TerraGroup gravou sua confissão antes de morrer. Seu amigo não vai acreditar só na minha palavra, então é melhor você dar essa fita a ele.",
+          "68e4d97ee4d5dfa8a9714428": "Que confusão… Bem, você fez o trabalho. Meu amigo te mandou algo como agradecimento. Aqui."
+        },
+        "sk": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        },
+        "es": {
+          "68e4d853e5c1368850160f55": "¿Qué noticias hay sobre Labyrinth? ¿Te has puesto en contacto con tu amigo?",
+          "68e4d868cde2bed204f4422f": "Sí. Tiene algunas llaves y está dispuesto a compartirlas si averiguas qué ocurrió con los BEAR.",
+          "68e4d8919bc51801b5c83137": "Vale. Volveré en cuanto tenga noticias.",
+          "68e4d9618e30b2ad6665ead6": "Encontré a tus BEAR. Uno de los miembros de TerraGroup grabó su confesión antes de morir. Tu amigo no creerá solo en mis palabras, así que lo mejor es que le des esta cinta.",
+          "68e4d97ee4d5dfa8a9714428": "Menudo lío… Bueno, has hecho el trabajo. Mi amigo te ha enviado algo como agradecimiento. Toma."
+        },
+        "es-mx": {
+          "68e4d853e5c1368850160f55": "¿Qué noticias hay sobre el Laberinto? ¿Te pusiste en contacto con tu amigo?",
+          "68e4d868cde2bed204f4422f": "Sí. Tiene algunas llaves y está dispuesto a compartirlas si averiguas qué pasó con los BEAR.",
+          "68e4d8919bc51801b5c83137": "De acuerdo. Volveré en cuanto tenga noticias.",
+          "68e4d9618e30b2ad6665ead6": "Encontré a tus BEAR. Uno de los miembros de TerraGroup grabó su confesión antes de morir. Tu amigo no va a creer solo en mis palabras, así que lo mejor es que le des esta cinta.",
+          "68e4d97ee4d5dfa8a9714428": "Qué desastre… Bueno, hiciste el trabajo. Mi amigo te ha enviado algo como agradecimiento. Toma."
+        },
+        "tu": {
+          "68e4d853e5c1368850160f55": "Peki Labirent hakkında ne haber var? Arkadaşına ulaştın mı?",
+          "68e4d868cde2bed204f4422f": "Evet. Anahtarları varmış ve BEAR’lara ne olduğunu öğrenirsen seninle paylaşmaya hazır.",
+          "68e4d8919bc51801b5c83137": "Tamam. Bir şey öğrendiğimde geri dönerim.",
+          "68e4d9618e30b2ad6665ead6": "BEAR’larını buldum. TerraGroup’çulardan biri ölmeden önce itirafını kaydetmiş. Arkadaşın benim sözüme inanmaz, o yüzden bu kaseti ona sen ver.",
+          "68e4d97ee4d5dfa8a9714428": "Ne karmaşa… Neyse, işi yaptın. Arkadaşım sana teşekkür olarak bir şey gönderdi. Al."
+        },
+        "ru": {
+          "68e4d853e5c1368850160f55": "Так что насчёт Лабиринта? Удалось поговорить с товарищем?",
+          "68e4d868cde2bed204f4422f": "Да. У него есть несколько ключей, и он готов поделиться, если ты узнаешь, как погибли бирцы.",
+          "68e4d8919bc51801b5c83137": "Хорошо. Вернусь, как что-то узнаю.",
+          "68e4d9618e30b2ad6665ead6": "Нашёл я твоих бирцов. Один террагруповец перед смертью решил душу излить и всё записал. Со слов твой друг в такое не поверит, лучше передай ему эту кассету.",
+          "68e4d97ee4d5dfa8a9714428": "Паршиво выходит… Но дело ты сделал. Товарищ передал тебе кой-чего, вместо “Спасибо”. Держи."
+        },
+        "ro": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        },
+        "vi": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        },
+        "in": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        },
+        "th": {
+          "68e4d853e5c1368850160f55": "So what’s the news on the Labyrinth? Did you contact your friend?",
+          "68e4d868cde2bed204f4422f": "Yes. He has some keys and is willing to share if you find out what happened to the BEARs.",
+          "68e4d8919bc51801b5c83137": "Alright. I’ll return once I know something.",
+          "68e4d9618e30b2ad6665ead6": "I found your BEARs. One of the TerraGroup people recorded his confession before dying. Your friend’s not gonna believe just my words, so it’s best you give him this tape.",
+          "68e4d97ee4d5dfa8a9714428": "What a mess… Well, you did the job. My friend sent you something as a thank-you. Here."
+        }
+      }
+    }
+  ]
+}

@@ -17,7 +17,69 @@
       ]
     },
     {
-      "key": "assets/content/items/infosubject/item_info_quest_briefcase/item_info_quest_briefcase.bundle",
+      "key": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_labyrinth.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_comand_from_leshiy.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_notepad_a5_closed_01.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_plasticbag_labyrinth.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/items/quest/item_quest_letter/letter_assets.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_01.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_02.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_03.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_04.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_05.bundle",
       "dependencyKeys": [
         "assets/commonassets/physics/physicsmaterials.bundle",
         "cubemaps",

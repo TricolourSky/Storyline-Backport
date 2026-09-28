@@ -1,0 +1,1723 @@
+{
+  "688897992f6b5b76380e6af9": {
+    "template": {
+      "_id": "688897992f6b5b76380e6af9",
+      "_name": "item_info_recorder_tape_labyrinth",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3d2ff05916c250a898b",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_recorder_tape_labyrinth",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_plastic_generic",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_recorder_tape_labyrinth",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_labyrinth.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_recorder_tape_labyrinth",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.065,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NotificationDuration": 0.2,
+        "Subtitles": "TapesSubs/sound_info_recorder_tape_labyrinth",
+        "TapeID": "sound_info_recorder_tape_labyrinth",
+        "Transcript": "TapesText/sound_info_recorder_tape_labyrinth"
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "死去科学家的录音带",
+        "ShortName": "迷宫",
+        "Description": "一名 TerraGroup 科学家的遗言录音，在生命的最后时刻，他把自己锁在了“迷宫”的观察室内。"
+      },
+      "cz": {
+        "Name": "Zvuková nahrávka zesnulého vědce",
+        "ShortName": "Labyrinth",
+        "Description": "Poslední záznam vědce TerraGroup, který se zamkl v pozorovací místnosti Labyrintu."
+      },
+      "en": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "es": {
+        "Name": "Cinta de audio del científico fallecido",
+        "ShortName": "Labyrinth",
+        "Description": "La última grabación de un científico de TerraGroup que se encerró en la sala de observación de Labyrinth."
+      },
+      "es-mx": {
+        "Name": "Cinta de audio del científico fallecido",
+        "ShortName": "Laberinto",
+        "Description": "La última grabación de un científico de TerraGroup que se encerró en la sala de observación del Laberinto."
+      },
+      "fr": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "ge": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "hu": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "in": {
+        "Name": "Rekaman audio ilmuwan yang telah meninggal",
+        "ShortName": "Labirin",
+        "Description": "Rekaman terakhir seorang ilmuwan TerraGroup yang mengunci dirinya di ruang observasi Labirin."
+      },
+      "it": {
+        "Name": "Nastro audio dello scienziato deceduto",
+        "ShortName": "Labirinto",
+        "Description": "L'ultima registrazione di uno scienziato della TerraGroup che si è chiuso nella sala di osservazione del Labirinto."
+      },
+      "jp": {
+        "Name": "死亡した科学者の音声テープ",
+        "ShortName": "Labyrinth",
+        "Description": "Labyrinth の観測室に自分を閉じ込めた TerraGroup の科学者の最後の記録。"
+      },
+      "kr": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "pl": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "po": {
+        "Name": "Fita de áudio do cientista falecido",
+        "ShortName": "Labirinto",
+        "Description": "A gravação final de um cientista da TerraGroup que se trancou na sala de observação do Labirinto."
+      },
+      "ro": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "ru": {
+        "Name": "Аудиокассета застрелившегося учёного",
+        "ShortName": "Лабир.",
+        "Description": "Последняя запись учёного TerraGroup, который заперся в комнате наблюдения Лабиринта."
+      },
+      "sk": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "th": {
+        "Name": "เทปเสียงของนักวิทยาศาสตร์ที่เสียชีวิต",
+        "ShortName": "เขาวงกต",
+        "Description": "การบันทึกครั้งสุดท้ายของนักวิทยาศาสตร์ TerraGroup ที่ขังตัวเองอยู่ในห้องสังเกตการณ์เขาวงกต"
+      },
+      "tu": {
+        "Name": "Deceased scientist's audio tape",
+        "ShortName": "Labyrinth",
+        "Description": "The final recording of a TerraGroup scientist who locked himself in the Labyrinth observation room."
+      },
+      "vi": {
+        "Name": "Băng ghi âm của nhà khoa học đã khuất",
+        "ShortName": "Mê cung",
+        "Description": "Bản ghi âm cuối cùng của một nhà khoa học TerraGroup đã tự nhốt mình trong phòng quan sát Labyrinth."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fa018c12620073059932": {
+    "template": {
+      "_id": "68d2fa018c12620073059932",
+      "_name": "item_info_note_comand_from_leshiy",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3d2ff05916c250a898b",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_comand_from_leshiy",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_comand_from_leshiy",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_comand_from_leshiy.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_comand_from_leshiy",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_comand_from_leshiy_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "Leshy 的命令",
+        "ShortName": "Leshy",
+        "Description": "一张纸条，上面记录着呼号 Leshy 的指挥官发布的命令。"
+      },
+      "cz": {
+        "Name": "Leshyho rozkazy",
+        "ShortName": "Leshy",
+        "Description": "Zpráva obsahující rozkaz od velitele známého jako Leshy."
+      },
+      "en": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "es": {
+        "Name": "Órdenes de Leshy",
+        "ShortName": "Leshy",
+        "Description": "Una nota con la orden de un comandante conocido como Leshy."
+      },
+      "es-mx": {
+        "Name": "Órdenes de Leshy",
+        "ShortName": "Leshy",
+        "Description": "Una nota con una orden de un comandante conocido como Leshy."
+      },
+      "fr": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "ge": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "hu": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "in": {
+        "Name": "Perintah Leshy",
+        "ShortName": "Leshy",
+        "Description": "Sebuah catatan yang berisi perintah dari seorang komandan yang dikenal sebagai Leshy."
+      },
+      "it": {
+        "Name": "Gli ordini di Leshy",
+        "ShortName": "Leshy",
+        "Description": "Una nota contenente un ordine da parte di un comandante noto come Leshy."
+      },
+      "jp": {
+        "Name": "レシーの命令",
+        "ShortName": "Leshy",
+        "Description": "レシーで知られる指揮官からの命令が記されたメモ。"
+      },
+      "kr": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "pl": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "po": {
+        "Name": "Ordens de Leshy",
+        "ShortName": "Leshy",
+        "Description": "Uma nota contendo uma ordem de um comandante conhecido como Leshy."
+      },
+      "ro": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "ru": {
+        "Name": "Приказ от Лешего",
+        "ShortName": "Прик.Леш.",
+        "Description": "На записке кто-то оставил приказ командира с позывным Леший."
+      },
+      "sk": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "th": {
+        "Name": "คำสั่งของเลชี่",
+        "ShortName": "เลชี่",
+        "Description": "บันทึกที่มีคำสั่งจากผู้บัญชาการที่รู้จักกันในชื่อเลชี"
+      },
+      "tu": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      },
+      "vi": {
+        "Name": "Leshy's orders",
+        "ShortName": "Leshy",
+        "Description": "A note containing an order from a commander known as Leshy."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fd582ca1a737d107b84f": {
+    "template": {
+      "_id": "68d2fd582ca1a737d107b84f",
+      "_name": "item_info_note_diary_leshiy",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3d2ff05916c250a898b",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_diary_leshiy",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_diary_leshiy",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_notepad_a5_closed_01.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_diary_leshiy",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.01,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_diary_leshiy_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "Leshy 的日志",
+        "ShortName": "Leshy笔记",
+        "Description": "Leshy 留下的笔记，上面详细记载了他勘察“迷宫”的结果，以及突袭迷宫期间发生情况的报告。"
+      },
+      "cz": {
+        "Name": "Leshyho deník",
+        "ShortName": "D. Leshy",
+        "Description": "Poznámky od Leshyho, popisující mapování Labyrintu a hlášení o událostech po útoku."
+      },
+      "en": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "es": {
+        "Name": "Diario de Leshy",
+        "ShortName": "D. Leshy",
+        "Description": "Notas de Leshy, en las que detalla su mapeado de The Labyrinth e informa sobre los acontecimientos posteriores al asalto."
+      },
+      "es-mx": {
+        "Name": "Diario de Leshy",
+        "ShortName": "D. Leshy",
+        "Description": "Notas de Leshy, en las que detalla su mapeado del Laberinto e informa sobre los acontecimientos posteriores al asalto."
+      },
+      "fr": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "ge": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "hu": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "in": {
+        "Name": "Buku harian Leshy",
+        "ShortName": "D. Leshy",
+        "Description": "Catatan dari Leshy, merinci pemetaannya terhadap The Labyrinth dan laporan mengenai kejadian setelah penyerangan."
+      },
+      "it": {
+        "Name": "Il diario di Leshy",
+        "ShortName": "D. Leshy",
+        "Description": "Appunti di Leshy, che descrivono in dettaglio la sua mappatura del Labirinto e riportano gli eventi successivi all'assalto."
+      },
+      "jp": {
+        "Name": "レシーの日記",
+        "ShortName": "D. Leshy",
+        "Description": "The Labyrinth の地図作成と、襲撃後の出来事に関する詳細が記されたレシーのメモ。"
+      },
+      "kr": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "pl": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "po": {
+        "Name": "Diário de Leshy",
+        "ShortName": "D. Leshy",
+        "Description": "Notas de Leshy, detalhando seu mapeamento do Labirinto e relatórios sobre eventos após o ataque."
+      },
+      "ro": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "ru": {
+        "Name": "Дневник Лешего",
+        "ShortName": "Днев.Леш.",
+        "Description": "В дневнике Леший пытался составить карту Лабиринта и вёл отчёты о происходящих после штурма событиях."
+      },
+      "sk": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "th": {
+        "Name": "ไดอารี่ของเลชี่",
+        "ShortName": "ดี. เลชี",
+        "Description": "บันทึกจาก Leshy ที่ให้รายละเอียดเกี่ยวกับการทำแผนที่เขาวงกตและรายงานเหตุการณ์หลังการโจมตี"
+      },
+      "tu": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      },
+      "vi": {
+        "Name": "Leshy's diary",
+        "ShortName": "D. Leshy",
+        "Description": "Notes from Leshy, detailing his mapping of The Labyrinth and reports on events following the assault."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fdbbf8817df4690db3d5": {
+    "template": {
+      "_id": "68d2fdbbf8817df4690db3d5",
+      "_name": "item_info_note_research_labyrinth",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3e51edf1ca810009a99",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "violet",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_research_labyrinth",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_research_labyrinth",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_plasticbag_labyrinth.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_research_labyrinth",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.043,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_research_labyrinth_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "“迷宫”设施研发报告",
+        "ShortName": "迷宫实验",
+        "Description": "沃罗年科有关 TerraGroup 在“迷宫”中对人类实验对象进行活体实验的详细报告。"
+      },
+      "cz": {
+        "Name": "Zpráva o výzkumu zařízení Labyrinth",
+        "ShortName": "Laby výz.",
+        "Description": "Voronenkova zpráva podrobně popisuje experimenty, které TerraGroup prováděla na lidech v Labyrintu."
+      },
+      "en": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "es": {
+        "Name": "Informe de investigación sobre las instalaciones de Labyrinth",
+        "ShortName": "Inf. Laby",
+        "Description": "El informe de Voronenko detalla los experimentos que TerraGroup llevó a cabo con seres humanos en The Labyrinth."
+      },
+      "es-mx": {
+        "Name": "Informe de investigación sobre las instalaciones del Laberinto",
+        "ShortName": "Inf. Labe",
+        "Description": "El informe de Voronenko detalla los experimentos que TerraGroup llevó a cabo con seres humanos en El Laberinto."
+      },
+      "fr": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "ge": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "hu": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "in": {
+        "Name": "Laporan penelitian fasilitas labirin",
+        "ShortName": "Laby res.",
+        "Description": "Laporan Voronenko merinci eksperimen yang dilakukan TerraGroup terhadap manusia di The Labyrinth."
+      },
+      "it": {
+        "Name": "Rapporto di ricerca sulla struttura Labyrinth",
+        "ShortName": "Laby res.",
+        "Description": "Il rapporto di Voronenko descrive in dettaglio gli esperimenti condotti da TerraGroup sugli esseri umani nel Labirinto."
+      },
+      "jp": {
+        "Name": "Labyrinth の施設調査報告書",
+        "ShortName": "Laby res.",
+        "Description": "ヴォロネンコの報告書は、TerraGroup が The Labyrinth で人間に対して行った実験の詳細を記している。"
+      },
+      "kr": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "pl": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "po": {
+        "Name": "Relatório de pesquisa da instalação do Labirinto",
+        "ShortName": "Laby res.",
+        "Description": "O relatório de Voronenko detalha os experimentos que TerraGroup conduziu em humanos no Labirinto."
+      },
+      "ro": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "ru": {
+        "Name": "Отчёт об исследованиях на объекте «Лабиринт»",
+        "ShortName": "Лабир.Иссл.",
+        "Description": "В очтёте Вороненко подробно описан ход испытаний, которые TerraGroup проводила на людях в подвалах Лабиринта."
+      },
+      "sk": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "th": {
+        "Name": "รายงานการวิจัยสิ่งอำนวยความสะดวกเขาวงกต",
+        "ShortName": "ลาบี้ เรส",
+        "Description": "รายงานของ Voronenko ให้รายละเอียดเกี่ยวกับการทดลองที่ TerraGroup ดำเนินการกับมนุษย์ใน The Labyrinth"
+      },
+      "tu": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      },
+      "vi": {
+        "Name": "Labyrinth facility research report",
+        "ShortName": "Laby res.",
+        "Description": "Voronenko's report details the experiments TerraGroup conducted on humans in The Labyrinth."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fa3abe7c1493b90cd3f9": {
+    "template": {
+      "_id": "68d2fa3abe7c1493b90cd3f9",
+      "_name": "item_info_note_laborant_labyrinth_01",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3d2ff05916c250a898b",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_laborant_labyrinth_01",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_laborant_labyrinth_01",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_01.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_laborant_labyrinth_01",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_laborant_labyrinth_01_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "研究助理关于 #12 组测试对象的笔记",
+        "ShortName": "迷宫#12",
+        "Description": "这份笔记提到了在人类试验对象上开展的中枢神经系统稳定性实验。"
+      },
+      "cz": {
+        "Name": "Asistentovy poznámky o Skupině #12",
+        "ShortName": "Laby #12",
+        "Description": "Poznámka zmiňuje experimenty se stabilitou centrálního nervového systému, prováděné na lidských subjektech."
+      },
+      "en": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "es": {
+        "Name": "Notas del asistente sobre el Grupo #12",
+        "ShortName": "Laby #12",
+        "Description": "La nota menciona experimentos sobre la estabilidad del sistema nervioso central, realizados en seres humanos."
+      },
+      "es-mx": {
+        "Name": "Notas del asistente sobre el Grupo #12",
+        "ShortName": "Labe #12",
+        "Description": "La nota menciona experimentos sobre la estabilidad del sistema nervioso central, realizados en seres humanos."
+      },
+      "fr": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "ge": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "hu": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "in": {
+        "Name": "Catatan Asisten pada Grup #12",
+        "ShortName": "Laby #12",
+        "Description": "Catatan tersebut menyebutkan eksperimen pada stabilitas sistem saraf pusat, yang dilakukan pada subjek manusia."
+      },
+      "it": {
+        "Name": "Note dell'assistente sul Gruppo #12",
+        "ShortName": "Laby #12",
+        "Description": "La nota menziona esperimenti sulla stabilità del sistema nervoso centrale, condotti su soggetti umani."
+      },
+      "jp": {
+        "Name": "グループ #12 に関するアシスタントのメモ",
+        "ShortName": "Laby #12",
+        "Description": "このメモには、人間を対象に実施された中枢神経系の安定性に関する実験について言及されている。"
+      },
+      "kr": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "pl": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "po": {
+        "Name": "Notas do assistente sobre o Grupo #12",
+        "ShortName": "Laby #12",
+        "Description": "A nota menciona experimentos sobre a estabilidade do sistema nervoso central, conduzidos em sujeitos humanos."
+      },
+      "ro": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "ru": {
+        "Name": "Записка лаборанта о группе №12",
+        "ShortName": "Лабир. 12",
+        "Description": "В записке упоминается тестирование устойчивости ЦНС, Опыты проводились на людях."
+      },
+      "sk": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "th": {
+        "Name": "บันทึกของผู้ช่วยกลุ่มที่ 12",
+        "ShortName": "ลาบี้ #12",
+        "Description": "หมายเหตุดังกล่าวกล่าวถึงการทดลองเกี่ยวกับเสถียรภาพของระบบประสาทส่วนกลางที่ดำเนินการกับมนุษย์"
+      },
+      "tu": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      },
+      "vi": {
+        "Name": "Assistant's notes on Group #12",
+        "ShortName": "Laby #12",
+        "Description": "The note mentions experiments on central nervous system stability, conducted on human subjects."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fa6d4aae290cf704e371": {
+    "template": {
+      "_id": "68d2fa6d4aae290cf704e371",
+      "_name": "item_info_note_laborant_labyrinth_02",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3d2ff05916c250a898b",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_laborant_labyrinth_02",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_laborant_labyrinth_02",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_02.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_laborant_labyrinth_02",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_laborant_labyrinth_02_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "研究助理关于 #3 组测试对象的笔记",
+        "ShortName": "迷宫#3",
+        "Description": "根据笔记上的描述，实验对象是被刻意诱导至精神错乱状态的。"
+      },
+      "cz": {
+        "Name": "Asistentovy poznámky o Skupině #3",
+        "ShortName": "Laby #3",
+        "Description": "Podle poznámky byli testovací subjekty záměrně doháněny k psychóze."
+      },
+      "en": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      },
+      "es": {
+        "Name": "Notas del asistente sobre el Grupo #3",
+        "ShortName": "Laby #3",
+        "Description": "De acuerdo con la nota, los sujetos de prueba fueron inducidos a la psicosis de forma deliberada."
+      },
+      "es-mx": {
+        "Name": "Notas del asistente sobre el Grupo #3",
+        "ShortName": "Labe #3",
+        "Description": "De acuerdo con la nota, los sujetos de prueba fueron deliberadamente inducidos a la psicosis."
+      },
+      "fr": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      },
+      "ge": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      },
+      "hu": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      },
+      "in": {
+        "Name": "Catatan Asisten pada Grup #3",
+        "ShortName": "Laby #3",
+        "Description": "Menurut catatan tersebut, subjek uji sengaja didorong ke kondisi psikosis."
+      },
+      "it": {
+        "Name": "Note dell'assistente sul Gruppo #3",
+        "ShortName": "Laby #3",
+        "Description": "Secondo la nota, i soggetti del test sono stati deliberatamente portati alla psicosi."
+      },
+      "jp": {
+        "Name": "グループ #3 に関するアシスタントのメモ",
+        "ShortName": "Laby #3",
+        "Description": "メモによれば、被験者は意図的に精神病状態に追い込まれた。"
+      },
+      "kr": {
+        "Name": "3번 그룹에 관한 연구원 조수의 기록",
+        "ShortName": "미궁 #3",
+        "Description": "본 기록에 의하면, 실험체들은 고의로 정신병 상태에 이르게 되었습니다."
+      },
+      "pl": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      },
+      "po": {
+        "Name": "Notas do assistente sobre o Grupo #3",
+        "ShortName": "Laby #3",
+        "Description": "De acordo com a nota, os sujeitos de teste foram deliberadamente levados à psicose."
+      },
+      "ro": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      },
+      "ru": {
+        "Name": "Записка лаборанта о группе №3",
+        "ShortName": "Лабир. 3",
+        "Description": "Судя по записке лаборанта, подопытных специально доводили до психозов."
+      },
+      "sk": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      },
+      "th": {
+        "Name": "บันทึกของผู้ช่วยในกลุ่มที่ 3",
+        "ShortName": "เขาวงกต #3",
+        "Description": "ตามบันทึกระบุว่า ผู้เข้ารับการทดสอบถูกกระตุ้นให้เกิดอาการทางจิตโดยเจตนา"
+      },
+      "tu": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      },
+      "vi": {
+        "Name": "Assistant's notes on Group #3",
+        "ShortName": "Laby #3",
+        "Description": "According to the note, the test subjects were deliberately driven to psychosis."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fa9b691b7c7b34046367": {
+    "template": {
+      "_id": "68d2fa9b691b7c7b34046367",
+      "_name": "item_info_note_laborant_labyrinth_03",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3d2ff05916c250a898b",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_laborant_labyrinth_03",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_laborant_labyrinth_03",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_03.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_laborant_labyrinth_03",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_laborant_labyrinth_03_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "研究助理关于 #8 组测试对象的笔记",
+        "ShortName": "迷宫#8",
+        "Description": "笔记中描述了一项改变受试者生物钟的实验。"
+      },
+      "cz": {
+        "Name": "Asistentovy poznámky o Skupině #8",
+        "ShortName": "Laby #8",
+        "Description": "Poznámka popisuje experimenty zaměřené na změnu biologických hodin testovaných subjektů."
+      },
+      "en": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "es": {
+        "Name": "Notas del asistente sobre el Grupo #8",
+        "ShortName": "Laby #8",
+        "Description": "La nota describe experimentos destinados a alterar los relojes biológicos de los sujetos de prueba."
+      },
+      "es-mx": {
+        "Name": "Notas del asistente sobre el Grupo #8",
+        "ShortName": "Labe #8",
+        "Description": "La nota describe experimentos destinados a alterar los relojes biológicos de los sujetos de prueba."
+      },
+      "fr": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "ge": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "hu": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "in": {
+        "Name": "Catatan Asisten pada Grup #8",
+        "ShortName": "Laby #8",
+        "Description": "Catatan tersebut menjelaskan eksperimen yang ditujukan untuk mengubah jam biologis subjek uji."
+      },
+      "it": {
+        "Name": "Note dell'assistente sul Gruppo #8",
+        "ShortName": "Laby #8",
+        "Description": "La nota descrive esperimenti volti ad alterare l'orologio biologico dei soggetti sottoposti al test."
+      },
+      "jp": {
+        "Name": "グループ #8 に関するアシスタントのメモ",
+        "ShortName": "Laby #8",
+        "Description": "このメモは、被験者の体内時計を操作することを目的とした実験について記述している。"
+      },
+      "kr": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "pl": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "po": {
+        "Name": "Notas do assistente sobre o Grupo #8",
+        "ShortName": "Laby #8",
+        "Description": "A nota descreve experimentos com o objetivo de alterar os relógios biológicos dos sujeitos de teste."
+      },
+      "ro": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "ru": {
+        "Name": "Записка лаборанта о группе №8",
+        "ShortName": "Лабир. 8",
+        "Description": "В записке лаборанта описаны опыты по изменению биологических часов у подопытных."
+      },
+      "sk": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "th": {
+        "Name": "บันทึกของผู้ช่วยในกลุ่มที่ 8",
+        "ShortName": "เขาวงกต #8",
+        "Description": "บันทึกดังกล่าวบรรยายถึงการทดลองที่มุ่งหวังจะเปลี่ยนแปลงนาฬิกาชีวภาพของผู้เข้ารับการทดสอบ"
+      },
+      "tu": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      },
+      "vi": {
+        "Name": "Assistant's notes on Group #8",
+        "ShortName": "Laby #8",
+        "Description": "The note describes experiments aimed at altering the test subjects' biological clocks."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fac7c8305ec7c900296c": {
+    "template": {
+      "_id": "68d2fac7c8305ec7c900296c",
+      "_name": "item_info_note_laborant_labyrinth_04",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3d2ff05916c250a898b",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_laborant_labyrinth_04",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_laborant_labyrinth_04",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_04.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_laborant_labyrinth_04",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_laborant_labyrinth_04_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "研究助理关于 #3 与 #10 组测试对象的笔记",
+        "ShortName": "迷宫#10/3",
+        "Description": "似乎在“迷宫”进行的实验中，就连 TerraGroup 也来不及处理实验对象的尸体。"
+      },
+      "cz": {
+        "Name": "Asistentovy poznámky o Skupině #3 a Skupině #10",
+        "ShortName": "Laby#10/3",
+        "Description": "Zdá se, že během experimentů v Labyrintu se TerraGroup nestačila zbavovat těl testovaných subjektů."
+      },
+      "en": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "es": {
+        "Name": "Notas del asistente sobre el Grupo #3 y el Grupo #10",
+        "ShortName": "Laby#10/3",
+        "Description": "Parece que durante los experimentos en The Labyrinth, TerraGroup no podía deshacerse de los cuerpos de los sujetos de prueba tan rápido como quería."
+      },
+      "es-mx": {
+        "Name": "Notas del asistente sobre el Grupo #3 y el Grupo #10",
+        "ShortName": "Labe#10/3",
+        "Description": "Parece que durante los experimentos en El Laberinto, TerraGroup no podía deshacerse de los cuerpos de los sujetos de prueba lo suficientemente rápido."
+      },
+      "fr": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "ge": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "hu": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "in": {
+        "Name": "Catatan Asisten pada Grup #3 dan Grup #10",
+        "ShortName": "Laby#10/3",
+        "Description": "Tampaknya selama percobaan di The Labyrinth, TerraGroup tidak dapat membuang tubuh subjek uji dengan cukup cepat."
+      },
+      "it": {
+        "Name": "Note dell'assistente sui gruppi #3 e gruppi #10",
+        "ShortName": "Laby#10/3",
+        "Description": "Sembra che durante gli esperimenti nel Labirinto, TerraGroup non sia riuscita a smaltire i corpi dei soggetti testati abbastanza rapidamente."
+      },
+      "jp": {
+        "Name": "グループ #3 と グループ #10 に関するアシスタントのメモ",
+        "ShortName": "Laby#10/3",
+        "Description": "The Labyrinth での実験中、TerraGroup は被験者の遺体を処理しきれなかったようだ。"
+      },
+      "kr": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "pl": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "po": {
+        "Name": "Notas do assistente sobre o Grupo #3 e o Grupo #10",
+        "ShortName": "Laby#10/3",
+        "Description": "Parece que, durante os experimentos no Labirinto, a TerraGroup não conseguia descartar os corpos dos sujeitos de teste com rapidez suficiente."
+      },
+      "ro": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "ru": {
+        "Name": "Записка лаборанта о группах №3 и №10",
+        "ShortName": "Лабир.3и10",
+        "Description": "Похоже, во время опытов в Лабиринте TerraGroup не успевали вывозить трупы подопытных."
+      },
+      "sk": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "th": {
+        "Name": "บันทึกของผู้ช่วยกลุ่ม #3 และกลุ่ม #10",
+        "ShortName": "ลาบี้#10/3",
+        "Description": "ดูเหมือนว่าระหว่างการทดลองใน The Labyrinth นั้น TerraGroup ไม่สามารถกำจัดร่างกายของผู้เข้ารับการทดสอบได้เร็วพอ"
+      },
+      "tu": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      },
+      "vi": {
+        "Name": "Assistant's notes on Group #3 and Group #10",
+        "ShortName": "Laby#10/3",
+        "Description": "It seems that during the experiments in The Labyrinth, TerraGroup couldn’t dispose of the test subjects’ bodies fast enough."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2faf191c2fa84e2044a0b": {
+    "template": {
+      "_id": "68d2faf191c2fa84e2044a0b",
+      "_name": "item_info_note_laborant_labyrinth_05",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68e3a3d2ff05916c250a898b",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_laborant_labyrinth_05",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_laborant_labyrinth_05",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_laborant_labyrinth_05.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_laborant_labyrinth_05",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_laborant_labyrinth_05_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "研究助理关于 TG-Vi-24 测试对象的笔记",
+        "ShortName": "迷宫Vi-24",
+        "Description": "实验室助理撰写的 TG-Vi-24 项目中实验对象的状态报告。"
+      },
+      "cz": {
+        "Name": "Asistentovy poznámky o testovacích subjektech TG-Vi-24",
+        "ShortName": "Laby Vi-24",
+        "Description": "Poznámka, ve které asistent laboratoře podává zprávu o stavu testovaných subjektů zapojených do projektu TG-Vi-24."
+      },
+      "en": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      },
+      "es": {
+        "Name": "Notas del asistente sobre los sujetos de prueba TG-Vi-24",
+        "ShortName": "Laby Vi-24",
+        "Description": "Una nota en la que el asistente del laboratorio informa sobre el estado de los sujetos de prueba involucrados en el proyecto TG-Vi-24."
+      },
+      "es-mx": {
+        "Name": "Notas del asistente sobre los sujetos de prueba TG-Vi-24",
+        "ShortName": "Labe Vi-24",
+        "Description": "Una nota en la que el asistente del laboratorio informa sobre el estado de los sujetos de prueba involucrados en el proyecto TG-Vi-24."
+      },
+      "fr": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      },
+      "ge": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      },
+      "hu": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      },
+      "in": {
+        "Name": "Catatan asisten tentang subjek uji TG-Vi-24",
+        "ShortName": "Laby Vi-24",
+        "Description": "Catatan di mana asisten laboratorium melaporkan kondisi subjek uji yang terlibat dalam proyek TG-Vi-24."
+      },
+      "it": {
+        "Name": "Note dell'assistente sui soggetti del test TG-Vi-24",
+        "ShortName": "Laby Vi-24",
+        "Description": "Una nota in cui l'assistente di laboratorio riferisce sulle condizioni dei soggetti coinvolti nel progetto TG-Vi-24."
+      },
+      "jp": {
+        "Name": "TG-Vi-24 被験者に関するアシスタントのメモ",
+        "ShortName": "Laby Vi-24",
+        "Description": "研究所のアシスタントがプロジェクト TG-Vi-24 関連する被験者の状態を報告するメモ。"
+      },
+      "kr": {
+        "Name": "TG-Vi-24 실험체에 관한 연구원 조수의 기록",
+        "ShortName": "미궁 Vi-24",
+        "Description": "TG-Vi-24 프로젝트에 사용된 실험체들의 상태에 대해 실험실의 조수가 기록한 메모입니다."
+      },
+      "pl": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      },
+      "po": {
+        "Name": "Notas do assistente sobre os sujeitos de teste TG-Vi-24",
+        "ShortName": "Laby Vi-24",
+        "Description": "Uma nota em que o assistente de laboratório relata o estado dos sujeitos de teste envolvidos no projeto TG-Vi-24."
+      },
+      "ro": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      },
+      "ru": {
+        "Name": "Записка лаборанта о подопытных TG-Vi-24",
+        "ShortName": "Лабир.Vi24",
+        "Description": "В записке лаборант отчитывается о состоянии подопытных по проекту TG-Vi-24."
+      },
+      "sk": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      },
+      "th": {
+        "Name": "บันทึกของผู้ช่วยเกี่ยวกับการทดสอบ TG-Vi-24",
+        "ShortName": "ลาบี้ วี-24",
+        "Description": "บันทึกที่ผู้ช่วยห้องปฏิบัติการรายงานเกี่ยวกับสภาพของผู้เข้ารับการทดสอบที่เกี่ยวข้องกับโครงการ TG-Vi-24"
+      },
+      "tu": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      },
+      "vi": {
+        "Name": "Assistant's notes on TG-Vi-24 test subjects",
+        "ShortName": "Laby Vi-24",
+        "Description": "A note in which the lab assistant reports on the condition of the test subjects involved in project TG-Vi-24."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  }
+}

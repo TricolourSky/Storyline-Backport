@@ -713,7 +713,7 @@
           "status": [
             4
           ],
-          "availableAfter": 3600,
+          "availableAfter": 0,
           "dispersion": 0,
           "isFinisher": false,
           "conditionType": "Quest"
@@ -3156,7 +3156,7 @@
           "status": [
             4
           ],
-          "availableAfter": 7200,
+          "availableAfter": 0,
           "dispersion": 0,
           "isFinisher": false,
           "conditionType": "Quest"
@@ -4146,7 +4146,7 @@
   },
   "68bdb25ad9e4342bb10c3449": {
     "_id": "68bdb25ad9e4342bb10c3449",
-    "traderId": "54cb50c76803fa8b248b4571",
+    "traderId": "67f7af56c117b6140af2a607",
     "location": "any",
     "image": "/files/quest/icon/5788d151d53a280a8e8798cc.jpg",
     "type": "Merchant",
@@ -5216,7 +5216,7 @@
   },
   "68cbcdc4c964ab83cc0c928e": {
     "_id": "68cbcdc4c964ab83cc0c928e",
-    "traderId": "54cb50c76803fa8b248b4571",
+    "traderId": "67f7af56c117b6140af2a607",
     "location": "any",
     "image": "/files/quest/icon/68de4eea323d09b4610da9bd.png",
     "type": "Completion",
@@ -5935,7 +5935,10 @@
           }
         ]
       },
-      "startAfter": "6914f60df06f0ee753006191"
+      "startAfter": [
+        "6914f60df06f0ee753006191",
+        "68dfa85efdedf14d640a6ee0"
+      ]
     }
   },
   "68cc07e96a6359b02109da18": {
@@ -6303,7 +6306,7 @@
   },
   "68cd7d6d9510d63fdb05a76a": {
     "_id": "68cd7d6d9510d63fdb05a76a",
-    "traderId": "54cb50c76803fa8b248b4571",
+    "traderId": "67f7af56c117b6140af2a607",
     "location": "5704e3c2d2720bac5b8b4567",
     "image": "/files/quest/icon/5788d151d53a280a8e8798cc.jpg",
     "type": "Multi",
@@ -7094,7 +7097,7 @@
   },
   "68dfa85efdedf14d640a6ee0": {
     "_id": "68dfa85efdedf14d640a6ee0",
-    "traderId": "54cb50c76803fa8b248b4571",
+    "traderId": "67f7af56c117b6140af2a607",
     "location": "5704e3c2d2720bac5b8b4567",
     "image": "/files/quest/icon/5788d151d53a280a8e8798cc.jpg",
     "type": "Discover",
@@ -7132,7 +7135,7 @@
             "fromTraderId": null
           },
           "questNoteId": null,
-          "target": "6914f60df06f0ee753006191",
+          "target": "6895bf42a3de8e8f1d0426a8",
           "status": [
             4
           ],
@@ -7946,7 +7949,7 @@
   },
   "6914f60df06f0ee753006191": {
     "_id": "6914f60df06f0ee753006191",
-    "traderId": "54cb50c76803fa8b248b4571",
+    "traderId": "67f7af56c117b6140af2a607",
     "location": "5704e3c2d2720bac5b8b4567",
     "image": "/files/quest/icon/5788d151d53a280a8e8798cc.jpg",
     "type": "Discover",

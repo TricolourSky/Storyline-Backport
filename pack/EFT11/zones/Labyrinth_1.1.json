@@ -1,0 +1,122 @@
+[
+  {
+    "id": "chapter_labyrinth_start_visit",
+    "type": "visit",
+    "locations": [
+      "shoreline"
+    ],
+    "position": {
+      "x": -196,
+      "y": -6.5,
+      "z": -77
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0.0009,
+      "z": -0,
+      "w": 1
+    },
+    "size": {
+      "x": 3.04,
+      "y": 2.55,
+      "z": 3.06
+    },
+    "source": "1.1 客户端 D:\\SPT5.0 level29（Shoreline_DesignMain.unity）"
+  },
+  {
+    "id": "chapter_labyrinth_start_visit",
+    "type": "visit",
+    "locations": [
+      "shoreline"
+    ],
+    "position": {
+      "x": -195.126,
+      "y": -9.8273,
+      "z": -82.9275
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0.7011,
+      "z": 0,
+      "w": 0.713
+    },
+    "size": {
+      "x": 5,
+      "y": 3,
+      "z": 3
+    },
+    "source": "同一个区域的第二个框：0.16 客户端 level29 的迷宫转移点 Road_to_Labirinth（TransitPoint）原样罩上。1.1 的入口通道（上面那个框，y≈-6.5）在 Knossos 门后；0.16 的转移点在门口下一层（y≈-9.8），站在转移点上直接转移不会经过通道，Jaeger 的「找到入口通道」就永远记不上（09-25 SORA 实机两次）。两处都算找到入口"
+  },
+{
+    "id": "chapter_labyrinth_commander_corpse_visit",
+    "type": "visit",
+    "locations": [
+      "labyrinth"
+    ],
+    "position": {
+      "x": 16.939,
+      "y": 0.036,
+      "z": 4.687
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "size": {
+      "x": 2,
+      "y": 3,
+      "z": 2
+    },
+    "source": "1.1 客户端 D:\\SPT5.0 level554（Labyrinth_Quests.unity）"
+  },
+  {
+    "id": "chapter_labyrinth_provisor_room_visit",
+    "type": "visit",
+    "locations": [
+      "labyrinth"
+    ],
+    "position": {
+      "x": 8.919,
+      "y": 0.628,
+      "z": 3.661
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "size": {
+      "x": 3.28,
+      "y": 3,
+      "z": 3.58
+    },
+    "source": "1.1 客户端 D:\\SPT5.0 level554（Labyrinth_Quests.unity）"
+  },
+  {
+    "id": "chapter_labyrinth_workshop_visit",
+    "type": "visit",
+    "locations": [
+      "labyrinth"
+    ],
+    "position": {
+      "x": -7.798,
+      "y": 1.47,
+      "z": 28.56
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "size": {
+      "x": 7.56,
+      "y": 3,
+      "z": 12.79
+    },
+    "source": "1.1 客户端 D:\\SPT5.0 level554（Labyrinth_Quests.unity）"
+  }
+]

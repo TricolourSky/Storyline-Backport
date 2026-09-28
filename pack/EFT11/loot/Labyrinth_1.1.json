@@ -1,0 +1,699 @@
+{
+  "labyrinth": [
+    {
+      "locationId": "(8,548301, 0,0511, 3,1995006)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_recorder_tape_labyrinth [5cc22edb-25ee-41a0-9fd5-785d8fa9e0ff]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 8.548301,
+          "y": 0.0511,
+          "z": 3.1995006
+        },
+        "Rotation": {
+          "x": 348.43735,
+          "y": 0,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b5a7",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b5a7",
+            "_tpl": "688897992f6b5b76380e6af9",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(16,563803, 0,0461, 4,6572003)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_diary_leshiy [927cd81d-602f-40db-9dd3-6166f22d51b1]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 16.563803,
+          "y": 0.0461,
+          "z": 4.6572003
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 312.8012,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b623",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b623",
+            "_tpl": "68d2fd582ca1a737d107b84f",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(-12,567916, 0,1175, -22,765644)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_comand_from_leshiy [034144c3-147e-44cd-bd93-0bed6d0e4c91]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -12.567916,
+          "y": 0.1175,
+          "z": -22.765644
+        },
+        "Rotation": {
+          "x": 284.82227,
+          "y": 196.91815,
+          "z": 86.04627
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b6c9",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b6c9",
+            "_tpl": "68d2fa018c12620073059932",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(-4,5873003, 0,0526, 10,298501)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_laborant_labyrinth_05 [e2c7a98c-6fb9-4a59-bd8d-94a2e91fe27f]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -4.5873003,
+          "y": 0.0526,
+          "z": 10.298501
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b611",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b611",
+            "_tpl": "68d2faf191c2fa84e2044a0b",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(-15,786002, 0,0588, 50,676006)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_laborant_labyrinth_03 [1b1a46e7-d4a6-4ea9-91c1-f6b5f04b19a6]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -15.786002,
+          "y": 0.0588,
+          "z": 50.676006
+        },
+        "Rotation": {
+          "x": 270,
+          "y": 0,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b69d",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b69d",
+            "_tpl": "68d2fa9b691b7c7b34046367",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(-6,991001, 0,053, 31,213003)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_laborant_labyrinth_02 [142fac7f-4c5a-40e1-9cf8-0a42f2cd2fbb]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -6.991001,
+          "y": 0.053,
+          "z": 31.213003
+        },
+        "Rotation": {
+          "x": 270,
+          "y": 0,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b6a5",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b6a5",
+            "_tpl": "68d2fa6d4aae290cf704e371",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(8,554001, 0,0505, 4,0520005)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_laborant_labyrinth_01 [dde5a8fb-b289-4f9d-a662-b1b770f7c93d]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 8.554001,
+          "y": 0.0505,
+          "z": 4.0520005
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 292.3978,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b6b1",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b6b1",
+            "_tpl": "68d2fa3abe7c1493b90cd3f9",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(12,202002, 0,046, 33,111004)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_laborant_labyrinth_04 [041cef66-74b3-4d1d-a11b-398439a4b4ea]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 12.202002,
+          "y": 0.046,
+          "z": 33.111004
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b6c1",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b6c1",
+            "_tpl": "68d2fac7c8305ec7c900296c",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(11,698901, 0,046980858, 32,07586)",
+      "probability": 0.25095057034220536,
+      "template": {
+        "Id": "item_key_labyrinth_01_surveillance_room [c3f100fd-48da-4e9e-aa7c-1bb34b28b8e5]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 11.698901,
+          "y": 0.046980858,
+          "z": 32.07586
+        },
+        "Rotation": {
+          "x": 281.66162,
+          "y": 278.58167,
+          "z": 33.370163
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 11.698901,
+              "y": 0.046980858,
+              "z": 32.07586
+            },
+            "Rotation": {
+              "x": 281.66162,
+              "y": 278.58167,
+              "z": 33.370163
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": -4.2888007,
+              "y": 0.049349785,
+              "z": 10.674466
+            },
+            "Rotation": {
+              "x": 84.51288,
+              "y": 64.65046,
+              "z": 179.99983
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -14.884401,
+              "y": 0.07972908,
+              "z": 50.852043
+            },
+            "Rotation": {
+              "x": 84.3237,
+              "y": 137.04732,
+              "z": 247.68605
+            }
+          },
+          {
+            "Name": "groupPoint[3]",
+            "Weight": 1,
+            "Position": {
+              "x": -6.9502506,
+              "y": 0.14002705,
+              "z": 31.237823
+            },
+            "Rotation": {
+              "x": 1.2922755,
+              "y": 45.84212,
+              "z": 269.92993
+            }
+          }
+        ],
+        "Root": "6aa4211065e362f6e004b62b",
+        "Items": [
+          {
+            "composedKey": "252516068",
+            "_id": "6aa4211065e362f6e004b62b",
+            "_tpl": "679baace4e9ca6b3d80586b2",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "252516068"
+          },
+          "relativeProbability": 66
+        }
+      ]
+    },
+    {
+      "locationId": "(-4,2888007, 0,049349785, 10,674466)",
+      "probability": 0.2623574144486692,
+      "template": {
+        "Id": "item_key_labyrinth_01_surveillance_room [c3f100fd-48da-4e9e-aa7c-1bb34b28b8e5]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -4.2888007,
+          "y": 0.049349785,
+          "z": 10.674466
+        },
+        "Rotation": {
+          "x": 84.51288,
+          "y": 64.65046,
+          "z": 179.99983
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 11.698901,
+              "y": 0.046980858,
+              "z": 32.07586
+            },
+            "Rotation": {
+              "x": 281.66162,
+              "y": 278.58167,
+              "z": 33.370163
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": -4.2888007,
+              "y": 0.049349785,
+              "z": 10.674466
+            },
+            "Rotation": {
+              "x": 84.51288,
+              "y": 64.65046,
+              "z": 179.99983
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -14.884401,
+              "y": 0.07972908,
+              "z": 50.852043
+            },
+            "Rotation": {
+              "x": 84.3237,
+              "y": 137.04732,
+              "z": 247.68605
+            }
+          },
+          {
+            "Name": "groupPoint[3]",
+            "Weight": 1,
+            "Position": {
+              "x": -6.9502506,
+              "y": 0.14002705,
+              "z": 31.237823
+            },
+            "Rotation": {
+              "x": 1.2922755,
+              "y": 45.84212,
+              "z": 269.92993
+            }
+          }
+        ],
+        "Root": "6aa4212a1270d2738b2722e9",
+        "Items": [
+          {
+            "composedKey": "252516068",
+            "_id": "6aa4212a1270d2738b2722e9",
+            "_tpl": "679baace4e9ca6b3d80586b2",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "252516068"
+          },
+          "relativeProbability": 69
+        }
+      ]
+    },
+    {
+      "locationId": "(-14,884401, 0,07972908, 50,852043)",
+      "probability": 0.23193916349809887,
+      "template": {
+        "Id": "item_key_labyrinth_01_surveillance_room [c3f100fd-48da-4e9e-aa7c-1bb34b28b8e5]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -14.884401,
+          "y": 0.07972908,
+          "z": 50.852043
+        },
+        "Rotation": {
+          "x": 84.3237,
+          "y": 137.04732,
+          "z": 247.68605
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 11.698901,
+              "y": 0.046980858,
+              "z": 32.07586
+            },
+            "Rotation": {
+              "x": 281.66162,
+              "y": 278.58167,
+              "z": 33.370163
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": -4.2888007,
+              "y": 0.049349785,
+              "z": 10.674466
+            },
+            "Rotation": {
+              "x": 84.51288,
+              "y": 64.65046,
+              "z": 179.99983
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -14.884401,
+              "y": 0.07972908,
+              "z": 50.852043
+            },
+            "Rotation": {
+              "x": 84.3237,
+              "y": 137.04732,
+              "z": 247.68605
+            }
+          },
+          {
+            "Name": "groupPoint[3]",
+            "Weight": 1,
+            "Position": {
+              "x": -6.9502506,
+              "y": 0.14002705,
+              "z": 31.237823
+            },
+            "Rotation": {
+              "x": 1.2922755,
+              "y": 45.84212,
+              "z": 269.92993
+            }
+          }
+        ],
+        "Root": "6aa420894e4851cfb40bb461",
+        "Items": [
+          {
+            "composedKey": "252516068",
+            "_id": "6aa420894e4851cfb40bb461",
+            "_tpl": "679baace4e9ca6b3d80586b2",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "252516068"
+          },
+          "relativeProbability": 61
+        }
+      ]
+    },
+    {
+      "locationId": "(-6,9502506, 0,14002705, 31,237823)",
+      "probability": 0.25475285171102663,
+      "template": {
+        "Id": "item_key_labyrinth_01_surveillance_room [c3f100fd-48da-4e9e-aa7c-1bb34b28b8e5]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -6.9502506,
+          "y": 0.14002705,
+          "z": 31.237823
+        },
+        "Rotation": {
+          "x": 1.2922755,
+          "y": 45.84212,
+          "z": 269.92993
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 11.698901,
+              "y": 0.046980858,
+              "z": 32.07586
+            },
+            "Rotation": {
+              "x": 281.66162,
+              "y": 278.58167,
+              "z": 33.370163
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": -4.2888007,
+              "y": 0.049349785,
+              "z": 10.674466
+            },
+            "Rotation": {
+              "x": 84.51288,
+              "y": 64.65046,
+              "z": 179.99983
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": -14.884401,
+              "y": 0.07972908,
+              "z": 50.852043
+            },
+            "Rotation": {
+              "x": 84.3237,
+              "y": 137.04732,
+              "z": 247.68605
+            }
+          },
+          {
+            "Name": "groupPoint[3]",
+            "Weight": 1,
+            "Position": {
+              "x": -6.9502506,
+              "y": 0.14002705,
+              "z": 31.237823
+            },
+            "Rotation": {
+              "x": 1.2922755,
+              "y": 45.84212,
+              "z": 269.92993
+            }
+          }
+        ],
+        "Root": "6aa41f8d6a5db2d3320fad4c",
+        "Items": [
+          {
+            "composedKey": "252516068",
+            "_id": "6aa41f8d6a5db2d3320fad4c",
+            "_tpl": "679baace4e9ca6b3d80586b2",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "252516068"
+          },
+          "relativeProbability": 67
+        }
+      ]
+    }
+  ],
+  "shoreline": [
+    {
+      "locationId": "(-272,2697, -65,37669, 480,986)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_research_labyrinth [3776a1d8-c803-46f9-8f9a-69b8e5841122]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -272.2697,
+          "y": -65.37669,
+          "z": 480.986
+        },
+        "Rotation": {
+          "x": 354.6836,
+          "y": 24.816229,
+          "z": 38.824837
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa42042e53d7781740def71",
+        "Items": [
+          {
+            "_id": "6aa42042e53d7781740def71",
+            "_tpl": "68d2fdbbf8817df4690db3d5",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

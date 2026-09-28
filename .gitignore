@@ -4,4 +4,5 @@ obj/
 .packages/
 *.user
 *.bundle
+pack/EFT11/voice/
 tools/NativeShaderPatch/AssetsTools.NET.dll
