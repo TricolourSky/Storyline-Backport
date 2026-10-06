@@ -1,0 +1,1508 @@
+{
+  "6877c2dcda2a05d0cb04f983": {
+    "template": {
+      "_id": "6877c2dcda2a05d0cb04f983",
+      "_name": "item_info_note_quest_product1156",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "67b892bb1c013f0fcb058246",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_quest_product1156",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_quest_product1156",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_quest_product1156.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_quest_product1156",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.003,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_quest_product1156_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "提到 #1156 项目的笔记",
+        "ShortName": "1156笔记",
+        "Description": "一张手写的笔记，就这么被丢在 TerraGroup 秘密实验室的车间里。"
+      },
+      "cz": {
+        "Name": "Poznámky k položce #1156",
+        "ShortName": "Poznámky 1156",
+        "Description": "Ručně psané poznámky zanechané v otevřeném pracovním prostoru laboratoře TerraGroup."
+      },
+      "en": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "es": {
+        "Name": "Nota mencionando el Objeto #1156",
+        "ShortName": "Nota 1156",
+        "Description": "Una nota manuscrita abandonada en el espacio de trabajo abierto del laboratorio de TerraGroup."
+      },
+      "es-mx": {
+        "Name": "Nota mencionando el Objeto #1156",
+        "ShortName": "Nota 1156",
+        "Description": "Una nota manuscrita abandonada en el espacio de trabajo abierto del laboratorio de TerraGroup."
+      },
+      "fr": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "ge": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "hu": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "in": {
+        "Name": "Catatan menyebutkan Item #1156",
+        "ShortName": "catatan 1156",
+        "Description": "Catatan tulisan tangan yang ditinggalkan di ruang kerja terbuka laboratorium TerraGroup."
+      },
+      "it": {
+        "Name": "Nota che menziona l'oggetto n.1156",
+        "ShortName": "Nota 1156",
+        "Description": "Una nota scritta a mano lasciata nell'area di lavoro aperta del laboratorio TerraGroup."
+      },
+      "jp": {
+        "Name": "アイテム #1156 に関するメモ",
+        "ShortName": "1156 note",
+        "Description": "TerraGroup の研究所のオープンワークスペースに残されていた手書きのメモ。"
+      },
+      "kr": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "pl": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "po": {
+        "Name": "Nota mencionando o Item #1156",
+        "ShortName": "Nota 1156",
+        "Description": "Uma nota escrita à mão deixada no espaço de trabalho aberto do laboratório da TerraGroup."
+      },
+      "ro": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "ru": {
+        "Name": "Записка с упоминанием изделия №1156",
+        "ShortName": "Упом.1156",
+        "Description": "Записка от руки, оставленная в опенспейсе лаборатории TerraGroup."
+      },
+      "sk": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "th": {
+        "Name": "หมายเหตุระบุรายการ #1156",
+        "ShortName": "ธนบัตร 1156",
+        "Description": "บันทึกที่เขียนด้วยลายมือถูกทิ้งไว้ในพื้นที่ทำงานเปิดของห้องปฏิบัติการ TerraGroup"
+      },
+      "tu": {
+        "Name": "Note mentioning Item #1156",
+        "ShortName": "1156 note",
+        "Description": "A handwritten note left in the open workspace of the TerraGroup laboratory."
+      },
+      "vi": {
+        "Name": "Lưu ý đề cập đến Mục #1156",
+        "ShortName": "1156 ghi chú",
+        "Description": "Một ghi chú viết tay được để lại trong không gian làm việc mở của phòng thí nghiệm TerraGroup."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68889504f6192726ac07c66c": {
+    "template": {
+      "_id": "68889504f6192726ac07c66c",
+      "_name": "item_info_recorder_tape_courier_03",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "67b892bd55eaf7b06d011436",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_recorder_tape_courier_03",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_plastic_generic",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_recorder_tape_courier_03",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_courier_03.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_recorder_tape_courier_03",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.065,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NotificationDuration": 0.2,
+        "Subtitles": "TapesSubs/sound_info_recorder_tape_courier_03",
+        "TapeID": "sound_info_recorder_tape_courier_03",
+        "Transcript": "TapesText/sound_info_recorder_tape_courier_03"
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "俄罗斯邮政录音带 5.11/ 003",
+        "ShortName": "邮政3",
+        "Description": "俄罗斯邮政用来录制旗下邮递员工作通话的录音带。这盘带子记录了 5 月 11 日的第三通电话。"
+      },
+      "cz": {
+        "Name": "Zvuková nahrávka Rus Post 11.05 / 003",
+        "ShortName": "RuP 3",
+        "Description": "Jedna ze zvukových nahrávek používaných Rus Post k zaznamenávání pracovních hovorů od svých kurýrů. Tato nahrávka obsahuje třetí hovor z 11. května."
+      },
+      "en": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "es": {
+        "Name": "Cinta de audio de Rus Post 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "Una de las cintas de audio utilizadas por Rus Post para grabar las conversaciones de trabajo de sus mensajeros. Esta cinta contiene la tercera llamada del 11 de mayo."
+      },
+      "es-mx": {
+        "Name": "Cinta de audio de Rus Post 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "Una de las cintas de audio utilizadas por Rus Post para grabar las conversaciones de trabajo de sus mensajeros. Esta cinta contiene la tercera llamada del 11 de mayo."
+      },
+      "fr": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "ge": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "hu": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "in": {
+        "Name": "Rekaman audio Rus Post 11.05 / 003",
+        "ShortName": "Pos 3",
+        "Description": "Salah satu kaset audio yang digunakan Rus Post untuk merekam panggilan kerja dari para kurirnya. Kaset ini berisi panggilan ketiga dari tanggal 11 Mei."
+      },
+      "it": {
+        "Name": "Nastro audio Rus Post 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "Uno dei nastri audio utilizzati da Rus Post per registrare le chiamate di lavoro dei suoi corrieri. Questo nastro contiene la terza chiamata dell'11 maggio."
+      },
+      "jp": {
+        "Name": "ロシア郵便の音声テープ 05.11 / 003",
+        "ShortName": "Post 3",
+        "Description": "ロシア郵便が配達員からの業務通話を録音するために使用した音声テープの一つ。このテープには5月11日の3番目の通話内容が記録されている。"
+      },
+      "kr": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "pl": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "po": {
+        "Name": "Fita de áudio Rus Post 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "Uma das fitas de áudio usadas pelo Rus Post para registrar ligações de trabalho de seus mensageiros. Esta fita contém a terceira ligação do dia 11 de maio."
+      },
+      "ro": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "ru": {
+        "Name": "Аудиокассета Почта Руси 11.05 / 003",
+        "ShortName": "Почта 3",
+        "Description": "Одна из аудиокассет, на которых Почта Руси фиксировала рабочие вызовы от своих курьеров. Эта кассета содержит третий вызов за 11.05."
+      },
+      "sk": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "th": {
+        "Name": "เทปเสียง Rus Post 11.05 / 003",
+        "ShortName": "โพสต์ที่ 3",
+        "Description": "หนึ่งในเทปเสียงที่ Rus Post ใช้บันทึกเสียงการสนทนาจากพนักงานส่งของ เทปนี้บันทึกการสนทนาครั้งที่สามจากวันที่ 11 พฤษภาคม"
+      },
+      "tu": {
+        "Name": "Rus Post audio tape 11.05 / 003",
+        "ShortName": "Post 3",
+        "Description": "One of the audio tapes used by Rus Post to record work calls from its couriers. This tape contains the third call from May 11."
+      },
+      "vi": {
+        "Name": "Băng ghi âm Rus Post 11.05 / 003",
+        "ShortName": "Bài viết 3",
+        "Description": "Một trong những băng ghi âm được Bưu điện Nga sử dụng để ghi lại các cuộc gọi công việc từ nhân viên chuyển phát. Băng này chứa cuộc gọi thứ ba từ ngày 11 tháng 5."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "689b52d6886e9848a4085917": {
+    "template": {
+      "_id": "689b52d6886e9848a4085917",
+      "_name": "item_info_note_postal_product1156",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "67b892bd55eaf7b06d011436",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "violet",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_postal_product1156",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_postal_product1156",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragroup.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_postal_product1156",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.12,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_postal_product1156_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "#1156 项目规格文件",
+        "ShortName": "#1156规格",
+        "Description": "#1156 项目的完整技术规格说明文件，看样子有人打算把这件原型武器从塔科夫市转移到诺文斯克特区。"
+      },
+      "cz": {
+        "Name": "Specifikace položky #1156",
+        "ShortName": "1156 spec.",
+        "Description": "Kompletní specifikace pro položku #1156, určenou k přepravě z Tarkova do Norvinsku."
+      },
+      "en": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "es": {
+        "Name": "Especificaciones del Objeto #1156",
+        "ShortName": "Espec.1156",
+        "Description": "Especificaciones completas del Objeto #1156, destinado para su transporte desde Tarkov a Norvinsk."
+      },
+      "es-mx": {
+        "Name": "Especificaciones del Objeto #1156",
+        "ShortName": "Espec.1156",
+        "Description": "Especificaciones completas del Objeto #1156, destinado para su transporte desde Tarkov a Norvinsk."
+      },
+      "fr": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "ge": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "hu": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "in": {
+        "Name": "Spesifikasi item #1156",
+        "ShortName": "spesifikasi 1156",
+        "Description": "Spesifikasi lengkap untuk Item #1156, ditujukan untuk pengangkutan dari Tarkov ke Norvinsk."
+      },
+      "it": {
+        "Name": "Specifiche dell'articolo n.1156",
+        "ShortName": "1156 spec.",
+        "Description": "Specifiche complete dell'articolo n.1156, destinato al trasporto da Tarkov a Norvinsk."
+      },
+      "jp": {
+        "Name": "アイテム #1156 の仕様書",
+        "ShortName": "1156 spec.",
+        "Description": "アイテム #1156 の完全な仕様書。タルコフからノルヴィンスクへの輸送用。"
+      },
+      "kr": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "pl": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "po": {
+        "Name": "Especificação do Item #1156",
+        "ShortName": "Espec. 1156.",
+        "Description": "A especificação completa do Item #1156, destinada ao transporte de Tarkov para Norvinsk."
+      },
+      "ro": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "ru": {
+        "Name": "Спецификация изделия №1156",
+        "ShortName": "Спц. 1156",
+        "Description": "Полная спецификация на изделие №1156, которую хотели вывезти из Таркова в Норвинск."
+      },
+      "sk": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "th": {
+        "Name": "ข้อมูลจำเพาะหมายเลขสินค้า #1156",
+        "ShortName": "สเปก 1156",
+        "Description": "ข้อมูลจำเพาะครบถ้วนสำหรับรายการ #1156 ซึ่งมีไว้สำหรับขนส่งจาก Tarkov ไปยัง Norvinsk"
+      },
+      "tu": {
+        "Name": "Item #1156 specification",
+        "ShortName": "1156 spec.",
+        "Description": "The full specification for Item #1156, intended for transport from Tarkov to Norvinsk."
+      },
+      "vi": {
+        "Name": "Thông số kỹ thuật của mặt hàng #1156",
+        "ShortName": "Thông số kỹ thuật 1156",
+        "Description": "Thông số kỹ thuật đầy đủ cho Mặt hàng số 1156, dùng để vận chuyển từ Tarkov đến Norvinsk."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "689b53222c175da5bf083ba3": {
+    "template": {
+      "_id": "689b53222c175da5bf083ba3",
+      "_name": "item_info_note_quest_book_of_coming",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68588eca1d2ea426e9085c29",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_quest_book_of_coming",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 2,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_quest_book_of_coming",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_book_coming_closed.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_quest_book_of_coming",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.8,
+        "Width": 2,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_quest_book_of_coming_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "降临之书",
+        "ShortName": "降临之书",
+        "Description": "一本自制的书，里面写满了关于“降临”、“无名者”以及旧世界消亡相关的内容以及画作。"
+      },
+      "cz": {
+        "Name": "Kniha Příchodu",
+        "ShortName": "Kniha Příchodu",
+        "Description": "Domácí kniha plná poznámek a kreseb o svědcích Příchodu, Neslyšených a konci starého světa."
+      },
+      "en": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "es": {
+        "Name": "Libro de la Llegada",
+        "ShortName": "Libro de la Llegada",
+        "Description": "Un libro artesanal lleno de notas y dibujos sobre los testigos de la Llegada, Los Inauditos y el fin del viejo mundo."
+      },
+      "es-mx": {
+        "Name": "Libro de la Llegada",
+        "ShortName": "Libro de la Llegada",
+        "Description": "Un libro artesanal lleno de notas y dibujos sobre los testigos de la Llegada, Los Inauditos y el fin del viejo mundo."
+      },
+      "fr": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "ge": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "hu": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "in": {
+        "Name": "Buku Kedatangan",
+        "ShortName": "Buku Kedatangan",
+        "Description": "Sebuah buku buatan sendiri yang penuh dengan catatan dan gambar tentang saksi-saksi Kedatangan, Yang Tak Terdengar, dan akhir dunia lama."
+      },
+      "it": {
+        "Name": "Libro dell'Arrivo",
+        "ShortName": "Libro dell'Arrivo",
+        "Description": "Un libro fatto in casa pieno di appunti e disegni sui testimoni dell'Arrivo, degli Inascoltati e della fine del vecchio mondo."
+      },
+      "jp": {
+        "Name": "到来の書",
+        "ShortName": "Book of the Arrival",
+        "Description": "到来の目撃者、The Unheard、そして旧世界の終わりについてのメモや絵で埋め尽くされた手作りの本。"
+      },
+      "kr": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "pl": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "po": {
+        "Name": "Livro da Chegada",
+        "ShortName": "Livro da Chegada",
+        "Description": "Um livro artesanal repleto de notas e desenhos sobre testemunhas da Chegada, Os Unheard e o fim do velho mundo."
+      },
+      "ro": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "ru": {
+        "Name": "Книга Пришествия",
+        "ShortName": "Книга Пришествия",
+        "Description": "Самодельная книга, заполненная записями и рисунками о свидетелях Пришествия, Неизвестных и конце старого мира."
+      },
+      "sk": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "th": {
+        "Name": "หนังสือแห่งการมาถึง",
+        "ShortName": "หนังสือแห่งการมาถึง",
+        "Description": "หนังสือทำเองที่เต็มไปด้วยบันทึกและภาพวาดเกี่ยวกับพยานของการมาถึง สิ่งที่ไม่ได้ยิน และจุดสิ้นสุดของโลกเก่า"
+      },
+      "tu": {
+        "Name": "Book of the Arrival",
+        "ShortName": "Book of the Arrival",
+        "Description": "A homemade book filled with notes and drawings about witnesses of the Arrival, The Unheard, and the end of the old world."
+      },
+      "vi": {
+        "Name": "Sách về sự xuất hiện",
+        "ShortName": "Sách về sự xuất hiện",
+        "Description": "Một cuốn sách tự làm chứa đầy những ghi chú và bản vẽ về các nhân chứng của Arrival, The Unheard và ngày tận thế."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68e638cf85c63c556c0272db": {
+    "template": {
+      "_id": "68e638cf85c63c556c0272db",
+      "_name": "item_quest_mysterious_device_spawn",
+      "_parent": "57864a66245977548f04a81f",
+      "_type": "Item",
+      "_props": {
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "yellow",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_quest_mysterious_device_spawn",
+        "DiscardLimit": 1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 100,
+        "ExamineTime": 1,
+        "ExaminedByDefault": false,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 2,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "container_plastic",
+        "LeftHandItem": false,
+        "LootExperience": 40,
+        "MergesWithChildren": false,
+        "Name": "item_quest_mysterious_device_spawn",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/quest/item_quest_mysterious_device/item_quest_mysterious_device.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_quest_mysterious_device_spawn",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 3.2,
+        "Width": 3,
+        "MaxResource": 0,
+        "Resource": 0
+      },
+      "_proto": "5734779624597737e04bf329"
+    },
+    "locales": {
+      "ch": {
+        "Name": "未知设备碎片",
+        "ShortName": "未知设备",
+        "Description": "某个设备的碎片，显然已经引爆过了。"
+      },
+      "cz": {
+        "Name": "Fragment neznámého zařízení",
+        "ShortName": "Nezn. zařízení",
+        "Description": "Fragment zařízení, které se zřejmě aktivovalo nad Tarkovem."
+      },
+      "en": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "es": {
+        "Name": "Fragmento de dispositivo desconocido",
+        "ShortName": "Disp. Desc.",
+        "Description": "Un fragmento de un dispositivo que aparentemente fue activado sobre Tarkov."
+      },
+      "es-mx": {
+        "Name": "Fragmento de dispositivo desconocido",
+        "ShortName": "Disp. Desc.",
+        "Description": "Un fragmento de un dispositivo que aparentemente fue activado sobre Tarkov."
+      },
+      "fr": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "ge": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "hu": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "in": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "it": {
+        "Name": "Frammento di dispositivo sconosciuto",
+        "ShortName": "Dispositivo sconosciuto",
+        "Description": "Un frammento di un dispositivo che apparentemente si è attivato sopra Tarkov."
+      },
+      "jp": {
+        "Name": "未知の装置の破片",
+        "ShortName": "Unk. device",
+        "Description": "タルコフの上空で起動された装置の破片だ。"
+      },
+      "kr": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "pl": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "po": {
+        "Name": "Fragmento de dispositivo desconhecido",
+        "ShortName": "Disp. desc.",
+        "Description": "Um fragmento de um dispositivo que aparentemente foi ativado sobre Tarkov."
+      },
+      "ro": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "ru": {
+        "Name": "Сегмент неизвестного устройства",
+        "ShortName": "Неиз. устр.",
+        "Description": "Сегмент устройства, по-видимому сработавшего над Тарковом."
+      },
+      "sk": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "th": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "tu": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      },
+      "vi": {
+        "Name": "Unknown device fragment",
+        "ShortName": "Unk. device",
+        "Description": "A fragment of a device that apparently activated over Tarkov."
+      }
+    },
+    "handbook": {
+      "parentId": "5b619f1a86f77450a702a6f3",
+      "price": 0
+    }
+  },
+  "68e63a53371639e1e4004b6e": {
+    "template": {
+      "_id": "68e63a53371639e1e4004b6e",
+      "_name": "item_quest_hacktool_mechanic",
+      "_parent": "5447e0e74bdc2d3c308b4567",
+      "_type": "Item",
+      "_props": {
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "orange",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_quest_hacktool_mechanic",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": false,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "generic",
+        "LeftHandItem": false,
+        "LootExperience": 5,
+        "MergesWithChildren": false,
+        "Name": "item_quest_hacktool_mechanic",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/quest/item_quest_hacktool_mechanic/item_quest_hacktool_mechanic.bundle",
+          "rcid": ""
+        },
+        "QuestItem": false,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_quest_hacktool_mechanic",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [
+          "Bear",
+          "Usec",
+          "Savage"
+        ],
+        "UnlootableFromSlot": "SpecialSlot",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.12,
+        "Width": 1,
+        "apResource": 0,
+        "krResource": 0
+      },
+      "_proto": "544fb5454bdc2df8738b456a"
+    },
+    "locales": {
+      "ch": {
+        "Name": "本地网络黑客入侵装置",
+        "ShortName": "LAN黑客",
+        "Description": "能够与数据库与服务器建立远程安全连接的入侵装置。"
+      },
+      "cz": {
+        "Name": "Zařízení pro hacknutí lokální sítě",
+        "ShortName": "LAN hack",
+        "Description": "Zařízení, které navazuje vzdálené, zabezpečené spojení s databázemi a servery."
+      },
+      "en": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "es": {
+        "Name": "Dispositivo de hackeo de redes locales",
+        "ShortName": "LAN hack",
+        "Description": "Un dispositivo que establece una conexión remota y segura con bases de datos y servidores."
+      },
+      "es-mx": {
+        "Name": "Dispositivo de hackeo de redes locales",
+        "ShortName": "LAN hack",
+        "Description": "Un dispositivo que establece una conexión remota y segura con bases de datos y servidores."
+      },
+      "fr": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "ge": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "hu": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "in": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "it": {
+        "Name": "Dispositivo di hacking della rete locale",
+        "ShortName": "Hack LAN",
+        "Description": "Un dispositivo che stabilisce una connessione remota e sicura a database e server."
+      },
+      "jp": {
+        "Name": "ローカルネットワークハッキング装置",
+        "ShortName": "LAN hack",
+        "Description": "データベースやサーバーへの遠隔かつ安全な接続を確立する装置だ。"
+      },
+      "kr": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "pl": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "po": {
+        "Name": "Dispositivo de invasão de rede local",
+        "ShortName": "Hack LAN",
+        "Description": "Um dispositivo que estabelece uma conexão remota e segura com bancos de dados e servidores."
+      },
+      "ro": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "ru": {
+        "Name": "Устройство взлома локальной сети",
+        "ShortName": "Взлм. сети",
+        "Description": "Это устройство обеспечивает удалённое защищенное подключение к базам данных и серверам. "
+      },
+      "sk": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "th": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "tu": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      },
+      "vi": {
+        "Name": "Local network hacking device",
+        "ShortName": "LAN hack",
+        "Description": "A device that establishes a remote, secure connection to databases and servers."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b345",
+      "price": 32082
+    }
+  },
+  "68e63d4794fb983cb7098d2d": {
+    "template": {
+      "_id": "68e63d4794fb983cb7098d2d",
+      "_name": "item_info_note_bluefire_mchs",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "6895bbb0e7dac53c7c08797b",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_bluefire_mchs",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_bluefire_mchs",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_bluefire_mchs.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_bluefire_mchs",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.01,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_bluefire_mchs_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "EMERCOM 传单",
+        "ShortName": "EMERCOM",
+        "Description": "一份印有 EMP 冲击造成的后果以及官方安全建议的传单。爆炸发生后，城市街头到处都散落着这种传单。"
+      },
+      "cz": {
+        "Name": "Leták EMERCOM",
+        "ShortName": "EMERCOM",
+        "Description": "Leták, který popisuje následky EMP výbuchu a obsahuje oficiální bezpečnostní doporučení. Takové letáky se po výbuchu staly běžným jevem po celém městě."
+      },
+      "en": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "es": {
+        "Name": "Panfleto de EMERCOM",
+        "ShortName": "EMERCOM",
+        "Description": "Un panfleto que describe las consecuencias de la detonación del pulso electromagnético e incluye recomendaciones oficiales de seguridad. Estos panfletos se volvieron muy comunes en toda la ciudad después de la explosión."
+      },
+      "es-mx": {
+        "Name": "Panfleto de EMERCOM",
+        "ShortName": "EMERCOM",
+        "Description": "Un panfleto que describe las consecuencias de la detonación del pulso electromagnético e incluye recomendaciones oficiales de seguridad. Estos panfletos se hicieron muy comunes en toda la ciudad después de la explosión."
+      },
+      "fr": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "ge": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "hu": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "in": {
+        "Name": "Selebaran EMERCOM",
+        "ShortName": "Kementerian Situasi Darurat",
+        "Description": "Selebaran yang menggambarkan dampak ledakan EMP dan berisi rekomendasi keselamatan resmi. Selebaran semacam itu menjadi pemandangan umum di seluruh kota setelah ledakan."
+      },
+      "it": {
+        "Name": "Opuscolo EMERCOM",
+        "ShortName": "EMERCOM",
+        "Description": "Un volantino che descrive le conseguenze dell'esplosione EMP e include raccomandazioni ufficiali per la sicurezza. Volantini di questo tipo sono diventati comuni in tutta la città dopo l'esplosione."
+      },
+      "jp": {
+        "Name": "EMERCOM リーフレット",
+        "ShortName": "EMERCOM",
+        "Description": "EMP ブラストの余波と、公式の安全推奨事項を説明したチラシ。このようなチラシは爆発の後、市内各地でよく見かけるようになった。"
+      },
+      "kr": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "pl": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "po": {
+        "Name": "Panfleto da EMERCOM",
+        "ShortName": "EMERCOM",
+        "Description": "Um panfleto que descreve as consequências da explosão de pulso eletromagnético e inclui recomendações oficiais de segurança. Esses panfletos se tornaram comuns por toda a cidade após a explosão."
+      },
+      "ro": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "ru": {
+        "Name": "Листовка МЧС",
+        "ShortName": "Лист. МЧС",
+        "Description": "В листовке описаны последствия ЭМИ-взрыва и рекомендации МЧС. После взрыва в центре такие листовки были очень актуальны."
+      },
+      "sk": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "th": {
+        "Name": "แผ่นพับ EMERCOM",
+        "ShortName": "อีเมอร์คอม",
+        "Description": "ใบปลิวที่อธิบายเหตุการณ์หลังการระเบิด EMP พร้อมคำแนะนำด้านความปลอดภัยอย่างเป็นทางการ ใบปลิวเหล่านี้กลายเป็นสิ่งที่พบเห็นได้ทั่วไปทั่วเมืองหลังจากการระเบิด"
+      },
+      "tu": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      },
+      "vi": {
+        "Name": "EMERCOM leaflet",
+        "ShortName": "EMERCOM",
+        "Description": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68e63e8d94fb983cb7098d32": {
+    "template": {
+      "_id": "68e63e8d94fb983cb7098d32",
+      "_name": "item_info_note_product1156_prototype",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "6895bbb0e7dac53c7c08797b",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_product1156_prototype",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_product1156_prototype",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_product1156_prototype.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_product1156_prototype",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.003,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_product1156_prototype_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "留在 #1156 项目原型旁的便条",
+        "ShortName": "#1156",
+        "Description": "某位工程师留在车间里的便条，就在 #1156 项目的原型机旁边。"
+      },
+      "cz": {
+        "Name": "Poznámka od položky #1156",
+        "ShortName": "#1156",
+        "Description": "Poznámka zanechaná jedním z inženýrů v dílně vedle položky #1156."
+      },
+      "en": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "es": {
+        "Name": "Nota del Objeto #1156",
+        "ShortName": "Ing. 1156",
+        "Description": "Una nota dejada por uno de los ingenieros en el taller junto al Objeto #1156."
+      },
+      "es-mx": {
+        "Name": "Nota del Objeto #1156",
+        "ShortName": "Ing. 1156",
+        "Description": "Una nota dejada por uno de los ingenieros en el taller junto al Objeto #1156."
+      },
+      "fr": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "ge": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "hu": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "in": {
+        "Name": "Catatan berdasarkan Item #1156",
+        "ShortName": "1156 inggris",
+        "Description": "Catatan yang ditinggalkan oleh salah satu teknisi di bengkel di sebelah Barang #1156."
+      },
+      "it": {
+        "Name": "Nota dell'elemento #1156",
+        "ShortName": "Ing. 1156",
+        "Description": "Un biglietto lasciato da uno degli ingegneri nell'officina accanto all'oggetto #1156."
+      },
+      "jp": {
+        "Name": "アイテム #1156 のメモ",
+        "ShortName": "1156 eng.",
+        "Description": "アイテム #1156 の隣のワークショップに残された、エンジニアの一人によるメモ。"
+      },
+      "kr": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "pl": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "po": {
+        "Name": "Nota sobre o Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "Uma nota deixada por um dos engenheiros na oficina ao lado do Item #1156."
+      },
+      "ro": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "ru": {
+        "Name": "Записка у Изделия 1156",
+        "ShortName": "Инж. 1156",
+        "Description": "В мастерской рядом с Изделием 1156 осталась записка от одного из инженеров."
+      },
+      "sk": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "th": {
+        "Name": "หมายเหตุจากรายการ #1156",
+        "ShortName": "1156 อังกฤษ",
+        "Description": "หมายเหตุที่วิศวกรคนหนึ่งทิ้งไว้ในเวิร์กช็อปถัดจากรายการ #1156"
+      },
+      "tu": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      },
+      "vi": {
+        "Name": "Note by Item #1156",
+        "ShortName": "1156 eng.",
+        "Description": "A note left by one of the engineers in the workshop next to Item #1156."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  }
+}

@@ -13,7 +13,9 @@ using System.Text.RegularExpressions;
 
 static class Paths
 {
-    public const string Export = @"E:\项目\VisitAPI Rework\tools\EFT111_Vendors_Export\ExportedProject\Assets";
+    // 导出原先在旧仓库 VisitAPI Rework\tools 下；旧仓库 2026-10-03 退役清理（商人房间不再重打）。
+    // 要再跑抽取，先按 Dev_Note M4.2 用 AssetRipper 重新导出到这个位置。
+    public const string Export = @"E:\项目\VisitAPI\.work\EFT111_Vendors_Export\ExportedProject\Assets";
     // 2026-09-05 起打包工程是隔离工程 IsolatedSDK（坑 #122 的 StripUnusedMeshComponents=0、#105 的 MultiFlareSdk 改名都只在这份里），
     // 主 SDK EscapeFromTushonka-SDK 不再打商人房间。仍可用环境变量 VISITAPI_VENDOR_SDK 覆写。
     public static readonly string Sdk = Environment.GetEnvironmentVariable("VISITAPI_VENDOR_SDK")

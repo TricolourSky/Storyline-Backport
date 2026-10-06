@@ -1,0 +1,194 @@
+[
+    {
+        "id":  "Witness_7_visit",
+        "type":  "visit",
+        "locations":  [
+                          "bigmap"
+                      ],
+        "position":  {
+                         "x":  77.11,
+                         "y":  2.5,
+                         "z":  -106.88
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0,
+                         "z":  0,
+                         "w":  1
+                     },
+        "size":  {
+                     "x":  3,
+                     "y":  3,
+                     "z":  3
+                 },
+        "source":  "10-06 SORA 改：0.16 海关 1.1 那间 Reshala 窝棚进不去（1.1 原位 (85.0735, 2.3647, -105.0458) 2×2×2，level514 Witness_7_visit），改到旁边开着的棚屋（SORA F11 (77.11, 2.89, -106.88)，站在棚屋中间）"
+    },
+    {
+        "id":  "Witness_1_visit",
+        "type":  "visit",
+        "locations":  [
+                          "bigmap"
+                      ],
+        "position":  {
+                         "x":  228.7655,
+                         "y":  0.8677,
+                         "z":  160.9724
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0.0675,
+                         "z":  0,
+                         "w":  0.9977
+                     },
+        "size":  {
+                     "x":  2.5,
+                     "y":  2,
+                     "z":  2.62
+                 },
+        "source":  "1.1.5 客户端 D:\\SPT5.0 level514（海关剧情区域层），GameObject Witness_1_visit（ExperienceTrigger），ZoneExtract 10-06"
+    },
+    {
+        "id":  "Witness_0_visit",
+        "type":  "visit",
+        "locations":  [
+                          "bigmap"
+                      ],
+        "position":  {
+                         "x":  206.7443,
+                         "y":  0.2347,
+                         "z":  176.2486
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  -0.6813,
+                         "z":  0,
+                         "w":  0.732
+                     },
+        "size":  {
+                     "x":  7.4,
+                     "y":  2,
+                     "z":  5.81
+                 },
+        "source":  "1.1.5 客户端 D:\\SPT5.0 level514（海关剧情区域层），GameObject Witness_0_visit（ExperienceTrigger），ZoneExtract 10-06"
+    },
+    {
+        "id":  "Witness_5_visit",
+        "type":  "visit",
+        "locations":  [
+                          "bigmap"
+                      ],
+        "position":  {
+                         "x":  278.7765,
+                         "y":  2.8767,
+                         "z":  134.5664
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0.0675,
+                         "z":  0,
+                         "w":  0.9977
+                     },
+        "size":  {
+                     "x":  4.47,
+                     "y":  2,
+                     "z":  4.05
+                 },
+        "source":  "1.1.5 客户端 D:\\SPT5.0 level514（海关剧情区域层），GameObject Witness_5_visit（ExperienceTrigger），ZoneExtract 10-06"
+    },
+    {
+        "id":  "Witness_0_1_visit",
+        "type":  "visit",
+        "locations":  [
+                          "bigmap"
+                      ],
+        "position":  {
+                         "x":  231.622,
+                         "y":  0.8847,
+                         "z":  159.8269
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0.0675,
+                         "z":  0,
+                         "w":  0.9977
+                     },
+        "size":  {
+                     "x":  1.49,
+                     "y":  2,
+                     "z":  1.92
+                 },
+        "source":  "1.1.5 客户端 D:\\SPT5.0 level514（海关剧情区域层），GameObject Witness_0_1_visit（ExperienceTrigger），ZoneExtract 10-06"
+    },
+    {
+        "id":  "Witness_3_visit",
+        "type":  "visit",
+        "locations":  [
+                          "tarkovstreets"
+                      ],
+        "position":  {
+                         "x":  100.677,
+                         "y":  0.9094,
+                         "z":  132.464
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0.1484,
+                         "z":  0,
+                         "w":  0.9889
+                     },
+        "size":  {
+                     "x":  2,
+                     "y":  3,
+                     "z":  2
+                 },
+        "source":  "1.1.5 客户端 D:\\SPT5.0 level395（街区 City_Quests），GameObject Witness_3_visit（ExperienceTrigger），ZoneExtract 10-06"
+    },
+    {
+        "id":  "Witness_4_1_visit",
+        "type":  "visit",
+        "locations":  [
+                          "tarkovstreets"
+                      ],
+        "position":  {
+                         "x":  225.0,
+                         "y":  2.4,
+                         "z":  222.6
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0,
+                         "z":  0,
+                         "w":  1
+                     },
+        "size":  {
+                     "x":  5,
+                     "y":  3,
+                     "z":  4
+                 },
+        "source":  "10-06 SORA 改：0.16 街区没有阿纳斯塔西娅公寓的入口（1.1 原位 (222.801, 4.263, 229.957) 2×2.5×2，level395 Witness_4_1_visit），改到铁门 + TerraGroup 纸箱前（SORA F11 (224.44, 2.42, 222.8)），框放大盖住门和纸箱"
+    },
+    {
+        "id":  "Witness_8_visit",
+        "type":  "visit",
+        "locations":  [
+                          "shoreline"
+                      ],
+        "position":  {
+                         "x":  299.447,
+                         "y":  -54.875,
+                         "z":  116.5759
+                     },
+        "rotation":  {
+                         "x":  0,
+                         "y":  0.0137,
+                         "z":  0,
+                         "w":  0.9999
+                     },
+        "size":  {
+                     "x":  2.66,
+                     "y":  3,
+                     "z":  2
+                 },
+        "source":  "1.1.5 客户端 D:\\SPT5.0 level29（海岸线剧情区域层），GameObject Witness_8_visit（ExperienceTrigger），ZoneExtract 10-06"
+    }
+]

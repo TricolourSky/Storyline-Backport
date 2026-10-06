@@ -637,20 +637,42 @@ static int Near(string tpk, string level, float x, float y, float z, float radiu
         cache[pathId] = result;
         return result;
     }
+    string NameOf(long trPathId)
+    {
+        var tr = mgr.GetBaseField(main, main.file.GetAssetInfo(trPathId));
+        var goInfo = main.file.GetAssetInfo(tr["m_GameObject"]["m_PathID"].AsLong);
+        return goInfo == null ? "?" : mgr.GetBaseField(main, goInfo)["m_Name"].AsString;
+    }
+    // 10-01：环境变量 ZONE_NEAR_CAP 放开条数上限（默认 40）；ZONE_NEAR_PATH=1 时多打一列「从根到自己」的节点路径（最多 4 级），用来按房间归组量范围
+    var cap = int.TryParse(Environment.GetEnvironmentVariable("ZONE_NEAR_CAP"), out var capArg) ? capArg : 40;
+    var withPath = Environment.GetEnvironmentVariable("ZONE_NEAR_PATH") == "1";
+    string PathOf(long trPathId)
+    {
+        var chain = new List<string>();
+        var cur = trPathId;
+        for (var i = 0; i < 64 && cur != 0; i++)
+        {
+            var info = main.file.GetAssetInfo(cur);
+            if (info == null) break;
+            chain.Add(NameOf(cur));
+            var father = mgr.GetBaseField(main, info)["m_Father"];
+            if (father["m_FileID"].AsInt != 0) break;
+            cur = father["m_PathID"].AsLong;
+        }
+        chain.Reverse();
+        return string.Join("/", chain.Take(4));
+    }
     var target = new Vector3(x, y, z);
-    var hits = new List<(float d, string name, Vector3 p)>();
+    var hits = new List<(float d, string name, Vector3 p, long id)>();
     foreach (var info in main.file.GetAssetsOfType(AssetClassID.Transform))
     {
         var (p, _, _) = World(info.PathId, 0);
         var d = Vector3.Distance(p, target);
         if (d > radius) continue;
-        var tr = mgr.GetBaseField(main, info);
-        var goInfo = main.file.GetAssetInfo(tr["m_GameObject"]["m_PathID"].AsLong);
-        var name = goInfo == null ? "?" : mgr.GetBaseField(main, goInfo)["m_Name"].AsString;
-        hits.Add((d, name, p));
+        hits.Add((d, NameOf(info.PathId), p, info.PathId));
     }
     Console.WriteLine($"# {Path.GetFileName(level)}: {main.file.GetAssetsOfType(AssetClassID.Transform).Count} 个 Transform，离 ({x},{y},{z}) {radius}m 内 {hits.Count} 个");
-    foreach (var (d, name, p) in hits.OrderBy(h => h.d).Take(40))
-        Console.WriteLine($"  {d,7:0.0}m  {name}  @({p.X:0.#}, {p.Y:0.#}, {p.Z:0.#})");
+    foreach (var (d, name, p, id) in hits.OrderBy(h => h.d).Take(cap))
+        Console.WriteLine($"  {d,7:0.0}m  {name}  @({p.X:0.#}, {p.Y:0.#}, {p.Z:0.#})" + (withPath ? "  path=" + PathOf(id) : ""));
     return 0;
 }

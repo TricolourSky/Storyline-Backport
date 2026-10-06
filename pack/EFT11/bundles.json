@@ -85,6 +85,189 @@
         "cubemaps",
         "shaders"
       ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_quest_product1156.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_courier_03.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragroup.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note_folder/item_info_note_book_coming_closed.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/quest/item_quest_mysterious_device/item_quest_mysterious_device.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/quest/item_quest_hacktool_mechanic/item_quest_hacktool_mechanic.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_bluefire_mchs.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_product1156_prototype.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_witness.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_kozlov_debt.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_kozlov_rembox.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_toreshala_warning.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_kozlov_captured.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_newspaper_9th_krug_19_circle.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note_folder/item_info_note_envelope_opened.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_letter_from_kozlov_03.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_newspaper_investigation.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note_folder/item_envelope_closed_kozlov_02.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note_folder/item_envelope_closed_kozlov_01.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard_state.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/spec/keys/item_key_quest_reshala_vremyanka.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/items/spec/keys/keys_textures.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/spec/keys/item_key_quest_lyzhnik_friend.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/items/spec/keys/item_key_assets.bundle",
+        "assets/content/items/spec/keys/keys_textures.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "assets/content/items/infosubject/item_info_note/item_info_note_newspaper_criminal_summary.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders"
+      ]
     }
   ]
 }

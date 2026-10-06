@@ -1,0 +1,445 @@
+{
+  "interchange": [
+    {
+      "locationId": "(493,808, 29,312, 153,529)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_bluefire_mchs (2) [17baed05-6624-4867-9fed-df1fd915e931]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 493.808,
+          "y": 29.312,
+          "z": 153.529
+        },
+        "Rotation": {
+          "x": 90,
+          "y": 14.22214,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa48b3894699080ab617def",
+        "Items": [
+          {
+            "_id": "6aa48b3894699080ab617def",
+            "_tpl": "68e63d4794fb983cb7098d2d",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(258,856, 22,449, -71,344)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_bluefire_mchs (1) [52658490-f764-4736-8cd6-e10b776102c6]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 258.856,
+          "y": 22.449,
+          "z": -71.344
+        },
+        "Rotation": {
+          "x": 90,
+          "y": 359.30765,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa48b3894699080ab617ebf",
+        "Items": [
+          {
+            "_id": "6aa48b3894699080ab617ebf",
+            "_tpl": "68e63d4794fb983cb7098d2d",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(5,616, 28,592, -106,247)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_bluefire_mchs [35798ee0-079b-455e-bf26-61813a854e9c]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 5.616,
+          "y": 28.592,
+          "z": -106.247
+        },
+        "Rotation": {
+          "x": 90,
+          "y": 228.61562,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa48b3894699080ab617f24",
+        "Items": [
+          {
+            "_id": "6aa48b3894699080ab617f24",
+            "_tpl": "68e63d4794fb983cb7098d2d",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "laboratory": [
+    {
+      "locationId": "(-195,7232, 4,95687, -401,0529)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_quest_product1156 [41ce9754-d82f-4980-a7d0-88deb512ff70]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -195.7232,
+          "y": 4.95687,
+          "z": -401.0529
+        },
+        "Rotation": {
+          "x": -1.0672171e-07,
+          "y": 343.0786,
+          "z": 354.66486
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa42113fe355fcc5c2f31fd",
+        "Items": [
+          {
+            "_id": "6aa42113fe355fcc5c2f31fd",
+            "_tpl": "6877c2dcda2a05d0cb04f983",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "labyrinth": [
+    {
+      "locationId": "(-11,174401, 0,8643, 22,614902)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_product1156_prototype [789b722f-3f76-4c8b-a074-282a8af30324]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -11.174401,
+          "y": 0.8643,
+          "z": 22.614902
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 345.2115,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211065e362f6e004b6f1",
+        "Items": [
+          {
+            "_id": "6aa4211065e362f6e004b6f1",
+            "_tpl": "68e63e8d94fb983cb7098d32",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "lighthouse": [
+    {
+      "locationId": "(-81,425, 19,59, -77,676)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_quest_product1156 [218aaf42-e7ca-4213-9adb-30eb8901eca7]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -81.425,
+          "y": 19.59,
+          "z": -77.676
+        },
+        "Rotation": {
+          "x": 1.6520351,
+          "y": 179.88794,
+          "z": -3.2487544e-05
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa420273b4723c4cc2fad3c",
+        "Items": [
+          {
+            "_id": "6aa420273b4723c4cc2fad3c",
+            "_tpl": "6877c2dcda2a05d0cb04f983",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sandbox_high": [
+    {
+      "locationId": "(-19,5214, 30,5539, 46,3186)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_quest_product1156 [cec8bc32-f64e-42cd-b7d1-875dda12a93c]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -19.5214,
+          "y": 30.5539,
+          "z": 46.3186
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 258.20682,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6a69276c4e0025272929bfff",
+        "Items": [
+          {
+            "_id": "6a69276c4e0025272929bfff",
+            "_tpl": "6877c2dcda2a05d0cb04f983",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "tarkovstreets": [
+    {
+      "locationId": "(190,6231, 0,1277, 228,5146)",
+      "probability": 1,
+      "template": {
+        "Id": "item_quest_mysterious_device_spawn (1) [492f1e4f-0a17-4632-b684-a99c78a98e0d]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 190.6231,
+          "y": 0.1277,
+          "z": 228.5146
+        },
+        "Rotation": {
+          "x": 275.7705,
+          "y": 40.696655,
+          "z": -3.3965887e-05
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4203f2e961cae401e20f6",
+        "Items": [
+          {
+            "_id": "6aa4203f2e961cae401e20f6",
+            "_tpl": "68e638cf85c63c556c0272db",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(-56,9195, 10,5607, -152,9323)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_quest_book_of_coming [8b7844cb-3e89-41ca-91f9-2aa80e687296]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -56.9195,
+          "y": 10.5607,
+          "z": -152.9323
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4203f2e961cae401e23c5",
+        "Items": [
+          {
+            "_id": "6aa4203f2e961cae401e23c5",
+            "_tpl": "689b53222c175da5bf083ba3",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(23,383, 1,271, 106,101)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_postal_product1156 [8f08f90a-e706-47ab-b58d-21a07e29aeb1]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 23.383,
+          "y": 1.271,
+          "z": 106.101
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 300.74313,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4205a21a70483700da954",
+        "Items": [
+          {
+            "_id": "6aa4205a21a70483700da954",
+            "_tpl": "689b52d6886e9848a4085917",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(65,651, 8,205, 317,266)",
+      "probability": 1,
+      "template": {
+        "Id": "item_quest_mysterious_device_spawn [6b6372ae-a874-45e4-9cf1-b260a05ddddc]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 65.651,
+          "y": 8.205,
+          "z": 317.266
+        },
+        "Rotation": {
+          "x": 275.77048,
+          "y": 327.8018,
+          "z": -1.6982933e-05
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4205a21a70483700dab5f",
+        "Items": [
+          {
+            "_id": "6aa4205a21a70483700dab5f",
+            "_tpl": "68e638cf85c63c556c0272db",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(39,9441, 1,936, 115,2531)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_recorder_tape_courier_03 [93e4f612-6294-4579-856b-97e918dbd545]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 39.9441,
+          "y": 1.936,
+          "z": 115.2531
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 354.97018,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa420ff17d8df640e31d456",
+        "Items": [
+          {
+            "_id": "6aa420ff17d8df640e31d456",
+            "_tpl": "68889504f6192726ac07c66c",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "woods": [
+    {
+      "locationId": "(-204,78943, -0,40608186, 211,1499)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_bluefire_mchs [571d8a12-af8b-4a0e-9d15-daed21703661]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -204.78943,
+          "y": -0.40608186,
+          "z": 211.1499
+        },
+        "Rotation": {
+          "x": 84.629036,
+          "y": 121.98494,
+          "z": 22.215364
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4509d3eba24a668120b57",
+        "Items": [
+          {
+            "_id": "6aa4509d3eba24a668120b57",
+            "_tpl": "68e63d4794fb983cb7098d2d",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

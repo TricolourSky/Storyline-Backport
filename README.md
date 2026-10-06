@@ -1,6 +1,6 @@
 # EFT 1.1 Storyline Backport
 
-Source for the **EFT 1.1 Storyline Backport (WIP)** add-on on SPT Forge. It brings the EFT 1.1 main story — **Tour of Tarkov**, **Falling Skies** and **The Labyrinth** — with the seven 3D trader rooms and the retail trader dialogues to SPT 4.1 / EFT 0.16, as a content pack for [VisitAPI](https://github.com/TricolourSky/VisitAPI) (1.1.0 needs VisitAPI 1.3.4).
+Source for the **EFT 1.1 Storyline Backport (WIP)** add-on on SPT Forge. It brings the EFT 1.1 main story — **Tour of Tarkov**, **Falling Skies**, **The Labyrinth**, **Blue Fire** and **Accidental Witness** — with the seven 3D trader rooms and the retail trader dialogues to SPT 4.1 / EFT 0.16, as a content pack for [VisitAPI](https://github.com/TricolourSky/VisitAPI) (1.2.0 needs VisitAPI 1.3.6).
 
 The add-on has no DLL. It is data (JSON), images, voice lines and Unity asset bundles. This repository holds all of the data and images, plus the source of the tools that produce every file in the release. The Unity bundles and the voice lines themselves are not stored here (see [Not in this repository](#not-in-this-repository)).
 
@@ -10,24 +10,25 @@ The add-on has no DLL. It is data (JSON), images, voice lines and Unity asset bu
 
 | Path | What it is |
 |---|---|
-| `pack/EFT11/` | The content pack from release 1.1.0, byte for byte as shipped, without its 11 item bundles and 15 voice lines. It installs to `SPT_Runtime/user/mods/VisitAPI-Server/packs/EFT11/`. |
+| `pack/EFT11/` | The content pack from release 1.2.0, byte for byte as shipped, without its 34 item bundles and 15 voice lines. It installs to `SPT_Runtime/user/mods/VisitAPI-Server/packs/EFT11/`. |
 | `tools/QuestPort/` | Ports quests, dialogues, texts and quest items from EFT 1.1 data and adapts them to SPT 4.1 / EFT 0.16. |
 | `tools/ZoneExtract/` | Reads quest zones (position, rotation, box size) from EFT 1.1 level files. |
 | `tools/VoiceRip/` | Extracts a trader's voice lines from the EFT 1.1 lip-sync bundle and converts them to MP3. |
 | `tools/LabyrinthPort/`, `tools/LabyrinthNotes/` | Helpers for the steps specific to The Labyrinth (see below). |
 | `tools/VendorScene/` | Moves a 1.1 trader room scene out of an AssetRipper export into a Unity project and generates stubs for the game scripts it uses. `Unity/VendorSceneBuild.cs` is the editor script that builds the room bundle. |
 | `tools/NativeShaderPatch/` | Post-processes a built room bundle: puts the original 1.1 shaders back, restores material keywords, special-format textures and reflection cubemaps, and verifies the result. |
-| `release-1.1.0.sha256`, `release-1.0.0.sha256` | SHA-256 of every file in each release, including the files that are not stored here. |
+| `release-1.2.0.sha256`, `release-1.1.0.sha256`, `release-1.0.0.sha256` | SHA-256 of every file in each release, including the files that are not stored here. |
 
 What `pack/EFT11/` contains:
 
 | Folder | Content |
 |---|---|
-| `quests/` | 50 quests: Tour of Tarkov 21, Falling Skies 17, The Labyrinth 12 |
-| `dialogues/` | The 94 retail trader dialogues (`dialogue.json`) and the story dialogues (`tour_1.1.json`, `extra_1.1.json`, `labyrinth_1.1.json`) |
+| `quests/` | 72 quests: Tour of Tarkov 21, Falling Skies 17, The Labyrinth 12, Blue Fire 9, Accidental Witness 13 |
+| `dialogues/` | The 94 retail trader dialogues (`dialogue.json`) and the story dialogues (`tour_1.1.json`, `extra_1.1.json`, `labyrinth_1.1.json`, `bluefire_1.1.json`, `witness_1.1.json`) |
 | `locales/` | Chinese, English and Russian texts |
-| `items/`, `loot/` | 15 quest items and their raid spawn points, plus 52 other EFT 1.1 items the story uses (`Shared_1.1.json`) |
-| `zones/` | 16 quest zones |
+| `items/`, `loot/` | 38 quest items (notes, audio tapes, keys and others) and their raid spawn points, plus 52 other EFT 1.1 items the story uses (`Shared_1.1.json`) |
+| `botloot/` | Extra bot loot: Reshala can carry the key to his bunkhouse (Accidental Witness), at the SPT 5.0 odds |
+| `zones/` | 28 quest zones |
 | `variables/` | 42 variable groups |
 | `traders/` | 5 EFT 1.1 traders the story refers to (base file and avatar) |
 | `images/` | Chapter banners and icons from EFT 1.1 |
@@ -35,14 +36,14 @@ What `pack/EFT11/` contains:
 
 ## Not in this repository
 
-The release also contains Unity asset bundles built from EFT 1.1's own game assets, and voice lines taken from the 1.1 client. They are not stored here: a room bundle is 0.3–1.1 GB, far above GitHub's 100 MB file limit, and the item models and voice lines are the game's own files. Download the add-on from its SPT Forge page to get them. `release-1.1.0.sha256` lists their hashes.
+The release also contains Unity asset bundles built from EFT 1.1's own game assets, and voice lines taken from the 1.1 client. They are not stored here: a room bundle is 0.3–1.1 GB, far above GitHub's 100 MB file limit, and the item models and voice lines are the game's own files. Download the add-on from its SPT Forge page to get them. `release-1.2.0.sha256` lists their hashes.
 
 | Release file | Size | How it is made |
 |---|---|---|
 | `BepInEx/plugins/VisitAPI/rooms/<traderId>_<trader>` ×7 | 0.3–1.1 GB each | The trader rooms, built with the room pipeline below |
 | `BepInEx/plugins/VisitAPI/rooms/vendors_scripts` | 1.9 MB | The shared `Vendors_Scripts` scene (lighting, post-processing), same pipeline, in its own bundle |
 | `BepInEx/plugins/VisitAPI/rooms/dialogue.json` | 12 MB | Client-side copy, identical to `pack/EFT11/dialogues/dialogue.json` |
-| `…/packs/EFT11/bundles/…/*.bundle` ×11 | 30 MB | Quest item models, copied unchanged from the EFT 1.1 client |
+| `…/packs/EFT11/bundles/…/*.bundle` ×34 | 103 MB | Quest item models, copied unchanged from the EFT 1.1 client |
 | `…/packs/EFT11/voice/688246518448b05efd61d461/*.mp3` ×15 | 0.6 MB | Mr. Kerman's voice lines, extracted with `VoiceRip` |
 
 ## How the release is made
@@ -53,6 +54,7 @@ Inputs: the EFT 1.1 client, a capture of its backend responses (quest list, dial
 - **Quest items.** Item templates, texts and handbook entries come from SPT 5.0. Models are copied unchanged from the 1.1 client. Spawn points are 1.1's fixed spawn points. `QuestPort items` does all of this in one step; the command was added after 1.0.0, and the 1.0.0 items were prepared the same way by hand.
 - **Quest zones.** `ZoneExtract <classdata.tpk> <level file> <name regex> <maps>` prints the zone boxes in the pack's `zones` format.
 - **The Labyrinth.** Ported with `QuestPort` like the other chapters. `LabyrinthPort` merges the chapter's hidden opening quest into the chapter file and sets the Labyrinth-specific `visitapi` flags. `LabyrinthNotes` adds the research assistants' notes (their hidden quests, the 1.1 variable rewards as `visitapi.setVariables`, the note items), copies the spawn points of the notes and of the observation room key verbatim from 1.1, and gives sub-quests that have no name in 1.1 the name of their chapter. Both only append to the pack files.
+- **Blue Fire, Accidental Witness.** Ported with `QuestPort` like the other chapters. Where 1.1 starts a quest when the player reads an item, `adapt` writes the item into `visitapi.startOnItems`, and the quest starts when the player picks it up. Two Accidental Witness places do not exist on the EFT 0.16 maps (the entrance to Anastasia's building on Streets of Tarkov and Reshala's bunkhouse on Customs), so their zones and notes were moved by hand to a reachable spot next to them. `botloot/` gives Reshala his bunkhouse key at the SPT 5.0 odds.
 - **Traders.** `traders/<id>/` holds the trader's `base.json` and avatar from the SPT 5.0 database. Two fields that SPT 5.0 stores as strings (`discount`, `repair.quality`) are written as numbers, which SPT 4.1 expects. Player Trader, under whom most chapter quests are filed, is unlocked by default (SPT 5.0 has it locked).
 - **Voice lines.** `VoiceRip ids` collects the lip-sync ids that a trader's dialogues use. `ripso` extracts those lines from the 1.1 client's lip-sync bundle, and `mp3` converts them.
 - **Trader rooms.**

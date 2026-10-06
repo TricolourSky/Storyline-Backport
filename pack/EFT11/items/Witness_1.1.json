@@ -1,0 +1,2839 @@
+{
+  "688897e094cca0a80b070aed": {
+    "template": {
+      "_id": "688897e094cca0a80b070aed",
+      "_name": "item_info_recorder_tape_witness",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68f0f55ea607c91a6006cebb",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "violet",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_recorder_tape_witness",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_plastic_generic",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_recorder_tape_witness",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_witness.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_recorder_tape_witness",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.065,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NotificationDuration": 0.2,
+        "Subtitles": "TapesSubs/sound_info_recorder_tape_witness",
+        "TapeID": "sound_info_recorder_tape_witness",
+        "Transcript": "TapesText/sound_info_recorder_tape_witness"
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "犯罪证据录音带",
+        "ShortName": "证据",
+        "Description": "科兹洛夫为阿纳斯塔西娅准备的录音带。从科兹洛夫的来信判断，里面是城市当局与当地犯罪分子勾结的铁证。"
+      },
+      "cz": {
+        "Name": "Zvuková nahrávka s usvědčujícími důkazy",
+        "ShortName": "Důkazy",
+        "Description": "Zvuková nahrávka, kterou Kozlov připravil pro Anastasii. Podle Kozlovových dopisů obsahuje nezvratné důkazy o vazbách městské správy na místní zločinecké podsvětí."
+      },
+      "en": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "es": {
+        "Name": "Cinta de audio con evidencias incriminatorias",
+        "ShortName": "Evidencia",
+        "Description": "Una cinta de audio preparada por Kozlov para Anastasia. De acuerdo con las cartas de Kozlov, contiene pruebas irrefutables de los vínculos de la administración municipal con el mundo criminal local."
+      },
+      "es-mx": {
+        "Name": "Cinta de audio con evidencias incriminatorias",
+        "ShortName": "Evidencia",
+        "Description": "Una cinta de audio preparada por Kozlov para Anastasia. De acuerdo con las cartas de Kozlov, contiene pruebas irrefutables de los vínculos de la administración municipal con el mundo criminal local."
+      },
+      "fr": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "ge": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "hu": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "in": {
+        "Name": "Rekaman audio dengan bukti yang memberatkan",
+        "ShortName": "Bukti",
+        "Description": "Rekaman audio yang disiapkan Kozlov untuk Anastasia. Menurut surat-surat Kozlov, rekaman itu berisi bukti tak terbantahkan tentang hubungan pemerintah kota dengan dunia kriminal bawah tanah setempat."
+      },
+      "it": {
+        "Name": "Nastro audio con prove incriminanti",
+        "ShortName": "Prova",
+        "Description": "Un nastro audio preparato da Kozlov per Anastasia. Secondo le lettere di Kozlov, contiene prove inconfutabili dei legami dell'amministrazione cittadina con la malavita locale."
+      },
+      "jp": {
+        "Name": "証拠となる音声テープ",
+        "ShortName": "Evidence",
+        "Description": "コズロフがアナスタシアに用意した音声テープ。コズロフの手紙によれば、市当局と地元の犯罪組織との結びつきを示す反論の余地のない証拠が収録されている。"
+      },
+      "kr": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "pl": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "po": {
+        "Name": "Fita de áudio com evidências incriminadoras",
+        "ShortName": "Evidências",
+        "Description": "Uma fita de áudio preparada por Kozlov para Anastasia. De acordo com as cartas de Kozlov, ela contém prova irrefutável dos laços da administração da cidade com o submundo criminoso local."
+      },
+      "ro": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "ru": {
+        "Name": "Аудиокассета с компроматом",
+        "ShortName": "Компр.",
+        "Description": "Аудиокассета, которую Козлов приготовил для Анастасии. Судя по письмам Козлова, в ней содержится неопровержимое доказательство связи администрации города с местным криминалитетом."
+      },
+      "sk": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "th": {
+        "Name": "เทปเสียงพร้อมหลักฐานการฟ้องร้อง",
+        "ShortName": "หลักฐาน",
+        "Description": "เทปเสียงที่คอซลอฟเตรียมไว้ให้อนาสตาเซีย ตามจดหมายของคอซลอฟ เทปเสียงนี้มีหลักฐานที่ปฏิเสธไม่ได้ว่าฝ่ายบริหารเมืองมีความเชื่อมโยงกับกลุ่มอาชญากรใต้ดินในท้องถิ่น"
+      },
+      "tu": {
+        "Name": "Audio tape with incriminating evidence",
+        "ShortName": "Evidence",
+        "Description": "An audio tape prepared by Kozlov for Anastasia. According to Kozlov’s letters, it contains irrefutable proof of the city administration’s ties to the local criminal underworld."
+      },
+      "vi": {
+        "Name": "Băng ghi âm có bằng chứng buộc tội",
+        "ShortName": "Chứng cớ",
+        "Description": "Một băng ghi âm do Kozlov chuẩn bị cho Anastasia. Theo thư của Kozlov, băng ghi âm này chứa đựng bằng chứng không thể chối cãi về mối liên hệ giữa chính quyền thành phố với thế giới ngầm tội phạm địa phương."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2f09fb350a6169f04bea9": {
+    "template": {
+      "_id": "68d2f09fb350a6169f04bea9",
+      "_name": "item_info_note_kozlov_debt",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "6895bbb0e7dac53c7c08797b",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_kozlov_debt",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_kozlov_debt",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_kozlov_debt.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_kozlov_debt",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.005,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_kozlov_debt_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "给科兹洛夫的警告信",
+        "ShortName": "讨债",
+        "Description": "留在门上的一则警告信。"
+      },
+      "cz": {
+        "Name": "Vzkaz pro Kozlova",
+        "ShortName": "Vzkaz",
+        "Description": "Výhružný vzkaz zanechaný na dveřích."
+      },
+      "en": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "es": {
+        "Name": "Nota para Kozlov",
+        "ShortName": "Deuda",
+        "Description": "Una nota amenazante dejada en la puerta."
+      },
+      "es-mx": {
+        "Name": "Nota para Kozlov",
+        "ShortName": "Deuda",
+        "Description": "Una nota amenazante puesta en la puerta."
+      },
+      "fr": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "ge": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "hu": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "in": {
+        "Name": "Catatan untuk Kozlov",
+        "ShortName": "Utang",
+        "Description": "Sebuah catatan ancaman tertinggal di pintu."
+      },
+      "it": {
+        "Name": "Nota per Kozlov",
+        "ShortName": "Debito",
+        "Description": "Un biglietto minaccioso lasciato sulla porta."
+      },
+      "jp": {
+        "Name": "コズロフへのメモ",
+        "ShortName": "Debt",
+        "Description": "ドアに残されていた脅迫文。"
+      },
+      "kr": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "pl": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "po": {
+        "Name": "Nota para Kozlov",
+        "ShortName": "Dívida",
+        "Description": "Uma nota ameaçadora deixada na porta."
+      },
+      "ro": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "ru": {
+        "Name": "Записка для Козлова",
+        "ShortName": "Верни долг",
+        "Description": "Записка на двери с угрожающим сообщением."
+      },
+      "sk": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "th": {
+        "Name": "หมายเหตุสำหรับโคซลอฟ",
+        "ShortName": "หนี้",
+        "Description": "มีจดหมายขู่ทิ้งไว้ที่ประตู"
+      },
+      "tu": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      },
+      "vi": {
+        "Name": "Note for Kozlov",
+        "ShortName": "Debt",
+        "Description": "A threatening note left on the door."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2f1318c12620073059930": {
+    "template": {
+      "_id": "68d2f1318c12620073059930",
+      "_name": "item_info_note_kozlov_rembox",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "6895bbb0e7dac53c7c08797b",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_kozlov_rembox",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_kozlov_rembox",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_kozlov_rembox.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_kozlov_rembox",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_kozlov_rembox_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "来自修车店的便条",
+        "ShortName": "修车店",
+        "Description": "一张皱巴巴的纸条，沾上了机油。"
+      },
+      "cz": {
+        "Name": "Vzkaz z opravny",
+        "ShortName": "Opravna",
+        "Description": "Zmačkaný vzkaz potřísněný strojním olejem."
+      },
+      "en": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "es": {
+        "Name": "Nota del taller de reparación",
+        "ShortName": "Tall. Rep.",
+        "Description": "Una nota arrugada manchada con aceite de máquina."
+      },
+      "es-mx": {
+        "Name": "Nota del taller de reparación",
+        "ShortName": "Tall. Rep.",
+        "Description": "Una nota arrugada manchada con aceite de maquinaria."
+      },
+      "fr": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "ge": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "hu": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "in": {
+        "Name": "Catatan dari bengkel",
+        "ShortName": "Toko RepShop",
+        "Description": "Sebuah catatan kusut yang terkena noda oli mesin."
+      },
+      "it": {
+        "Name": "Nota dell'officina",
+        "ShortName": "RepShop",
+        "Description": "Un biglietto sgualcito e macchiato di olio per macchine."
+      },
+      "jp": {
+        "Name": "修理店からのメモ",
+        "ShortName": "RepShop",
+        "Description": "機械油で汚れたくしゃくしゃのメモ。"
+      },
+      "kr": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "pl": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "po": {
+        "Name": "Nota da oficina de reparos",
+        "ShortName": "Oficina",
+        "Description": "Uma nota amassada manchada de óleo de máquina."
+      },
+      "ro": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "ru": {
+        "Name": "Записка из рембокса",
+        "ShortName": "С рембокса",
+        "Description": "Мятая записка, запачканная машинным маслом."
+      },
+      "sk": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "th": {
+        "Name": "หมายเหตุจากร้านซ่อม",
+        "ShortName": "เรปช็อป",
+        "Description": "โน้ตที่ยับยู่ยี่เปื้อนไปด้วยน้ำมันเครื่อง"
+      },
+      "tu": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      },
+      "vi": {
+        "Name": "Note from the repair shop",
+        "ShortName": "RepShop",
+        "Description": "A crumpled note stained with machine oil."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2f302be7c1493b90cd3f5": {
+    "template": {
+      "_id": "68d2f302be7c1493b90cd3f5",
+      "_name": "item_info_note_toReshala_warning",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68f0f55917a7f61dc70e7353",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_toReshala_warning",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_toReshala_warning",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_toreshala_warning.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_toReshala_warning",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_toReshala_warning_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "警告消息",
+        "ShortName": "警告",
+        "Description": "某个自称 Nagano'98 的人发来的消息。"
+      },
+      "cz": {
+        "Name": "Vzkaz s varováním",
+        "ShortName": "Varování",
+        "Description": "Vzkaz od jistého Nagano'98."
+      },
+      "en": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "es": {
+        "Name": "Nota con una advertencia",
+        "ShortName": "Advertencia",
+        "Description": "La nota de un tal Nagano'98."
+      },
+      "es-mx": {
+        "Name": "Nota con una advertencia",
+        "ShortName": "Advertencia",
+        "Description": "Una nota de un tal Nagano'98."
+      },
+      "fr": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "ge": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "hu": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "in": {
+        "Name": "Catatan dengan peringatan",
+        "ShortName": "Peringatan",
+        "Description": "Catatan dari seseorang Nagano'98."
+      },
+      "it": {
+        "Name": "Nota con avviso",
+        "ShortName": "Avviso",
+        "Description": "Una nota da un certo Nagano'98."
+      },
+      "jp": {
+        "Name": "注意の書かれたメモ",
+        "ShortName": "Warning",
+        "Description": "とある Nagano'98 からのメモ。"
+      },
+      "kr": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "pl": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "po": {
+        "Name": "Nota com um aviso",
+        "ShortName": "Aviso",
+        "Description": "Uma nota de um certo Nagano'98."
+      },
+      "ro": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "ru": {
+        "Name": "Записка с предупреждением",
+        "ShortName": "Предупреж.",
+        "Description": "Записка от какого-то Нагано'98."
+      },
+      "sk": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "th": {
+        "Name": "หมายเหตุพร้อมคำเตือน",
+        "ShortName": "คำเตือน",
+        "Description": "บันทึกจากชาวนากาโน่ปี 98"
+      },
+      "tu": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      },
+      "vi": {
+        "Name": "Note with a warning",
+        "ShortName": "Warning",
+        "Description": "A note from a certain Nagano'98."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2f3375f98276b7503c32e": {
+    "template": {
+      "_id": "68d2f3375f98276b7503c32e",
+      "_name": "item_info_note_kozlov_captured",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68f0f55b6310272fc402e2dc",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_kozlov_captured",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_kozlov_captured",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_kozlov_captured.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_kozlov_captured",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.002,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_kozlov_captured_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "带有地址的消息",
+        "ShortName": "地址",
+        "Description": "Reshala 手下暴徒写的条子，提到了科兹洛夫的住址。"
+      },
+      "cz": {
+        "Name": "Zpráva s adresou",
+        "ShortName": "Adresa",
+        "Description": "Vzkaz od Reshalovy posádky zmiňující Kozlovovu adresu."
+      },
+      "en": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "es": {
+        "Name": "Nota con una dirección",
+        "ShortName": "Dirección",
+        "Description": "Una nota del equipo de Reshala en la que es mencionada la dirección de Kozlov."
+      },
+      "es-mx": {
+        "Name": "Nota con una dirección",
+        "ShortName": "Dirección",
+        "Description": "Una nota del equipo de Reshala en la que se menciona la dirección de Kozlov."
+      },
+      "fr": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "ge": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "hu": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "in": {
+        "Name": "Catatan dengan alamat",
+        "ShortName": "Alamat",
+        "Description": "Catatan dari kru Reshala yang menyebutkan alamat Kozlov."
+      },
+      "it": {
+        "Name": "Nota con indirizzo",
+        "ShortName": "Indirizzo",
+        "Description": "Una nota dell'equipaggio di Reshala che menziona l'indirizzo di Kozlov."
+      },
+      "jp": {
+        "Name": "住所のついたメモ",
+        "ShortName": "Address",
+        "Description": "コズロフの住所が記された Reshala の仲間のメモ。"
+      },
+      "kr": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "pl": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "po": {
+        "Name": "Nota com um endereço",
+        "ShortName": "Endereço",
+        "Description": "Uma nota da equipe de Reshala mencionando o endereço de Kozlov."
+      },
+      "ro": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "ru": {
+        "Name": "Записка с адресом",
+        "ShortName": "Запс.Адрес.",
+        "Description": "Записка людей Решалы с адресом Козлова."
+      },
+      "sk": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "th": {
+        "Name": "หมายเหตุพร้อมที่อยู่",
+        "ShortName": "ที่อยู่",
+        "Description": "บันทึกจากทีมงานของ Reshala กล่าวถึงที่อยู่ของ Kozlov"
+      },
+      "tu": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      },
+      "vi": {
+        "Name": "Note with an address",
+        "ShortName": "Address",
+        "Description": "A note from Reshala's crew mentioning Kozlov's address."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2f44df63f06b7590ce30e": {
+    "template": {
+      "_id": "68d2f44df63f06b7590ce30e",
+      "_name": "item_info_note_newspaper_9th_krug_19_circle",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "6895bbb0e7dac53c7c08797b",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_newspaper_9th_krug_19_circle",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_newspaper_9th_krug_19_circle",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_newspaper_9th_krug_19_circle.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_newspaper_9th_krug_19_circle",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.005,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_newspaper_9th_krug_19_circle_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "《第九圈》第 19 期",
+        "ShortName": "9C #19",
+        "Description": "刊登了一则关于某个神秘采蘑菇的人的故事。"
+      },
+      "cz": {
+        "Name": "Devátý Kruh, číslo 19",
+        "ShortName": "9K #19",
+        "Description": "Vydání s příběhem o záhadném Houbaři."
+      },
+      "en": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "es": {
+        "Name": "El Noveno Círculo - Edición #19",
+        "ShortName": "9C #19",
+        "Description": "Un número con una historia sobre el misterioso Recolector de Hongos."
+      },
+      "es-mx": {
+        "Name": "El Noveno Círculo - Edición #19",
+        "ShortName": "9C #19",
+        "Description": "Una edición con una historia sobre el misterioso Recolector de Champiñones."
+      },
+      "fr": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "ge": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "hu": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "in": {
+        "Name": "Lingkaran Kesembilan Edisi #19",
+        "ShortName": "9C #19",
+        "Description": "Edisi yang menyajikan cerita tentang si Pemetik Jamur yang misterius."
+      },
+      "it": {
+        "Name": "Il Nono Cerchio Problema #19",
+        "ShortName": "9C #19",
+        "Description": "Un numero dedicato alla storia del misterioso Raccoglitore di Funghi."
+      },
+      "jp": {
+        "Name": "The Ninth Circle 第19部",
+        "ShortName": "9C #19",
+        "Description": "謎のキノコ採りについての物語を特集した号。"
+      },
+      "kr": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "pl": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "po": {
+        "Name": "O Nono Círculo Edição #19",
+        "ShortName": "9C #19",
+        "Description": "Uma edição com uma história sobre o misterioso Catador de Cogumelos."
+      },
+      "ro": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "ru": {
+        "Name": "«Девятый круг» выпуск № 19",
+        "ShortName": "9 круг 19",
+        "Description": "Выпуск «Девятого круга» с рассказом о таинственном Грибнике."
+      },
+      "sk": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "th": {
+        "Name": "วงกลมที่เก้า ฉบับที่ 19",
+        "ShortName": "9C #19",
+        "Description": "ฉบับที่นำเสนอเรื่องราวของนักเก็บเห็ดผู้ลึกลับ"
+      },
+      "tu": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      },
+      "vi": {
+        "Name": "The Ninth Circle Issue #19",
+        "ShortName": "9C #19",
+        "Description": "An issue featuring a story about the mysterious Mushroom Picker."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2f4aff8817df4690db3d1": {
+    "template": {
+      "_id": "68d2f4aff8817df4690db3d1",
+      "_name": "item_info_note_envelope_opened",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68f0f557ac6ab778470752ad",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_envelope_opened",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_envelope_opened",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_envelope_opened.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_envelope_opened",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.005,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_envelope_opened_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "拆开的信封",
+        "ShortName": "信封",
+        "Description": "一封空信封，看样子收件人从邮差手里拿到这封信就立马把它拆开了。"
+      },
+      "cz": {
+        "Name": "Nezapečetěná obálka",
+        "ShortName": "Obálka",
+        "Description": "Poštovní obálka bez dopisu, odebraná kurýrovi a ihned otevřená."
+      },
+      "en": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "es": {
+        "Name": "Sobre abierto",
+        "ShortName": "Sobre",
+        "Description": "Un sobre postal sin carta, tomado de un mensajero y abierto de inmediato."
+      },
+      "es-mx": {
+        "Name": "Sobre abierto",
+        "ShortName": "Sobre",
+        "Description": "Un sobre postal sin carta, tomado de un mensajero y abierto de inmediato."
+      },
+      "fr": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "ge": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "hu": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "in": {
+        "Name": "Amplop tidak tersegel",
+        "ShortName": "Amplop",
+        "Description": "Amplop pos tanpa surat, diambil dari kurir dan segera dibuka segelnya."
+      },
+      "it": {
+        "Name": "Busta non sigillata",
+        "ShortName": "Busta",
+        "Description": "Una busta postale senza lettera, presa da un corriere e aperta immediatamente."
+      },
+      "jp": {
+        "Name": "封のされていない封筒",
+        "ShortName": "Envelope",
+        "Description": "手紙の入っていない郵便封筒。配達員から受け取るとすぐ開封された。"
+      },
+      "kr": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "pl": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "po": {
+        "Name": "Envelope aberto",
+        "ShortName": "Envelope",
+        "Description": "Um envelope postal sem carta, tirado de um mensageiro e aberto imediatamente."
+      },
+      "ro": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "ru": {
+        "Name": "Вскрытый почтовый конверт",
+        "ShortName": "Вскрт.Конв.",
+        "Description": "Почтовый конверт без письма, который кто-то отобрал у курьера и сразу вскрыл."
+      },
+      "sk": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "th": {
+        "Name": "ซองจดหมายที่ไม่ได้ปิดผนึก",
+        "ShortName": "ซองจดหมาย",
+        "Description": "ซองจดหมายที่ไม่มีจดหมาย นำออกมาจากบริษัทขนส่งและเปิดผนึกทันที"
+      },
+      "tu": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      },
+      "vi": {
+        "Name": "Unsealed envelope",
+        "ShortName": "Envelope",
+        "Description": "A postal envelope without a letter, taken from a courier and unsealed immediately."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2f4fc17b59ead010894b6": {
+    "template": {
+      "_id": "68d2f4fc17b59ead010894b6",
+      "_name": "item_info_note_letter_from_kozlov_03",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68f0f55917a7f61dc70e7353",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_letter_from_kozlov_03",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_letter_from_kozlov_03",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_letter_from_kozlov_03.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_letter_from_kozlov_03",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.005,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_letter_from_kozlov_03_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "Reshala 窝棚里的字条",
+        "ShortName": "Reshala",
+        "Description": "Reshala 的手下从信使帕沙身上截获的信件。"
+      },
+      "cz": {
+        "Name": "Zpráva z Reshalovy boudy",
+        "ShortName": "Resh Bouda",
+        "Description": "Dopis odebraný kurýrovi Pashovi Reshalovými lidmi."
+      },
+      "en": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "es": {
+        "Name": "Carta de la barraca de Reshala",
+        "ShortName": "Barr. Resh.",
+        "Description": "Una carta incautada al mensajero Pasha por los hombres de Reshala."
+      },
+      "es-mx": {
+        "Name": "Carta de la barraca de Reshala",
+        "ShortName": "Barr. Resh.",
+        "Description": "Una carta confiscada al mensajero Pasha por los hombres de Reshala."
+      },
+      "fr": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "ge": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "hu": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "in": {
+        "Name": "Surat dari bunkhouse Reshala",
+        "ShortName": "Resh Bunk",
+        "Description": "Surat yang diambil dari kurir Pasha oleh orang-orang Reshala."
+      },
+      "it": {
+        "Name": "Lettera dalla baracca di Reshala",
+        "ShortName": "Resh Bunk",
+        "Description": "Una lettera presa dal corriere Pasha dalla gente di Reshala."
+      },
+      "jp": {
+        "Name": "Reshala の詰所からのメモ",
+        "ShortName": "Resh Bunk",
+        "Description": "Reshala の部下が配達員の Pasha から奪った手紙。"
+      },
+      "kr": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "pl": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "po": {
+        "Name": "Carta do alojamento de Reshala",
+        "ShortName": "Alojamento Reshala",
+        "Description": "Uma carta tirada do mensageiro Pasha pela equipe de Reshala."
+      },
+      "ro": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "ru": {
+        "Name": "Письмо из времянки Решалы",
+        "ShortName": "Писм.Времн.",
+        "Description": "Письмо Козлова, отобранное людьми Решалы у курьера Паши."
+      },
+      "sk": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "th": {
+        "Name": "จดหมายจากบ้านพักของเรชาลา",
+        "ShortName": "เรช บังค์",
+        "Description": "จดหมายที่คนของเรชาลาได้รับมาจากผู้ส่งสารพาชา"
+      },
+      "tu": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      },
+      "vi": {
+        "Name": "Letter from Reshala's bunkhouse",
+        "ShortName": "Resh Bunk",
+        "Description": "A letter taken from courier Pasha by Reshala’s people."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2f6352ca1a737d107b84b": {
+    "template": {
+      "_id": "68d2f6352ca1a737d107b84b",
+      "_name": "item_info_note_newspaper_investigation",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "6895bbb0e7dac53c7c08797b",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_newspaper_investigation",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_newspaper_investigation",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_newspaper_investigation.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_newspaper_investigation",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.08,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_newspaper_investigation_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "刊有 A.米哈伊洛娃文章的《塔科夫先驱报》",
+        "ShortName": "先驱报",
+        "Description": "这一期刊有 A.米哈伊洛娃参与重大调查事件所做的准备工作的文章。"
+      },
+      "cz": {
+        "Name": "Noviny Tarkov Herald s článkem od A. Mikhailové",
+        "ShortName": "TH",
+        "Description": "Toto vydání obsahuje článek o přípravě důležitého vyšetřování novinářkou A. Mikhailovou."
+      },
+      "en": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "es": {
+        "Name": "Periódico El Heraldo de Tarkov con un artículo de A. Mikháilova",
+        "ShortName": "Inv. HT",
+        "Description": "Esta edición incluye un artículo sobre la preparación de una importante investigación por parte de la periodista A. Mikháilova."
+      },
+      "es-mx": {
+        "Name": "Periódico El Heraldo de Tarkov con un artículo de A. Mikháilova",
+        "ShortName": "Inv. HT",
+        "Description": "Esta edición incluye un artículo sobre la preparación de una importante investigación por parte de la periodista A. Mikháilova."
+      },
+      "fr": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "ge": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "hu": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "in": {
+        "Name": "Surat kabar Tarkov Herald dengan artikel oleh A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "Edisi ini menampilkan artikel tentang persiapan investigasi penting oleh jurnalis A. Mikhailova."
+      },
+      "it": {
+        "Name": "Giornale Tarkov Herald con articolo di A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "Questo numero contiene un articolo sulla preparazione di un'importante indagine della giornalista A. Mikhailova."
+      },
+      "jp": {
+        "Name": "A. ミハイロワの記事が掲載された Tarkov Herald 紙",
+        "ShortName": "TH inv.",
+        "Description": "この号では、ジャーナリスト A. ミハイロワによる重要な調査の準備に関する記事が掲載されている。"
+      },
+      "kr": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "pl": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "po": {
+        "Name": "Jornal Arauto de Tarkov com artigo de A. Mikhailova",
+        "ShortName": "AT inv.",
+        "Description": "Esta edição apresenta um artigo sobre a preparação de uma investigação importante pela jornalista A. Mikhailova."
+      },
+      "ro": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "ru": {
+        "Name": "Выпуск «Вестника Таркова» со статьёй о расследовании А. Михайловой",
+        "ShortName": "\"ВТ\" рассл.",
+        "Description": "В этом выпуске говорится о подготовке важного расследования известной журналисткой."
+      },
+      "sk": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "th": {
+        "Name": "หนังสือพิมพ์ Tarkov Herald พร้อมบทความโดย A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "ฉบับนี้มีบทความเกี่ยวกับการเตรียมการสืบสวนที่สำคัญโดยนักข่าว A. Mikhailova"
+      },
+      "tu": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      },
+      "vi": {
+        "Name": "Tarkov Herald newspaper with article by A. Mikhailova",
+        "ShortName": "TH inv.",
+        "Description": "This issue features an article on the preparation of an important investigation by the journalist A. Mikhailova."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fc914aae290cf704e373": {
+    "template": {
+      "_id": "68d2fc914aae290cf704e373",
+      "_name": "item_info_note_letter_from_kozlov_01",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68f0f556dae477041501acfe",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_letter_from_kozlov_01",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_letter_from_kozlov_01",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note_folder/item_envelope_closed_kozlov_02.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_letter_from_kozlov_01",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.01,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_letter_from_kozlov_01_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "邮箱里的信",
+        "ShortName": "邮箱",
+        "Description": "来自科兹洛夫的信，就这么放在邮箱里。"
+      },
+      "cz": {
+        "Name": "Dopis z poštovní schránky",
+        "ShortName": "Schránka",
+        "Description": "Dopis od Kozlova, který ležel v poštovní schránce."
+      },
+      "en": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "es": {
+        "Name": "Carta del buzón de entrada",
+        "ShortName": "Buzón",
+        "Description": "Una carta de Kozlov que ha quedado en el buzón."
+      },
+      "es-mx": {
+        "Name": "Carta del buzón",
+        "ShortName": "Buzón",
+        "Description": "Una carta de Kozlov que ha estado en el buzón."
+      },
+      "fr": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "ge": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "hu": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "in": {
+        "Name": "Surat dari kotak surat",
+        "ShortName": "Kotak surat",
+        "Description": "Sepucuk surat dari Kozlov yang tersimpan di kotak surat."
+      },
+      "it": {
+        "Name": "Lettera dalla casella postale",
+        "ShortName": "Casella postale",
+        "Description": "Una lettera di Kozlov che è rimasta nella cassetta della posta."
+      },
+      "jp": {
+        "Name": "郵便受けの手紙",
+        "ShortName": "Mailbox",
+        "Description": "郵便受けにずっと置かれたままのコズロフからの手紙。"
+      },
+      "kr": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "pl": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "po": {
+        "Name": "Carta da caixa de correio",
+        "ShortName": "Caixa de correio",
+        "Description": "Uma carta de Kozlov que estava na caixa de correio."
+      },
+      "ro": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "ru": {
+        "Name": "Письмо из почтового ящика",
+        "ShortName": "Почтв.ящик",
+        "Description": "Письмо от Козлова, которое осталось в почтовом ящике."
+      },
+      "sk": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "th": {
+        "Name": "จดหมายจากตู้ไปรษณีย์",
+        "ShortName": "ตู้ไปรษณีย์",
+        "Description": "จดหมายจากคอซลอฟที่ถูกเก็บไว้ในตู้ไปรษณีย์"
+      },
+      "tu": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      },
+      "vi": {
+        "Name": "Letter from the mailbox",
+        "ShortName": "Mailbox",
+        "Description": "A letter from Kozlov that has been sitting in the mailbox."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d2fd018c12620073059934": {
+    "template": {
+      "_id": "68d2fd018c12620073059934",
+      "_name": "item_info_note_letter_from_kozlov_02",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "6895bbb0e7dac53c7c08797b",
+            "Started": false
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_letter_from_kozlov_02",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_letter_from_kozlov_02",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note_folder/item_envelope_closed_kozlov_01.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_letter_from_kozlov_02",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.01,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_letter_from_kozlov_02_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "科兹洛夫房间里的信",
+        "ShortName": "科兹洛夫",
+        "Description": "在科兹洛夫房间里找到的信，他没能把它寄出去。"
+      },
+      "cz": {
+        "Name": "Dopis z Kozlovova pokoje",
+        "ShortName": "Dopis Kozlov.",
+        "Description": "Dopis z Kozlovova pokoje, který nikdy nestihl odeslat."
+      },
+      "en": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "es": {
+        "Name": "Carta de la habitación de Kozlov",
+        "ShortName": "C. Kozlov",
+        "Description": "Una carta de la habitación de Kozlov que nunca llegó a enviar."
+      },
+      "es-mx": {
+        "Name": "Carta de la habitación de Kozlov",
+        "ShortName": "C. Kozlov",
+        "Description": "Una carta de la habitación de Kozlov que nunca pudo enviar."
+      },
+      "fr": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "ge": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "hu": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "in": {
+        "Name": "Surat dari kamar Kozlov",
+        "ShortName": "Kozlov L.",
+        "Description": "Sebuah surat dari kamar Kozlov yang tidak pernah berhasil ia kirim."
+      },
+      "it": {
+        "Name": "Lettera dalla stanza di Kozlov",
+        "ShortName": "Kozlov L.",
+        "Description": "Una lettera dalla stanza di Kozlov che non è mai riuscito a spedire."
+      },
+      "jp": {
+        "Name": "コズロフの部屋の手紙",
+        "ShortName": "Kozlov L.",
+        "Description": "コズロフの部屋にあった、彼が送ることのできなかった手紙。"
+      },
+      "kr": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "pl": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "po": {
+        "Name": "Carta do quarto de Kozlov",
+        "ShortName": "Kozlov L.",
+        "Description": "Uma carta do quarto de Kozlov que ele nunca conseguiu enviar."
+      },
+      "ro": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "ru": {
+        "Name": "Письмо из комнаты Козлова",
+        "ShortName": "Писм.Козлв.",
+        "Description": "Письмо из комнаты Козлова, которое он не успел отправить получателю."
+      },
+      "sk": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "th": {
+        "Name": "จดหมายจากห้องของคอซลอฟ",
+        "ShortName": "โคซลอฟ แอล.",
+        "Description": "จดหมายจากห้องของคอซลอฟที่เขาไม่เคยสามารถส่งได้"
+      },
+      "tu": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      },
+      "vi": {
+        "Name": "Letter from Kozlov's room",
+        "ShortName": "Kozlov L.",
+        "Description": "A letter from Kozlov's room that he never managed to send."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68d301e75f98276b7503c332": {
+    "template": {
+      "_id": "68d301e75f98276b7503c332",
+      "_name": "item_info_note_report_fsb_chepyga",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68f0f5516871d33422038cd2",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_report_fsb_chepyga",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_report_fsb_chepyga",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard_state.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_report_fsb_chepyga",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.09,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_report_fsb_chepyga_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "FSB 报告",
+        "ShortName": "FSB 报告",
+        "Description": "FSB 监视 Chepyga 的详细过程记录，有人在上面手写了加注。"
+      },
+      "cz": {
+        "Name": "Zpráva FSB",
+        "ShortName": "Zpráva FSB",
+        "Description": "Zpráva podrobně popisuje monitorování Chepygy ze strany FSB. Někdo k ní přidal ručně psanou poznámku."
+      },
+      "en": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "es": {
+        "Name": "Informe del FSB",
+        "ShortName": "Inf. FSB",
+        "Description": "El informe detalla el seguimiento de Chepyga por parte del FSB. Alguien añadió una nota a mano."
+      },
+      "es-mx": {
+        "Name": "Informe del FSB",
+        "ShortName": "Inf. FSB",
+        "Description": "El informe detalla el seguimiento de Chepyga por parte del FSB. Alguien añadió una nota manuscrita."
+      },
+      "fr": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "ge": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "hu": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "in": {
+        "Name": "Laporan FSB",
+        "ShortName": "Laporan FSB",
+        "Description": "Laporan tersebut merinci pemantauan FSB terhadap Chepyga. Seseorang menambahkan catatan tulisan tangan di dalamnya."
+      },
+      "it": {
+        "Name": "Rapporto dell'FSB",
+        "ShortName": "Rapporto FSB",
+        "Description": "Il rapporto descrive in dettaglio il monitoraggio di Chepyga da parte dell'FSB. Qualcuno ha aggiunto una nota scritta a mano."
+      },
+      "jp": {
+        "Name": "FSB の報告書",
+        "ShortName": "FSB report",
+        "Description": "報告書は Chepyga に対する FSB の監視活動を詳述している。誰かがそれに手書きのメモを添えていた。"
+      },
+      "kr": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "pl": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "po": {
+        "Name": "Relatório FSB",
+        "ShortName": "Relatório FSB",
+        "Description": "O relatório detalha monitoramento do FSB de Chepyga. Alguém adicionou uma nota manuscrita nele."
+      },
+      "ro": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "ru": {
+        "Name": "Отчет ФСБ",
+        "ShortName": "Отчет ФСБ",
+        "Description": "В отчёте ФСБ описано наблюдение за Чепыгой. Кто-то добавил к отчёту приписку от руки."
+      },
+      "sk": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "th": {
+        "Name": "รายงาน FSB",
+        "ShortName": "รายงาน FSB",
+        "Description": "รายงานมีรายละเอียดการติดตามของ FSB ต่อเชปิกา มีคนเขียนโน้ตด้วยลายมือแนบมาด้วย"
+      },
+      "tu": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      },
+      "vi": {
+        "Name": "FSB report",
+        "ShortName": "FSB report",
+        "Description": "The report details FSB monitoring of Chepyga. Someone added a handwritten note to it."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  },
+  "68e95f4fa4a577e907015787": {
+    "template": {
+      "_id": "68e95f4fa4a577e907015787",
+      "_name": "item_key_quest_reshala_vremyanka",
+      "_parent": "5c99f98d86f7745c314214b3",
+      "_type": "Item",
+      "_props": {
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "violet",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": true,
+        "ConflictingItems": [],
+        "Description": "item_key_quest_reshala_vremyanka",
+        "DiscardLimit": 1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": false,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "keys",
+        "LeftHandItem": false,
+        "LootExperience": 20,
+        "MergesWithChildren": false,
+        "Name": "item_key_quest_reshala_vremyanka",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/spec/keys/item_key_quest_reshala_vremyanka.bundle",
+          "rcid": ""
+        },
+        "QuestItem": false,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Superrare",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_key_quest_reshala_vremyanka",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.12,
+        "Width": 1,
+        "MaximumNumberOfUsage": 20
+      },
+      "_proto": "5671446a4bdc2d97058b4569"
+    },
+    "locales": {
+      "ch": {
+        "Name": "Reshala 窝棚钥匙",
+        "ShortName": "Reshala",
+        "Description": "这把钥匙到底是哪座工棚的还不清楚，但应该会在海关的什么角落里。"
+      },
+      "cz": {
+        "Name": "Klíč od Reshalova bunkru",
+        "ShortName": "Reshala",
+        "Description": "Není jasné, kterému konkrétnímu bunkru tento klíč patří. Ale měl by být někde na území Customs."
+      },
+      "en": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "es": {
+        "Name": "Llave de la barraca de Reshala",
+        "ShortName": "Reshala",
+        "Description": "No está claro a qué barraca pertenece esta llave en concreto. Pero debería estar en algún sitio del territorio de Customs."
+      },
+      "es-mx": {
+        "Name": "Llave de la barraca de Reshala",
+        "ShortName": "Reshala",
+        "Description": "No está claro a qué barraca en concreto pertenece esta llave. Pero debería estar en algún lugar del territorio de Aduanas."
+      },
+      "fr": {
+        "Name": "Clé du baraquement de Reshala",
+        "ShortName": "Reshala",
+        "Description": "On ne sait pas à quel baraquement précis correspond cette clé. Mais il devrait se trouver quelque part dans les douanes."
+      },
+      "ge": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "hu": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "in": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "it": {
+        "Name": "Chiave della baracca di Reshala",
+        "ShortName": "Reshala",
+        "Description": "Non è chiaro a quale baracca appartenga questa chiave. Ma dovrebbe trovarsi da qualche parte nel territorio di Customs."
+      },
+      "jp": {
+        "Name": "Reshala の詰所の鍵",
+        "ShortName": "Reshala",
+        "Description": "この鍵がどの詰所のものなのかははっきりしない。しかし、Customs のどこかにあるはずだ。"
+      },
+      "kr": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "pl": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "po": {
+        "Name": "Chave do barracão de Reshala",
+        "ShortName": "Reshala",
+        "Description": "Não está claro a qual barracão específico esta chave pertence. Mas deve estar em algum lugar no território de Customs."
+      },
+      "ro": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "ru": {
+        "Name": "Ключ от времянки Решалы",
+        "ShortName": "Врем. Реш.",
+        "Description": "По внешнему виду непонятно, к какой именно времянке подойдет этот ключ. Но она точно должна быть где-то на Таможне."
+      },
+      "sk": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "th": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "tu": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      },
+      "vi": {
+        "Name": "Reshala's bunkhouse key",
+        "ShortName": "Reshala",
+        "Description": "It’s unclear which specific bunkhouse this key belongs to. But it should be somewhere on the Customs territory."
+      }
+    },
+    "handbook": {
+      "parentId": "5c518ec986f7743b68682ce2",
+      "price": 120470
+    }
+  },
+  "68e960db934bf7b02d005dab": {
+    "template": {
+      "_id": "68e960db934bf7b02d005dab",
+      "_name": "item_key_quest_lyzhnik_friend",
+      "_parent": "5c99f98d86f7745c314214b3",
+      "_type": "Item",
+      "_props": {
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "blue",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": true,
+        "ConflictingItems": [],
+        "Description": "item_key_quest_lyzhnik_friend",
+        "DiscardLimit": 1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": false,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "keys",
+        "LeftHandItem": false,
+        "LootExperience": 20,
+        "MergesWithChildren": false,
+        "Name": "item_key_quest_lyzhnik_friend",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/spec/keys/item_key_quest_lyzhnik_friend.bundle",
+          "rcid": ""
+        },
+        "QuestItem": false,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Rare",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_key_quest_lyzhnik_friend",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.12,
+        "Width": 1,
+        "MaximumNumberOfUsage": 20
+      },
+      "_proto": "5671446a4bdc2d97058b4569"
+    },
+    "locales": {
+      "ch": {
+        "Name": "Zmeisky 巷 3 号公寓钥匙",
+        "ShortName": "Zm. 3",
+        "Description": "Zmeisky 巷子 3 号公寓楼里某套公寓的钥匙。"
+      },
+      "cz": {
+        "Name": "Klíč od apartmánu Zmeisky 3",
+        "ShortName": "Zm. 3",
+        "Description": "Klíč od jednoho z apartmánů v Zmeisky Alley 3."
+      },
+      "en": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "es": {
+        "Name": "Llave del apartamento en Zmeisky 3",
+        "ShortName": "Zm. 3",
+        "Description": "La llave de uno de los apartamentos en el edificio número 3 del Callejón Zmeisky en Streets of Tarkov."
+      },
+      "es-mx": {
+        "Name": "Llave del departamento en Zmeisky 3",
+        "ShortName": "Zm. 3",
+        "Description": "La llave de uno de los departamentos en el edificio número 3 del Callejón Zmeisky en Calles de Tarkov."
+      },
+      "fr": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "ge": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "hu": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "in": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "it": {
+        "Name": "Chiave dell'appartamento Zmeisky 3",
+        "ShortName": "Zm. 3",
+        "Description": "Una chiave di uno degli appartamenti in Zmeisky Alley 3."
+      },
+      "jp": {
+        "Name": "ズミ―スキー通り3番地のアパート号室の鍵",
+        "ShortName": "Zm. 3",
+        "Description": "ズミ―スキー通り3番地のアパートの一室の鍵。"
+      },
+      "kr": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "pl": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "po": {
+        "Name": "Chave do apartamento Zmeisky 3",
+        "ShortName": "Zm. 3",
+        "Description": "Uma chave para um dos apartamentos do Beco Zmeisky, 3."
+      },
+      "ro": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "ru": {
+        "Name": "Ключ от квартиры на Змейском 3",
+        "ShortName": "Зм Дом 3",
+        "Description": "Ключ от одной из квартир на Змейском 3."
+      },
+      "sk": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "th": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "tu": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      },
+      "vi": {
+        "Name": "Zmeisky 3 apartment key",
+        "ShortName": "Zm. 3",
+        "Description": "A key to one of the apartments at Zmeisky Alley 3."
+      }
+    },
+    "handbook": {
+      "parentId": "5c518ec986f7743b68682ce2",
+      "price": 30000
+    }
+  },
+  "68eaddac9b384b24740f91de": {
+    "template": {
+      "_id": "68eaddac9b384b24740f91de",
+      "_name": "item_info_note_newspaper_criminal_summary",
+      "_parent": "5448ecbe4bdc2d60728b4568",
+      "_type": "Item",
+      "_props": {
+        "CompletableConditions": [],
+        "QuestConditions": [
+          {
+            "Completed": true,
+            "Failed": false,
+            "QuestId": "68f0f5516871d33422038cd2",
+            "Started": true
+          }
+        ],
+        "AnimationVariantsNumber": 0,
+        "BackgroundColor": "default",
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": false,
+        "ConflictingItems": [],
+        "Description": "item_info_note_newspaper_criminal_summary",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "ExamineExperience": 10,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "HideEntrails": false,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+        "IsSecretExitRequirement": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "item_paper",
+        "LeftHandItem": false,
+        "LootExperience": 100,
+        "MergesWithChildren": false,
+        "Name": "item_info_note_newspaper_criminal_summary",
+        "NotShownInSlot": false,
+        "Prefab": {
+          "path": "assets/content/items/infosubject/item_info_note/item_info_note_newspaper_criminal_summary.bundle",
+          "rcid": ""
+        },
+        "QuestItem": true,
+        "QuestStashMaxCount": 1,
+        "RagFairCommissionModifier": 1,
+        "RagfairLevelToTrade": 0,
+        "RarityPvE": "Not_exist",
+        "RepairCost": 0,
+        "RepairSpeed": 0,
+        "ShortName": "item_info_note_newspaper_criminal_summary",
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "SecuredContainer",
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Weight": 0.005,
+        "Width": 1,
+        "AllowBear": true,
+        "AllowSavage": false,
+        "AllowUsec": true,
+        "Personal": true,
+        "RequiredLevel": 0,
+        "NoteTemplatePrefab": "note_newspaper_criminal_summary_template",
+        "NotificationDuration": 0.2
+      },
+      "_proto": "57347d3d245977448f7b7f61"
+    },
+    "locales": {
+      "ch": {
+        "Name": "《塔科夫先驱报》摘要",
+        "ShortName": "先驱简报",
+        "Description": "一份《塔科夫先驱报》，上面刊登了一篇有关当地犯罪帮派的文章。"
+      },
+      "cz": {
+        "Name": "Zpráva Tarkovského Heraldu",
+        "ShortName": "TH zpráva",
+        "Description": "Vydání Tarkovského Heraldu s článkem o místní kriminální autoritě."
+      },
+      "en": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "es": {
+        "Name": "Resumen informativo de El Heraldo de Tarkov",
+        "ShortName": "HT Resumen",
+        "Description": "Un ejemplar de El Heraldo de Tarkov con un artículo sobre una autoridad criminal local."
+      },
+      "es-mx": {
+        "Name": "Resumen informativo de El Heraldo de Tarkov",
+        "ShortName": "HT Resumen",
+        "Description": "Un ejemplar de El Heraldo de Tarkov con un artículo sobre una autoridad criminal local."
+      },
+      "fr": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "ge": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "hu": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "in": {
+        "Name": "Pengarahan Tarkov Herald",
+        "ShortName": "pengarahan TH",
+        "Description": "Edisi Tarkov Herald yang memuat artikel tentang otoritas kriminal setempat."
+      },
+      "it": {
+        "Name": "Sintesi del Tarkov Herald",
+        "ShortName": "Briefing TH",
+        "Description": "Un numero del Tarkov Herald con un articolo su un'autorità criminale locale."
+      },
+      "jp": {
+        "Name": "Tarkov Herald 紙の概要",
+        "ShortName": "TH briefing",
+        "Description": "Tarkov Herald 紙の1部で、地元の犯罪組織の権力者に関する記事が掲載されている。"
+      },
+      "kr": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "pl": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "po": {
+        "Name": "Resumo do Arauto de Tarkov",
+        "ShortName": "Briefing AT",
+        "Description": "Uma edição do Arauto de Tarkov apresentando um artigo sobre uma autoridade criminal local."
+      },
+      "ro": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "ru": {
+        "Name": "Оперативная сводка «Вестника Таркова»",
+        "ShortName": "\"ВТ\" свод.",
+        "Description": "Выпуск «Вестника Таркова» со статьёй о криминальном авторитете."
+      },
+      "sk": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "th": {
+        "Name": "การบรรยายสรุปของ Tarkov Herald",
+        "ShortName": "การบรรยายสรุป TH",
+        "Description": "ฉบับหนึ่งของ Tarkov Herald ที่มีบทความเกี่ยวกับหน่วยงานอาชญากรรมในท้องถิ่น"
+      },
+      "tu": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      },
+      "vi": {
+        "Name": "Tarkov Herald summary",
+        "ShortName": "TH briefing",
+        "Description": "An issue of the Tarkov Herald featuring an article about a local criminal authority."
+      }
+    },
+    "handbook": {
+      "parentId": "5b47574386f77428ca22b33f",
+      "price": 10483
+    }
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "Story_blue_fire_3_place",
+    "type": "placeitem",
+    "locations": [
+      "laboratory"
+    ],
+    "position": {
+      "x": -122.6481,
+      "y": 2.3477,
+      "z": -329.1734
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    },
+    "source": "1.1 客户端 D:\\SPT5.0 level516（Laboratory_DesignMain.unity）GameObject Story_blue_fire_3_place，PlaceItemTrigger id 同名"
+  },
+  {
+    "id": "Story_blue_fire_3_place",
+    "type": "placeitem",
+    "locations": [
+      "laboratory"
+    ],
+    "position": {
+      "x": -122.1761,
+      "y": 2.3477,
+      "z": -323.6694
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    },
+    "source": "1.1 客户端 D:\\SPT5.0 level516（Laboratory_DesignMain.unity）GameObject Story_blue_fire_3_place (1)，PlaceItemTrigger id = Story_blue_fire_3_place"
+  },
+  {
+    "id": "Story_blue_fire_3_place",
+    "type": "placeitem",
+    "locations": [
+      "laboratory"
+    ],
+    "position": {
+      "x": -121.3801,
+      "y": 2.4757,
+      "z": -289.0494
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    },
+    "source": "1.1 客户端 D:\\SPT5.0 level516（Laboratory_DesignMain.unity）GameObject Story_blue_fire_3_place (2)，PlaceItemTrigger id = Story_blue_fire_3_place"
+  },
+  {
+    "id": "Story_blue_fire_7_car_visit",
+    "type": "visit",
+    "locations": [
+      "tarkovstreets"
+    ],
+    "position": {
+      "x": 23.831,
+      "y": 1.9344,
+      "z": 107.5965
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0.7148,
+      "z": 0,
+      "w": 0.6993
+    },
+    "size": {
+      "x": 7.83,
+      "y": 3.18,
+      "z": 6.51
+    },
+    "source": "1.1 客户端 D:\\SPT5.0 level395（City_Quests.unity）GameObject Story_blue_fire_7_car_visit，ExperienceTrigger id 同名"
+  }
+]

@@ -980,6 +980,8 @@ static void MergeLoc(string src, string dst, string questsFile = "")
 /// ③ 打章节系统的开关（服务端 QuestReadyRouter 只认 `visitapi.*`，1.1 的 isStoryQuest 它不看）：
 ///    章节 {chapter, icon(=1.1 的 icon 字段), autoStart}；章节 AvailableForFinish 里点名的子任务 {autoStart, autoFinish}；
 ///    notDisplayedQuest 的隐藏机制件 {autoStart, autoFinish}。autoStart/autoFinish 是在替 1.1 的对话接交——那批对话抓包里没有。
+/// ④ 10-05：AutoStart 桶里「读到这件物品就开」的条件（CompletableItem）搬进 visitapi.startOnItems，客户端在玩家拿到其中任意一件时接这条任务；
+///    带 startOnItems 的章节不打 autoStart（不在登录时自动开）。
 /// 其余一字不动；已经有 visitapi 的任务不覆盖。</summary>
 static void Adapt(string file, string chapterId)
 {
@@ -1018,6 +1020,7 @@ static void Adapt(string file, string chapterId)
     int rewardsCut = 0, condsCut = 0, tradersMoved = 0, editionsCleared = 0;
     var dialogueUnlocks = new Dictionary<string, List<string>>();   // 任务 → 完成后开放对话的商人（TraderDialogueUnlock 的替身，见 DialogueUnlock）
     var locationUnlocks = new Dictionary<string, List<string>>();   // 任务 → 完成后解锁的地图 _Id（LocationUnlock 的替身，见 LocationUnlock）
+    var startOnItems = new Dictionary<string, List<string>>();      // 任务 → 拿到其中任意一件就开（AutoStart 桶里 CompletableItem 的替身，10-05）
     foreach (var (id, node) in root)
     {
         if (node is not JsonObject q) continue;
@@ -1046,7 +1049,20 @@ static void Adapt(string file, string chapterId)
             // 2026-09-07 实机：1.1 的条件表多一个 `AutoStart` 桶（EQuestStatus 新值），0.16 客户端把它当字典键反序列化直接抛
             // "Could not convert string 'AutoStart' to dictionary key type 'EFT.Quests.EQuestStatus'"，整份 /client/quest/list 拒收 → 登录无限转圈。
             // 塔科夫之旅 25 个任务里这个桶全是空的；非空也没法用（0.16 没有自动接取机制，由 visitapi.autoStart 顶替），一律删。
+            // 10-05 神秘蓝焰：桶里是「读到这件物品就开这条任务」（CompletableItem，任意一件即可——SPT5 服务端 GetCompletableItemQuests 核过）。
+            // 桶照删，物品记下来搬进 visitapi.startOnItems（「读」换成「拿到」，和 CompletableItem → FindItem 同一口径）
+            if (conds["AutoStart"] is JsonArray autoStart)
+                foreach (var c in autoStart)
+                    if (c?["conditionType"]?.GetValue<string>() == "CompletableItem" && c["target"]?.GetValue<string>() is { Length: 24 } tpl)
+                        (startOnItems.TryGetValue(id!, out var sl) ? sl : startOnItems[id!] = new List<string>()).Add(tpl);
+                    else if (c != null) Console.WriteLine($"  ⚠ {id} AutoStart 里有不认识的条件 {c["conditionType"]}，没搬");
             if (conds.ContainsKey("AutoStart")) { Console.WriteLine($"  删条件桶 {id} AutoStart（{(conds["AutoStart"] as JsonArray)?.Count ?? 0} 条）"); conds.Remove("AutoStart"); condsCut++; }
+            // 10-06 意外证人 6917c6ef：可接条件里还有一条读同一件物品的 CompletableItem（和 AutoStart 重复）。Prune 会把它换成 FindItem，
+            // 留在可接桶里没用（SPT 判可接只看任务 / 好感 / 声望），客户端却要连它的进度——同一件物品已经进了 startOnItems，删掉
+            if (startOnItems.TryGetValue(id!, out var startItems) && conds["AvailableForStart"] is JsonArray afs)
+                for (var i = afs.Count - 1; i >= 0; i--)
+                    if (afs[i]?["conditionType"]?.GetValue<string>() == "CompletableItem" && afs[i]?["target"]?.GetValue<string>() is { } t && startItems.Contains(t))
+                    { Console.WriteLine($"  删可接条件 {id} AvailableForStart[{i}] CompletableItem {t}（同一件物品已进 startOnItems）"); afs.RemoveAt(i); condsCut++; }
             foreach (var (bucket, list) in conds)
                 if (list is JsonArray arr) condsCut += Prune(arr, id!, bucket);
         }
@@ -1054,11 +1070,14 @@ static void Adapt(string file, string chapterId)
 
     if (root[chapterId] is not JsonObject chapter) throw new ArgumentException($"文件里没有章节 {chapterId}");
     var flagged = 0;
-    var chapterFlags = new JsonObject { ["chapter"] = true, ["autoStart"] = true };
+    // 10-05：拿到物品才开的章节（startOnItems）不在登录时自动开
+    var chapterFlags = startOnItems.ContainsKey(chapterId) ? new JsonObject { ["chapter"] = true } : new JsonObject { ["chapter"] = true, ["autoStart"] = true };
     if (chapter["icon"]?.GetValue<string>() is { Length: > 0 } icon) chapterFlags["icon"] = icon;
     flagged += Stamp(chapter, chapterId, chapterFlags);
     foreach (var c in chapter["conditions"]?["AvailableForFinish"] as JsonArray ?? new JsonArray())
         if (c?["conditionType"]?.GetValue<string>() == "Quest" && c["target"]?.GetValue<string>() is { Length: 24 } sub)
+            // 10-06 意外证人当天改过「只靠读物品开的子任务不打 autoStart」，SORA 实测第一步做完就断了（「任务目标又没了」）：1.1 / SPT5 里没有任务前置的子任务
+            // 还会在章节列表里紧挨着的前一条结束时自动开（PredecessorCompleted，ChapterChain.PredecessorDone 同口径），读物品只是另一个更早的开法。撤回，照旧打 autoStart
             if (root[sub] is JsonObject s) flagged += Stamp(s, sub, new JsonObject { ["autoStart"] = true, ["autoFinish"] = true });
             else Console.WriteLine($"  ⚠ 子任务 {sub} 不在文件里，没打开关");
     foreach (var (id, node) in root)
@@ -1072,6 +1091,8 @@ static void Adapt(string file, string chapterId)
     // 服务端 StoryLocks 只给新建角色打「剧情锁」标记，客户端 StoryMapLock 按它锁选图界面
     foreach (var (id, maps) in locationUnlocks)
         if (root[id] is JsonObject q) flagged += StampList(q, id, "unlockLocations", maps);
+    foreach (var (id, tpls) in startOnItems)
+        if (root[id] is JsonObject q) flagged += StampList(q, id, "startOnItems", tpls);
 
     var opts = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
     File.WriteAllText(file, root.ToJsonString(opts), utf8);
@@ -1116,6 +1137,7 @@ static void Adapt(string file, string chapterId)
                 Console.WriteLine($"  换条件 {id} {where}[{i}] CompletableItem {note} → FindItem 同 target（物品表要有这张字条且 QuestItem=true，刷新点表要给它位置）  (id {c["id"]})");
                 continue;
             }
+            // （1.1 的 LeaveItemAtLocation / PlaceBeacon 只写 zoneIds 数组、0.16 只认 zoneId——这一步由服务端 QuestLoader.FixZoneIds 在加载时补，数据保持 1.1 原样，这里不重复做）
             if (type == "Quest" && c["id"]?.GetValue<string>() is { } cid && waitOverrides.TryGetValue(cid, out var secs))
             {
                 c["availableAfter"] = secs;
@@ -1801,6 +1823,10 @@ static void ItemsExport(string spt5Db, string sptDb, string questsFile, string o
                         var tpl = S(it, "_tpl");
                         if (tpl.Length == 24) Use(itemUse, tpl, $"奖励:{p.Name}");
                     }
+        // 10-05：adapt 从 AutoStart 搬来的开章物品（visitapi.startOnItems）不在任何条件里，也要进物品表和刷新点
+        if (p.Value.TryGetProperty("visitapi", out var vx) && vx.TryGetProperty("startOnItems", out var soi) && soi.ValueKind == JsonValueKind.Array)
+            foreach (var t in soi.EnumerateArray())
+                if (t.ValueKind == JsonValueKind.String && t.GetString()!.Length == 24) Use(itemUse, t.GetString()!, $"开章:{p.Name}");
     }
     var need = itemUse.Keys.Where(t => !items41.Contains(t)).OrderBy(x => x, StringComparer.Ordinal).ToList();
     Console.WriteLine($"任务用到物品 {itemUse.Count} 个，本机 4.1 没有 {need.Count} 个");
@@ -1822,8 +1848,9 @@ static void ItemsExport(string spt5Db, string sptDb, string questsFile, string o
     }
 
     // 1.1 独有的父类 → 0.16 的替身（陨落星辰 #142 手工换过的同一对：可读字条类 → Info 节点，手册「Notes」→「Info items」）
-    var parentMap = new Dictionary<string, string> { ["67a27459e3515dec4105927b"] = "5448ecbe4bdc2d60728b4568" };
-    var hbParentMap = new Dictionary<string, string> { ["67a23465e3515dec41059278"] = "5b47574386f77428ca22b33f" };
+    // 10-05：录音带类 6516b0f2… / 手册 65bcab68… 同样换成 Info / Info items（迷宫那盘「死去科学家的录音带」09-26 是手工这么换的）
+    var parentMap = new Dictionary<string, string> { ["67a27459e3515dec4105927b"] = "5448ecbe4bdc2d60728b4568", ["6516b0f21e733a595c1016fb"] = "5448ecbe4bdc2d60728b4568" };
+    var hbParentMap = new Dictionary<string, string> { ["67a23465e3515dec41059278"] = "5b47574386f77428ca22b33f", ["65bcab6877b93a04772ae2d8"] = "5b47574386f77428ca22b33f" };
     // 模型包（09-24）：包里 bundles.json 已登记的键 + 本机客户端自带的 = 有模型；其余从 1.1 客户端拷（武器 / 配件 / 弹药 / 狗牌除外，见文件头）
     string[] skipPrefixes = { "assets/content/weapons/", "assets/content/items/mods/", "assets/content/items/ammo/", "assets/content/items/barter/item_barter_dogtags" };
     var manifestFile = Path.Combine(outDir, "bundles.json");

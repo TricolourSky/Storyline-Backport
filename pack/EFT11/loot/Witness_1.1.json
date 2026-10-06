@@ -1,0 +1,854 @@
+{
+  "bigmap": [
+    {
+      "locationId": "(227,4276, 0,7783, 160,0569)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_letter_from_kozlov_02 [90d05ce8-c9a8-4817-be42-60ca5d8c1adc]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 227.4276,
+          "y": 0.7783,
+          "z": 160.0569
+        },
+        "Rotation": {
+          "x": 272.00095,
+          "y": 98.899895,
+          "z": 156.3517
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa420dfba3e1ef0f91f3a4a",
+        "Items": [
+          {
+            "_id": "6aa420dfba3e1ef0f91f3a4a",
+            "_tpl": "68d2fd018c12620073059934",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(231,3822, 1,3087, 160,72774)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_kozlov_debt [8373c6dd-0e51-4464-b798-82d911a6d132]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 231.3822,
+          "y": 1.3087,
+          "z": 160.72774
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 100.91896,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa420a80124960a912680be",
+        "Items": [
+          {
+            "_id": "6aa420a80124960a912680be",
+            "_tpl": "68d2f09fb350a6169f04bea9",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(77,31, 2,6, -106,73)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_letter_from_kozlov_03 [0ab7dfb6-ab0b-4228-a397-9f9cea59c7d0]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": 77.31,
+          "y": 2.6,
+          "z": -106.73
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 133.03828,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa420dfba3e1ef0f91f3a63",
+        "Items": [
+          {
+            "_id": "6aa420dfba3e1ef0f91f3a63",
+            "_tpl": "68d2f4fc17b59ead010894b6",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(280,046, 2,281, 135,0892)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_envelope_opened [3401878c-9e9b-49b6-a204-b982ce681175]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 280.046,
+          "y": 2.281,
+          "z": 135.0892
+        },
+        "Rotation": {
+          "x": 274.99307,
+          "y": 136.92596,
+          "z": 179.99997
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4208dd606cf6eec1f7d00",
+        "Items": [
+          {
+            "_id": "6aa4208dd606cf6eec1f7d00",
+            "_tpl": "68d2f4aff8817df4690db3d1",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(230,1071, 0,894052, 154,58746)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_kozlov_rembox [1409a196-6678-4bed-9f4b-c06bbcc1efd0]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 230.1071,
+          "y": 0.894052,
+          "z": 154.58746
+        },
+        "Rotation": {
+          "x": 15.633002,
+          "y": 272.18204,
+          "z": 270
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa420a80124960a912680ff",
+        "Items": [
+          {
+            "_id": "6aa420a80124960a912680ff",
+            "_tpl": "68d2f1318c12620073059930",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(77,11, 2,6, -106,88)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_kozlov_captured [8fdc7bab-b3b2-47cd-b401-5b4787335fe7]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": 77.11,
+          "y": 2.6,
+          "z": -106.88
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 69.70968,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa420dfba3e1ef0f91f3b6c",
+        "Items": [
+          {
+            "_id": "6aa420dfba3e1ef0f91f3b6c",
+            "_tpl": "68d2f3375f98276b7503c32e",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(76,93, 2,6, -107,05)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_toReshala_warning [06d002ff-69ce-4886-bb17-8e1e64b1dddf]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": 76.93,
+          "y": 2.6,
+          "z": -107.05
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 74.16117,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa425eb065597bd0f13e052",
+        "Items": [
+          {
+            "_id": "6aa425eb065597bd0f13e052",
+            "_tpl": "68d2f302be7c1493b90cd3f5",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "shoreline": [
+    {
+      "locationId": "(302,37354, -55,817696, 118,79)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_recorder_tape_witness [8fcb17b1-3561-45d6-9631-c7e4c41e1198]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 302.37354,
+          "y": -55.817696,
+          "z": 118.79
+        },
+        "Rotation": {
+          "x": 355.78516,
+          "y": 1.0331305,
+          "z": 277.58337
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa42042e53d7781740ded5b",
+        "Items": [
+          {
+            "_id": "6aa42042e53d7781740ded5b",
+            "_tpl": "688897e094cca0a80b070aed",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "tarkovstreets": [
+    {
+      "locationId": "(225,15, 2,5, 222,54)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_newspaper_investigation [c430335d-8c11-4b63-bcf5-ea3c4d184a4f]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": 225.15,
+          "y": 2.5,
+          "z": 222.54
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 77.42855,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4211b398c68d6b8121a23",
+        "Items": [
+          {
+            "_id": "6aa4211b398c68d6b8121a23",
+            "_tpl": "68d2f6352ca1a737d107b84b",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(225,18, 2,6, 222,56)",
+      "probability": 1,
+      "template": {
+        "Id": "item_info_note_letter_from_kozlov_01 [d3b45d56-707a-43fc-a5bc-c129e3f18d5d]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": 225.18,
+          "y": 2.6,
+          "z": 222.56
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 337.5061,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6aa4203f2e961cae401e256c",
+        "Items": [
+          {
+            "_id": "6aa4203f2e961cae401e256c",
+            "_tpl": "68d2fc914aae290cf704e373",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(99,309006, 1,5800028, 138,68698)",
+      "probability": 0.4884615384615385,
+      "template": {
+        "Id": "item_info_note_newspaper_9th_krug_19_circle [0e71aa14-996d-40f7-ad1e-519956fec013]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 99.309006,
+          "y": 1.5800028,
+          "z": 138.68698
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 289.41202,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 99.309006,
+              "y": 1.5800028,
+              "z": 138.68698
+            },
+            "Rotation": {
+              "x": 0,
+              "y": 289.41202,
+              "z": 0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 103.003006,
+              "y": 1.5840025,
+              "z": 134.82298
+            },
+            "Rotation": {
+              "x": 0,
+              "y": 112.873436,
+              "z": 0
+            }
+          }
+        ],
+        "Root": "6aa420ca0124960a9126de9c",
+        "Items": [
+          {
+            "composedKey": "1883647294",
+            "_id": "6aa420ca0124960a9126de9c",
+            "_tpl": "68d2f44df63f06b7590ce30e",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(103,003006, 1,5840025, 134,82298)",
+      "probability": 0.5115384615384616,
+      "template": {
+        "Id": "item_info_note_newspaper_9th_krug_19_circle [0e71aa14-996d-40f7-ad1e-519956fec013]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 103.003006,
+          "y": 1.5840025,
+          "z": 134.82298
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 112.873436,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 99.309006,
+              "y": 1.5800028,
+              "z": 138.68698
+            },
+            "Rotation": {
+              "x": 0,
+              "y": 289.41202,
+              "z": 0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 103.003006,
+              "y": 1.5840025,
+              "z": 134.82298
+            },
+            "Rotation": {
+              "x": 0,
+              "y": 112.873436,
+              "z": 0
+            }
+          }
+        ],
+        "Root": "6aa420e57ed5a01b492a9667",
+        "Items": [
+          {
+            "composedKey": "1883647294",
+            "_id": "6aa420e57ed5a01b492a9667",
+            "_tpl": "68d2f44df63f06b7590ce30e",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(102,812, 1,1290026, 140,20598)",
+      "probability": 0.31923076923076926,
+      "template": {
+        "Id": "item_info_note_newspaper_criminal_summary [24f65bde-25ca-4f5b-b11f-c26f085aca0b]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 102.812,
+          "y": 1.1290026,
+          "z": 140.20598
+        },
+        "Rotation": {
+          "x": 90,
+          "y": 39.177994,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 100.66301,
+              "y": 1.0850029,
+              "z": 134.97427
+            },
+            "Rotation": {
+              "x": 270,
+              "y": 34.12223,
+              "z": 0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 99.92601,
+              "y": 0.93600273,
+              "z": 138.12097
+            },
+            "Rotation": {
+              "x": 90,
+              "y": 308.77814,
+              "z": 0
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": 102.812,
+              "y": 1.1290026,
+              "z": 140.20598
+            },
+            "Rotation": {
+              "x": 90,
+              "y": 39.177994,
+              "z": 0
+            }
+          }
+        ],
+        "Root": "6aa4205a21a70483700daa16",
+        "Items": [
+          {
+            "composedKey": "924201620",
+            "_id": "6aa4205a21a70483700daa16",
+            "_tpl": "68eaddac9b384b24740f91de",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(100,66301, 1,0850029, 134,97427)",
+      "probability": 0.3807692307692308,
+      "template": {
+        "Id": "item_info_note_newspaper_criminal_summary [24f65bde-25ca-4f5b-b11f-c26f085aca0b]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 100.66301,
+          "y": 1.0850029,
+          "z": 134.97427
+        },
+        "Rotation": {
+          "x": 270,
+          "y": 34.12223,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 100.66301,
+              "y": 1.0850029,
+              "z": 134.97427
+            },
+            "Rotation": {
+              "x": 270,
+              "y": 34.12223,
+              "z": 0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 99.92601,
+              "y": 0.93600273,
+              "z": 138.12097
+            },
+            "Rotation": {
+              "x": 90,
+              "y": 308.77814,
+              "z": 0
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": 102.812,
+              "y": 1.1290026,
+              "z": 140.20598
+            },
+            "Rotation": {
+              "x": 90,
+              "y": 39.177994,
+              "z": 0
+            }
+          }
+        ],
+        "Root": "6aa420aee53d778174104b49",
+        "Items": [
+          {
+            "composedKey": "924201620",
+            "_id": "6aa420aee53d778174104b49",
+            "_tpl": "68eaddac9b384b24740f91de",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(99,92601, 0,93600273, 138,12097)",
+      "probability": 0.3,
+      "template": {
+        "Id": "item_info_note_newspaper_criminal_summary [24f65bde-25ca-4f5b-b11f-c26f085aca0b]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 99.92601,
+          "y": 0.93600273,
+          "z": 138.12097
+        },
+        "Rotation": {
+          "x": 90,
+          "y": 308.77814,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 100.66301,
+              "y": 1.0850029,
+              "z": 134.97427
+            },
+            "Rotation": {
+              "x": 270,
+              "y": 34.12223,
+              "z": 0
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 99.92601,
+              "y": 0.93600273,
+              "z": 138.12097
+            },
+            "Rotation": {
+              "x": 90,
+              "y": 308.77814,
+              "z": 0
+            }
+          },
+          {
+            "Name": "groupPoint[2]",
+            "Weight": 1,
+            "Position": {
+              "x": 102.812,
+              "y": 1.1290026,
+              "z": 140.20598
+            },
+            "Rotation": {
+              "x": 90,
+              "y": 39.177994,
+              "z": 0
+            }
+          }
+        ],
+        "Root": "6aa420e57ed5a01b492a99d7",
+        "Items": [
+          {
+            "composedKey": "924201620",
+            "_id": "6aa420e57ed5a01b492a99d7",
+            "_tpl": "68eaddac9b384b24740f91de",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(98,7619, 1,4140029, 137,49818)",
+      "probability": 0.5,
+      "template": {
+        "Id": "item_info_note_report_fsb_chepyga [e6be6411-2f07-4715-b14e-21e4923bccf2]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 98.7619,
+          "y": 1.4140029,
+          "z": 137.49818
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 100.26201,
+              "y": 0.99900293,
+              "z": 135.49698
+            },
+            "Rotation": {
+              "x": 346.28384,
+              "y": 18.087988,
+              "z": 355.57156
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 98.7619,
+              "y": 1.4140029,
+              "z": 137.49818
+            },
+            "Rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        ],
+        "Root": "6aa4211b398c68d6b81218d1",
+        "Items": [
+          {
+            "composedKey": "178444691",
+            "_id": "6aa4211b398c68d6b81218d1",
+            "_tpl": "68d301e75f98276b7503c332",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(100,26201, 0,99900293, 135,49698)",
+      "probability": 0.5,
+      "template": {
+        "Id": "item_info_note_report_fsb_chepyga [e6be6411-2f07-4715-b14e-21e4923bccf2]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 100.26201,
+          "y": 0.99900293,
+          "z": 135.49698
+        },
+        "Rotation": {
+          "x": 346.28384,
+          "y": 18.087988,
+          "z": 355.57156
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": true,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": 100.26201,
+              "y": 0.99900293,
+              "z": 135.49698
+            },
+            "Rotation": {
+              "x": 346.28384,
+              "y": 18.087988,
+              "z": 355.57156
+            }
+          },
+          {
+            "Name": "groupPoint[1]",
+            "Weight": 1,
+            "Position": {
+              "x": 98.7619,
+              "y": 1.4140029,
+              "z": 137.49818
+            },
+            "Rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        ],
+        "Root": "6aa420ff17d8df640e31daab",
+        "Items": [
+          {
+            "composedKey": "178444691",
+            "_id": "6aa420ff17d8df640e31daab",
+            "_tpl": "68d301e75f98276b7503c332",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "(183,69899, 5,911004, 54,498013)",
+      "probability": 1,
+      "template": {
+        "Id": "item_key_quest_lyzhnik_friend [1e1be568-01c0-49ca-9106-8feece833c02]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": true,
+        "Position": {
+          "x": 183.69899,
+          "y": 5.911004,
+          "z": 54.498013
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsAlwaysSpawn": true,
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "Root": "6abe0839a181344ae3a3ee6b",
+        "Items": [
+          {
+            "_id": "6abe0839a181344ae3a3ee6b",
+            "_tpl": "68e960db934bf7b02d005dab",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
